@@ -1,0 +1,192 @@
+2017-02-08 09:37:57 URL:http://web.archive.org/web/20170120092900/https://www.whitehouse.gov/ [143158/143158] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/index.html" [1]
+2017-02-08 09:37:57 URL: http://web.archive.org/static/js/analytics.js 200 OK
+unlink: No such file or directory
+2017-02-08 09:37:57 URL: http://web.archive.org/static/css/banner-styles.css 200 OK
+web.archive.org/static/css/banner-styles.css: No such file or directory
+unlink: No such file or directory
+2017-02-08 09:37:57 URL: http://web.archive.org/web/20170120090119im_/https://www.whitehouse.gov/profiles/forall/themes/custom/fortyfour/favicon.ico 200 OK
+unlink: No such file or directory
+2017-02-08 09:37:58 URL: http://web.archive.org/web/20170120090019cs_/https://www.whitehouse.gov/profiles/forall/themes/custom/fortyfour/fonts/HCo_fonts.css 200 OK
+web.archive.org/web/20170120092900cs_/https:/www.whitehouse.gov/profiles/forall/themes/custom/fortyfour/fonts/HCo_fonts.css: No such file or directory
+unlink: No such file or directory
+2017-02-08 09:37:58 URL: http://web.archive.org/web/20170120082103cs_/https://www.whitehouse.gov/sites/whitehouse.gov/files/advagg_css/css__nrzz0qPx72thwmgjDs1PhjAsNOYKnl2PmpKqCRsqoOQ__rHHT3YBbPaROAj0bCOH0lik0c9XyALDA6WdQ5oHw-Ys__yN1o6etD_FB5RFrt4f9rEo5hyCEX7z1qfNw5Yg899Cg.css 200 OK
+web.archive.org/web/20170120092900cs_/https:/www.whitehouse.gov/sites/whitehouse.gov/files/advagg_css/css__nrzz0qPx72thwmgjDs1PhjAsNOYKnl2PmpKqCRsqoOQ__rHHT3YBbPaROAj0bCOH0lik0c9XyALDA6WdQ5oHw-Ys__yN1o6etD_FB5RFrt4f9rEo5hyCEX7z1qfNw5Yg899Cg.css: No such file or directory
+unlink: No such file or directory
+2017-02-08 09:37:58 URL: http://web.archive.org/web/20170120091058cs_/https://www.whitehouse.gov/sites/whitehouse.gov/files/advagg_css/css__gMQWD3coNk5Au2fO23W-pX-TUWlu3Yki30kqSggljxo__2-EhHNf5nZZqC9WakRsWUy_6-BQ5jc7OfcRhDfp_PXc__yN1o6etD_FB5RFrt4f9rEo5hyCEX7z1qfNw5Yg899Cg.css 200 OK
+web.archive.org/web/20170120092900cs_/https:/www.whitehouse.gov/sites/whitehouse.gov/files/advagg_css/css__gMQWD3coNk5Au2fO23W-pX-TUWlu3Yki30kqSggljxo__2-EhHNf5nZZqC9WakRsWUy_6-BQ5jc7OfcRhDfp_PXc__yN1o6etD_FB5RFrt4f9rEo5hyCEX7z1qfNw5Yg899Cg.css: No such file or directory
+unlink: No such file or directory
+2017-02-08 09:37:59 URL: http://web.archive.org/web/20170120082124cs_/https://www.whitehouse.gov/sites/whitehouse.gov/files/advagg_css/css__ZcngCi2htGgg40kDEpEDUDtn-vqShY4u7B2KQvZ0n6A__dSW8ab8dYkOIm3aquUlHmo65aWDGCWxmbDHl04-JCwc__yN1o6etD_FB5RFrt4f9rEo5hyCEX7z1qfNw5Yg899Cg.css 200 OK
+web.archive.org/web/20170120092900cs_/https:/www.whitehouse.gov/sites/whitehouse.gov/files/advagg_css/css__ZcngCi2htGgg40kDEpEDUDtn-vqShY4u7B2KQvZ0n6A__dSW8ab8dYkOIm3aquUlHmo65aWDGCWxmbDHl04-JCwc__yN1o6etD_FB5RFrt4f9rEo5hyCEX7z1qfNw5Yg899Cg.css: No such file or directory
+unlink: No such file or directory
+2017-02-08 09:37:59 URL: http://web.archive.org/web/20170120091100js_/https://www.whitehouse.gov/sites/whitehouse.gov/files/advagg_js/js__NE7EnOYPYYKVWJEZV3b_Z6vx-BZ5oVwoRFJHaRKHfpU__g6xANM1OcRgSwG8dd6XBT2RqAaTWe5urP58rrnRJpWM__yN1o6etD_FB5RFrt4f9rEo5hyCEX7z1qfNw5Yg899Cg.js 200 OK
+unlink: No such file or directory
+2017-02-08 09:37:59 URL: http://web.archive.org/web/20170120092855js_/https://platform.twitter.com/widgets.js 200 OK
+unlink: No such file or directory
+2017-02-08 09:38:05 URL: http://web.archive.org/web/20170120091058js_/https://www.whitehouse.gov/sites/whitehouse.gov/modules/contrib/usfedgov_google_analytics/js/Universal-Federated-Analytics-Min.js?agency=Executive%20Office%20of%20the%20President&subagency=The%20White%20House 200 OK
+unlink: No such file or directory
+2017-02-08 09:38:05 URL: http://web.archive.org/static/js/disclaim-element.js 200 OK
+unlink: No such file or directory
+2017-02-08 09:38:05 URL: http://web.archive.org/static/js/graph-calc.js 200 OK
+unlink: No such file or directory
+2017-02-08 09:38:07 URL:http://archive.org/web/ [55964] -> "web.archive.org/web/index.html" [1]
+2017-02-08 09:38:08 URL: http://web.archive.org/static/images/toolbar/wayback-toolbar-logo.png 200 OK
+unlink: No such file or directory
+2017-02-08 09:38:13 URL:http://web.archive.org/web/20161220082847/https://www.whitehouse.gov/ [142977/142977] -> "web.archive.org/web/20161220082847/https:/www.whitehouse.gov/index.html" [1]
+2017-02-08 09:38:20 URL:http://web.archive.org/web/20170120092900/https://www.whitehouse.gov/ [143158/143158] -> "web.archive.org/web/20170120092851/http:/whitehouse.gov/index.html" [1]
+2017-02-08 09:38:20 URL: http://web.archive.org/static/images/toolbar/wm_tb_prv_on.png 200 OK
+unlink: No such file or directory
+2017-02-08 09:38:26 URL:http://web.archive.org/web/20170120100736/https://www.whitehouse.gov/ [143167/143167] -> "web.archive.org/web/20170120100736/https:/www.whitehouse.gov/index.html" [1]
+2017-02-08 09:38:27 URL: http://web.archive.org/static/images/toolbar/wm_tb_nxt_on.png 200 OK
+unlink: No such file or directory
+2017-02-08 09:38:43 URL:http://web.archive.org/web/20160120113437/https://www.whitehouse.gov/ [131736/131736] -> "web.archive.org/web/20160120082047/https:/www.whitehouse.gov/index.html" [1]
+2017-02-08 09:38:49 URL:http://web.archive.org/web/20170120092900*/https://www.whitehouse.gov/ [305525] -> "web.archive.org/web/20170120092900*/https:/www.whitehouse.gov/index.html" [1]
+The name is too long, 487 chars total.
+Trying to shorten...
+New name is graph.jsp?graphdata=550_27_1996:-1:000000000001_1997:-1:000110000100_1998:-1:010000000003_1999:-1:330410000000_2000:-1:015255288903_2001:-1:112376509aa7_2002:-1:101022788783_2003:-1:022333311435_2004:-1:644318888886_2005:-1:654735458776.
+2017-02-08 09:38:54 URL: http://web.archive.org/web/jsp/graph.jsp?graphdata=550_27_1996:-1:000000000001_1997:-1:000110000100_1998:-1:010000000003_1999:-1:330410000000_2000:-1:015255288903_2001:-1:112376509aa7_2002:-1:101022788783_2003:-1:022333311435_2004:-1:644318888886_2005:-1:654735458776_2006:-1:556657777776_2007:-1:245325336744_2008:-1:455575556776_2009:-1:878896766767_2010:-1:777778998889_2011:-1:898888999bbb_2012:-1:bbbbcbbbbbbc_2013:-1:cbbbbbabbabc_2014:-1:cbdcccccddcd_2015:-1:daddbdccacdd_2016:-1:ddedbcbcddde_2017:0:fa0000000000 200 OK
+unlink: No such file or directory
+2017-02-08 09:38:58 URL: http://web.archive.org/static/images/toolbar/wm_tb_close.png 200 OK
+unlink: No such file or directory
+2017-02-08 09:38:58 URL: http://web.archive.org/static/images/toolbar/wm_tb_help.png 200 OK
+unlink: No such file or directory
+2017-02-08 09:39:04 URL:http://web.archive.org/web/20170120041300/https://www.whitehouse.gov/contact [154177/154177] -> "web.archive.org/web/20170120092900/http:/www.whitehouse.gov/contact" [1]
+2017-02-08 09:39:10 URL:http://web.archive.org/web/20170120074212/https://www.whitehouse.gov/email-updates [44420/44420] -> "web.archive.org/web/20170120092900/http:/www.whitehouse.gov/email-updates" [1]
+2017-02-08 09:39:12 URL: http://web.archive.org/web/20170120090029im_/https://www.whitehouse.gov/profiles/forall/modules/custom/gov_whitehouse_www/images/icons/wh_logo_seal.png 200 OK
+unlink: No such file or directory
+2017-02-08 09:39:15 URL:http://web.archive.org/web/20170120041456/https://www.whitehouse.gov/briefing-room [57749/57749] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/briefing-room" [1]
+2017-02-08 09:39:25 URL:http://web.archive.org/web/20170120061825/https://www.whitehouse.gov/blog [185508/185508] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/blog" [1]
+2017-02-08 09:39:38 URL:http://web.archive.org/web/20170120040740/https://www.whitehouse.gov/share [37865] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/share" [1]
+2017-02-08 09:39:43 URL:http://web.archive.org/web/20170120040750/https://www.whitehouse.gov/photos [37995] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/photos" [1]
+2017-02-08 09:39:46 URL:http://web.archive.org/web/20170120042602/https://www.whitehouse.gov/video [37881] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/video" [1]
+2017-02-08 09:39:47 URL:http://web.archive.org/web/20170120061917/https://www.whitehouse.gov/live [129539/129539] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/live" [1]
+2017-02-08 09:39:53 URL:http://web.archive.org/web/20170120041516/https://www.whitehouse.gov/performances [124044/124044] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/performances" [1]
+2017-02-08 09:40:04 URL:http://web.archive.org/web/20170120040945/https://www.whitehouse.gov/briefing-room/weekly-address [142159/142159] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/briefing-room/weekly-address" [1]
+2017-02-08 09:40:11 URL:http://web.archive.org/web/20170120064009/https://www.whitehouse.gov/briefing-room/speeches-and-remarks [133660/133660] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/briefing-room/speeches-and-remarks" [1]
+2017-02-08 09:40:21 URL:http://web.archive.org/web/20170120041422/https://www.whitehouse.gov/briefing-room/press-briefings [133604/133604] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/briefing-room/press-briefings" [1]
+2017-02-08 09:40:24 URL:http://web.archive.org/web/20170120041733/https://www.whitehouse.gov/briefing-room/statements-and-releases [133789/133789] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/briefing-room/statements-and-releases" [1]
+2017-02-08 09:40:35 URL:http://web.archive.org/web/20170120042212/https://www.whitehouse.gov/briefing-room/presidential-actions [134197/134197] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/briefing-room/presidential-actions" [1]
+2017-02-08 09:40:41 URL:http://web.archive.org/web/20170120041015/https://www.whitehouse.gov/briefing-room/legislation [136602/136602] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/briefing-room/legislation" [1]
+2017-02-08 09:40:43 URL:http://web.archive.org/web/20170120042057/https://www.whitehouse.gov/briefing-room/nominations-and-appointments [129049/129049] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/briefing-room/nominations-and-appointments" [1]
+2017-02-08 09:40:49 URL:http://web.archive.org/web/20170120042310/https://www.whitehouse.gov/briefing-room/disclosures [132071/132071] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/briefing-room/disclosures" [1]
+2017-02-08 09:40:51 URL:http://web.archive.org/web/20170120042647/https://www.whitehouse.gov/issues [57532/57532] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/issues" [1]
+2017-02-08 09:40:53 URL:http://web.archive.org/web/20170120041810/https://www.whitehouse.gov/the-record [138293/138293] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/the-record" [1]
+2017-02-08 09:40:55 URL:http://web.archive.org/web/20170120131324/https://www.whitehouse.gov/administration/cabinet/exit-memos [149860/149860] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/administration/cabinet/exit-memos" [1]
+2017-02-08 09:41:01 URL:http://web.archive.org/web/20170120041330/https://www.whitehouse.gov/issues/criminal-justice-reform [75056/75056] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/issues/criminal-justice-reform" [1]
+2017-02-08 09:41:07 URL:http://web.archive.org/web/20170120042333/https://www.whitehouse.gov/issues/foreign-policy/cuba [70207/70207] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/issues/foreign-policy/cuba" [1]
+2017-02-08 09:41:08 URL:http://web.archive.org/web/20170120040935/https://www.whitehouse.gov/issues/civil-rights [53199/53199] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/issues/civil-rights" [1]
+2017-02-08 09:41:18 URL:http://web.archive.org/web/20170120041717/https://www.whitehouse.gov/climate-change [37899] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/climate-change" [1]
+2017-02-08 09:41:24 URL:http://web.archive.org/web/20170120041727/https://www.whitehouse.gov/economy [37894] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/economy" [1]
+2017-02-08 09:41:29 URL:http://web.archive.org/web/20170120041158/https://www.whitehouse.gov/education [37889] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/education" [1]
+2017-02-08 09:41:42 URL:http://web.archive.org/web/20170120042358/https://www.whitehouse.gov/issues/foreign-policy [104609/104609] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/issues/foreign-policy.1" [1]
+2017-02-08 09:42:01 URL:http://web.archive.org/web/20170120154355/https://www.whitehouse.gov/the-record/health-care [269678/269678] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/the-record/health-care" [1]
+2017-02-08 09:42:11 URL:http://web.archive.org/web/20170120042234/https://www.whitehouse.gov/issues/foreign-policy/iran-deal [74748/74748] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/issues/foreign-policy/iran-deal" [1]
+2017-02-08 09:42:20 URL:http://web.archive.org/web/20170120041026/https://www.whitehouse.gov/issues/immigration/immigration-action [96443/96443] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/issues/immigration/immigration-action" [1]
+2017-02-08 09:42:31 URL:http://web.archive.org/web/20170120041106/https://www.whitehouse.gov/issues/defense [147242/147242] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/issues/defense" [1]
+2017-02-08 09:42:38 URL:http://web.archive.org/web/20170120032828/https://www.whitehouse.gov/issues/disabilities [144712/144712] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/issues/disabilities" [1]
+2017-02-08 09:42:39 URL:http://web.archive.org/web/20170120041005/https://www.whitehouse.gov/21stcenturygov [56283/56283] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/21stcenturygov" [1]
+2017-02-08 09:42:44 URL:http://web.archive.org/web/20170120042133/https://www.whitehouse.gov/issues/equal-pay [57013/57013] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/issues/equal-pay" [1]
+2017-02-08 09:42:51 URL:http://web.archive.org/web/20170120042044/https://www.whitehouse.gov/issues/homeland-security [142358/142358] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/issues/homeland-security" [1]
+2017-02-08 09:42:55 URL:http://web.archive.org/web/20170120042345/https://www.whitehouse.gov/blog/2016/01/04/live-updates-what-president-doing-keep-guns-out-wrong-hands [147411/147411] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/blog/2016/01/04/live-updates-what-president-doing-keep-guns-out-wrong-hands" [1]
+2017-02-08 09:43:01 URL:http://web.archive.org/web/20170120041208/https://www.whitehouse.gov/administration/eop/rural-council [50141/50141] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/administration/eop/rural-council" [1]
+2017-02-08 09:43:04 URL:http://web.archive.org/web/20170120040924/https://www.whitehouse.gov/issues/service [137196/137196] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/issues/service" [1]
+2017-02-08 09:43:08 URL:http://web.archive.org/web/20170120041526/https://www.whitehouse.gov/issues/seniors-and-social-security [138633/138633] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/issues/seniors-and-social-security" [1]
+2017-02-08 09:43:13 URL:http://web.archive.org/web/20170120154405/https://www.whitehouse.gov/issues/taxes [148067/148067] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/issues/taxes" [1]
+2017-02-08 09:43:19 URL:http://web.archive.org/web/20170120041933/https://www.whitehouse.gov/issues/technology [171927/171927] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/issues/technology" [1]
+2017-02-08 09:43:24 URL:http://web.archive.org/web/20170120041127/https://www.whitehouse.gov/trade [37898] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/trade" [1]
+2017-02-08 09:43:27 URL:http://web.archive.org/web/20170120042438/https://www.whitehouse.gov/issues/urban-and-economic-mobility [63427/63427] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/issues/urban-and-economic-mobility" [1]
+2017-02-08 09:43:30 URL:http://web.archive.org/web/20170120042321/https://www.whitehouse.gov/issues/veterans [53759/53759] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/issues/veterans" [1]
+2017-02-08 09:43:35 URL:http://web.archive.org/web/20170120042103/https://www.whitehouse.gov/issues/women [81579/81579] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/issues/women" [1]
+2017-02-08 09:43:41 URL:http://web.archive.org/web/20170120041148/https://www.whitehouse.gov/administration [56429/56429] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/administration.1" [1]
+2017-02-08 09:43:44 URL:http://web.archive.org/web/20170120130631/https://www.whitehouse.gov/administration/president-obama [134313/134313] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/administration/president-obama" [1]
+2017-02-08 09:43:49 URL:http://web.archive.org/web/20170120103337/http://www.whitehouse.gov/vp [93482/93482] -> "web.archive.org/web/20170120092900/http:/www.whitehouse.gov/vp" [1]
+2017-02-08 09:43:51 URL:http://web.archive.org/web/20170120063808/https://www.whitehouse.gov/administration/first-lady-michelle-obama [87818/87818] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/administration/first-lady-michelle-obama" [1]
+2017-02-08 09:43:53 URL:http://web.archive.org/web/20170120130730/https://www.whitehouse.gov/administration/jill-biden [137100/137100] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/administration/jill-biden" [1]
+2017-02-08 09:43:57 URL:http://web.archive.org/web/20170120041445/https://www.whitehouse.gov/administration/cabinet [135388/135388] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/administration/cabinet.1" [1]
+2017-02-08 09:44:02 URL:http://web.archive.org/web/20170120080202/https://www.whitehouse.gov/administration/eop [136795/136795] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/administration/eop.1" [1]
+2017-02-08 09:44:05 URL:http://web.archive.org/web/20170120062753/https://www.whitehouse.gov/administration/senior-leadership [130674/130674] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/administration/senior-leadership" [1]
+2017-02-08 09:44:09 URL:http://web.archive.org/web/20170120032818/https://www.whitehouse.gov/administration/other-advisory-boards [131738/131738] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/administration/other-advisory-boards" [1]
+2017-02-08 09:44:12 URL:http://web.archive.org/web/20170120082418/https://www.whitehouse.gov/omb [54598/54598] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/omb" [1]
+2017-02-08 09:44:16 URL:http://web.archive.org/web/20170120041412/https://www.whitehouse.gov/administration/eop/ostp [56840/56840] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/administration/eop/ostp" [1]
+2017-02-08 09:44:20 URL:http://web.archive.org/web/20170120042109/https://www.whitehouse.gov/administration/eop/cea [59869/59869] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/administration/eop/cea" [1]
+2017-02-08 09:44:26 URL:http://web.archive.org/web/20170120140544/https://www.whitehouse.gov/administration/eop/ceq [53209/53209] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/administration/eop/ceq" [1]
+2017-02-08 09:44:30 URL:http://web.archive.org/web/20170120060929/https://www.whitehouse.gov/administration/eop/nsc [47922/47922] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/administration/eop/nsc/index.html" [1]
+2017-02-08 09:44:34 URL:http://web.archive.org/web/20170120093914/http://www.letsmove.gov/ [29952/29952] -> "web.archive.org/web/20170120092900/http:/www.letsmove.gov/index.html" [1]
+2017-02-08 09:44:35 URL:http://web.archive.org/web/20170120041506/https://www.whitehouse.gov/joiningforces [57713/57713] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/joiningforces" [1]
+2017-02-08 09:44:39 URL:http://web.archive.org/web/20170120154418/https://www.whitehouse.gov/reach-higher [90181/90181] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/reach-higher" [1]
+2017-02-08 09:44:42 URL:http://web.archive.org/web/20170120042410/https://www.whitehouse.gov/my-brothers-keeper [81028/81028] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/my-brothers-keeper" [1]
+2017-02-08 09:44:46 URL:http://web.archive.org/web/20170120041629/https://www.whitehouse.gov/precision-medicine [124581/124581] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/precision-medicine" [1]
+2017-02-08 09:44:50 URL:http://web.archive.org/web/20170120041758/https://www.whitehouse.gov/sotu [286444/286444] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/sotu" [1]
+2017-02-08 09:44:52 URL:http://web.archive.org/web/20170120041920/https://www.whitehouse.gov/inauguration-2013 [38132] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/inauguration-2013" [1]
+2017-02-08 09:44:55 URL:http://web.archive.org/web/20170120042019/https://www.whitehouse.gov/medal-of-freedom [37923] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/medal-of-freedom" [1]
+2017-02-08 09:44:58 URL:http://web.archive.org/web/20170120040955/https://www.whitehouse.gov/participate [52982/52982] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/participate" [1]
+2017-02-08 09:45:09 URL:http://web.archive.org/web/20170120041137/https://www.whitehouse.gov/engage [56931/56931] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/engage" [1]
+2017-02-08 09:45:11 URL:http://web.archive.org/web/20170120042008/https://www.whitehouse.gov/we-the-geeks [154617/154617] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/we-the-geeks" [1]
+2017-02-08 09:45:19 URL:http://web.archive.org/web/20170120041659/https://www.whitehouse.gov/mobile [37856] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/mobile" [1]
+2017-02-08 09:45:22 URL:http://web.archive.org/web/20170120041239/https://www.whitehouse.gov/developers [136993/136993] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/developers" [1]
+2017-02-08 09:45:29 URL:http://web.archive.org/web/20170120040914/https://www.whitehouse.gov/tools [55262/55262] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/tools" [1]
+2017-02-08 09:45:30 URL:http://web.archive.org/web/20170120032902/https://www.whitehouse.gov/participate/tours-and-events [135867/135867] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/participate/tours-and-events" [1]
+2017-02-08 09:45:39 URL:http://web.archive.org/web/20170120164845/https://apply.whitehouse.gov/ [37901] -> "web.archive.org/web/20170120092900/https:/apply.whitehouse.gov/index.html" [1]
+2017-02-08 09:45:45 URL:http://web.archive.org/web/20170120041401/https://www.whitehouse.gov/participate/internships [134127/134127] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/participate/internships" [1]
+2017-02-08 09:45:47 URL:http://web.archive.org/web/20170120041046/https://www.whitehouse.gov/participate/fellows [134885/134885] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/participate/fellows" [1]
+2017-02-08 09:45:52 URL:http://web.archive.org/web/20170120032743/https://www.whitehouse.gov/innovationfellows [133843/133843] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/innovationfellows" [1]
+2017-02-08 09:46:00 URL:http://web.archive.org/web/20170120041249/https://www.whitehouse.gov/participate/united-states-digital-service [131885/131885] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/participate/united-states-digital-service" [1]
+2017-02-08 09:46:06 URL:http://web.archive.org/web/20170120041310/https://www.whitehouse.gov/participate/whldp [134096/134096] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/participate/whldp" [1]
+2017-02-08 09:46:11 URL:http://web.archive.org/web/20170120120155/https://petitions.whitehouse.gov/ [64107/64107] -> "web.archive.org/web/20170120092900/https:/petitions.whitehouse.gov/index.html" [1]
+2017-02-08 09:46:17 URL:http://web.archive.org/web/20170120041300/https://www.whitehouse.gov/contact [154178/154178] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/contact" [1]
+2017-02-08 09:46:21 URL:http://web.archive.org/web/20170120042624/https://www.whitehouse.gov/citizensmedal/criteria [50213/50213] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/citizensmedal/criteria" [1]
+2017-02-08 09:46:26 URL:http://web.archive.org/web/20170120041340/https://www.whitehouse.gov/champions [271906/271906] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/champions" [1]
+2017-02-08 09:46:31 URL:http://web.archive.org/web/20170120041722/https://www.whitehouse.gov/1600 [52827/52827] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/1600" [1]
+2017-02-08 09:46:38 URL:http://web.archive.org/web/20170120042636/https://www.whitehouse.gov/about/inside-white-house/west-wing-tour [74248/74248] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/about/inside-white-house/west-wing-tour" [1]
+2017-02-08 09:46:46 URL:http://web.archive.org/web/20170120042450/https://www.whitehouse.gov/about/inside-white-house/eeob-tour [71561/71561] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/about/inside-white-house/eeob-tour" [1]
+2017-02-08 09:46:50 URL:http://web.archive.org/web/20170120041945/https://www.whitehouse.gov/about/inside-white-house/video-series [141212/141212] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/about/inside-white-house/video-series" [1]
+2017-02-08 09:46:52 URL:http://web.archive.org/web/20170120042223/https://www.whitehouse.gov/about/inside-white-house/art [267927/267927] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/about/inside-white-house/art" [1]
+2017-02-08 09:46:55 URL:http://web.archive.org/web/20170120040657/https://www.whitehouse.gov/holidays [37956] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/holidays" [1]
+2017-02-08 09:46:58 URL:http://web.archive.org/web/20170120040707/https://www.whitehouse.gov/about/inside-white-house [133121/133121] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/about/inside-white-house.1" [1]
+2017-02-08 09:47:02 URL:http://web.archive.org/web/20170120040752/https://www.whitehouse.gov/1600/Presidents [135964/135964] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/1600/Presidents" [1]
+2017-02-08 09:47:09 URL:http://web.archive.org/web/20170120040843/https://www.whitehouse.gov/1600/first-ladies [136192/136192] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/1600/first-ladies" [1]
+2017-02-08 09:47:12 URL:http://web.archive.org/web/20170120040925/https://www.whitehouse.gov/1600/vp-residence [134725/134725] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/1600/vp-residence" [1]
+2017-02-08 09:47:18 URL:http://web.archive.org/web/20170120040956/https://www.whitehouse.gov/1600/eeob [141935/141935] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/1600/eeob" [1]
+2017-02-08 09:47:22 URL:http://web.archive.org/web/20170120041026/https://www.whitehouse.gov/1600/camp-david [131098/131098] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/1600/camp-david" [1]
+2017-02-08 09:47:24 URL:http://web.archive.org/web/20170120041057/https://www.whitehouse.gov/1600/air-force-one [133423/133423] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/1600/air-force-one" [1]
+2017-02-08 09:47:30 URL:http://web.archive.org/web/20170120041128/https://www.whitehouse.gov/1600/executive-branch [155826/155826] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/1600/executive-branch" [1]
+2017-02-08 09:47:34 URL:http://web.archive.org/web/20170120041159/https://www.whitehouse.gov/1600/legislative-branch [141524/141524] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/1600/legislative-branch" [1]
+2017-02-08 09:47:35 URL:http://web.archive.org/web/20170120041230/https://www.whitehouse.gov/1600/judicial-branch [141221/141221] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/1600/judicial-branch" [1]
+2017-02-08 09:47:40 URL:http://web.archive.org/web/20170120041301/https://www.whitehouse.gov/1600/constitution [141620/141620] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/1600/constitution" [1]
+2017-02-08 09:47:45 URL:http://web.archive.org/web/20170120041333/https://www.whitehouse.gov/1600/federal-agencies-and-commissions [130557/130557] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/1600/federal-agencies-and-commissions" [1]
+2017-02-08 09:47:49 URL:http://web.archive.org/web/20170120041354/https://www.whitehouse.gov/1600/elections-and-voting [132410/132410] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/1600/elections-and-voting" [1]
+2017-02-08 09:47:51 URL:http://web.archive.org/web/20170120041425/https://www.whitehouse.gov/1600/state-and-local-government [135105/135105] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/1600/state-and-local-government" [1]
+2017-02-08 09:47:52 URL:http://web.archive.org/web/20170120041446/https://www.whitehouse.gov/1600/resources [131217/131217] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/1600/resources" [1]
+2017-02-08 09:47:58 URL: http://web.archive.org/web/20170120093103im_/https://www.whitehouse.gov/sites/whitehouse.gov/files/hero-backgrounds/last_hero3_4.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:48:04 URL:http://web.archive.org/web/20170120095151/https://www.whitehouse.gov/farewell [88838/88838] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/farewell" [1]
+2017-02-08 09:48:09 URL: http://web.archive.org/web/20170120093113im_/https://www.whitehouse.gov/sites/whitehouse.gov/files/tout_images/recordtout-healthcare.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:48:21 URL:http://web.archive.org/web/20170120042549/https://www.whitehouse.gov/the-record/climate [305609/305609] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/the-record/climate" [1]
+2017-02-08 09:48:25 URL: http://web.archive.org/web/20170120093123im_/https://www.whitehouse.gov/sites/whitehouse.gov/files/tout_images/recordtout-climate.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:48:29 URL:http://web.archive.org/web/20170120063429/https://www.whitehouse.gov/the-record/foreign-policy [211349/211349] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/the-record/foreign-policy" [1]
+2017-02-08 09:48:31 URL: http://web.archive.org/web/20170120093134im_/https://www.whitehouse.gov/sites/whitehouse.gov/files/tout_images/recordtout-nationalsecurity.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:48:36 URL:http://web.archive.org/web/20170120063021/https://www.whitehouse.gov/the-record/economy [380434/380434] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/the-record/economy" [1]
+2017-02-08 09:48:41 URL: http://web.archive.org/web/20170120093144im_/https://www.whitehouse.gov/sites/whitehouse.gov/files/tout_images/recordtout-economy.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:48:47 URL:http://web.archive.org/web/20170120063833/https://www.whitehouse.gov/the-record/social-progress [373403/373403] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/the-record/social-progress" [1]
+2017-02-08 09:48:48 URL: http://web.archive.org/web/20170120093154im_/https://www.whitehouse.gov/sites/whitehouse.gov/files/tout_images/recordtout-socialprogress.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:48:52 URL: http://web.archive.org/web/20170120093204im_/https://www.whitehouse.gov/sites/whitehouse.gov/files/tout_images/barackobama-headshot.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:48:58 URL:http://web.archive.org/web/20170120103337/http://www.whitehouse.gov/vp [93483/93483] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/vp" [1]
+2017-02-08 09:49:04 URL: http://web.archive.org/web/20170120093214im_/https://www.whitehouse.gov/sites/whitehouse.gov/files/tout_images/joebiden-headshot.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:49:10 URL: http://web.archive.org/web/20170120093224im_/https://www.whitehouse.gov/sites/whitehouse.gov/files/tout_images/michelleobama-headshot.jpg 200 OK
+unlink: No such file or directory
+No data received.
+2017-02-08 09:49:15 URL: http://web.archive.org/web/20170120093234im_/https://www.whitehouse.gov/sites/whitehouse.gov/files/tout_images/jilbiden-headshot.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:49:21 URL: http://web.archive.org/web/20170120093245im_/https://www.whitehouse.gov/sites/whitehouse.gov/files/tout_images/home_speeches_tout.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:49:33 URL:http://web.archive.org/web/20170120154451/https://www.whitehouse.gov/petitions [43544/43544] -> "web.archive.org/web/20170120092900/https:/www.whitehouse.gov/petitions" [1]
+2017-02-08 09:49:40 URL: http://web.archive.org/web/20170120093255im_/https://www.whitehouse.gov/sites/whitehouse.gov/files/tout_images/home_wtp_tout_0.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:49:48 URL: http://web.archive.org/web/20170120093305im_/https://www.whitehouse.gov/sites/whitehouse.gov/files/tout_images/home_cabinetexitmemos_tout.jpg 200 OK
+unlink: No such file or directory

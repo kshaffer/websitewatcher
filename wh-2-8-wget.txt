@@ -1,0 +1,890 @@
+2017-02-08 09:22:38 URL:https://www.whitehouse.gov/ [69143] -> "www.whitehouse.gov/index.html" [1]
+2017-02-08 09:22:38 URL:https://www.whitehouse.gov/robots.txt [2376/2376] -> "www.whitehouse.gov/robots.txt" [1]
+2017-02-08 09:22:38 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/advagg_css/css__nrzz0qPx72thwmgjDs1PhjAsNOYKnl2PmpKqCRsqoOQ__jFOZrBEq8atcuaqanZ2SARmeFZ6Yhphd6KwP6zsI_Og__yN1o6etD_FB5RFrt4f9rEo5hyCEX7z1qfNw5Yg899Cg.css 200 OK
+www.whitehouse.gov/sites/whitehouse.gov/files/advagg_css/css__nrzz0qPx72thwmgjDs1PhjAsNOYKnl2PmpKqCRsqoOQ__jFOZrBEq8atcuaqanZ2SARmeFZ6Yhphd6KwP6zsI_Og__yN1o6etD_FB5RFrt4f9rEo5hyCEX7z1qfNw5Yg899Cg.css: No such file or directory
+unlink: No such file or directory
+2017-02-08 09:22:38 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/advagg_css/css__gMQWD3coNk5Au2fO23W-pX-TUWlu3Yki30kqSggljxo__2-EhHNf5nZZqC9WakRsWUy_6-BQ5jc7OfcRhDfp_PXc__yN1o6etD_FB5RFrt4f9rEo5hyCEX7z1qfNw5Yg899Cg.css 200 OK
+www.whitehouse.gov/sites/whitehouse.gov/files/advagg_css/css__gMQWD3coNk5Au2fO23W-pX-TUWlu3Yki30kqSggljxo__2-EhHNf5nZZqC9WakRsWUy_6-BQ5jc7OfcRhDfp_PXc__yN1o6etD_FB5RFrt4f9rEo5hyCEX7z1qfNw5Yg899Cg.css: No such file or directory
+unlink: No such file or directory
+2017-02-08 09:22:38 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/advagg_css/css__ZcngCi2htGgg40kDEpEDUDtn-vqShY4u7B2KQvZ0n6A__1AKg1WZNYGFkguCOOocgbHoX4sumviacQ2zpSGEi-jg__yN1o6etD_FB5RFrt4f9rEo5hyCEX7z1qfNw5Yg899Cg.css 200 OK
+www.whitehouse.gov/sites/whitehouse.gov/files/advagg_css/css__ZcngCi2htGgg40kDEpEDUDtn-vqShY4u7B2KQvZ0n6A__1AKg1WZNYGFkguCOOocgbHoX4sumviacQ2zpSGEi-jg__yN1o6etD_FB5RFrt4f9rEo5hyCEX7z1qfNw5Yg899Cg.css: No such file or directory
+unlink: No such file or directory
+2017-02-08 09:22:38 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/advagg_js/js__NE7EnOYPYYKVWJEZV3b_Z6vx-BZ5oVwoRFJHaRKHfpU__g6xANM1OcRgSwG8dd6XBT2RqAaTWe5urP58rrnRJpWM__yN1o6etD_FB5RFrt4f9rEo5hyCEX7z1qfNw5Yg899Cg.js 200 OK
+unlink: No such file or directory
+2017-02-08 09:22:38 URL: https://www.whitehouse.gov/sites/whitehouse.gov/modules/contrib/usfedgov_google_analytics/js/Universal-Federated-Analytics-Min.js?agency=Executive%20Office%20of%20the%20President&subagency=The%20White%20House 200 OK
+unlink: No such file or directory
+2017-02-08 09:22:38 URL:https://www.whitehouse.gov/contact [67614] -> "www.whitehouse.gov/contact" [1]
+2017-02-08 09:22:38 URL:https://www.whitehouse.gov/blog [73170] -> "www.whitehouse.gov/blog" [1]
+2017-02-08 09:22:38 URL:https://www.whitehouse.gov/featured-videos [94431] -> "www.whitehouse.gov/featured-videos" [1]
+2017-02-08 09:22:38 URL:https://www.whitehouse.gov/briefing-room/speeches-and-remarks [75039] -> "www.whitehouse.gov/briefing-room/speeches-and-remarks" [1]
+2017-02-08 09:22:38 URL:http://www.whitehouse.gov/robots.txt [2376/2376] -> "www.whitehouse.gov/robots.txt" [1]
+2017-02-08 09:22:38 URL:https://www.whitehouse.gov/briefing-room/press-briefings [73257] -> "www.whitehouse.gov/briefing-room/press-briefings" [1]
+2017-02-08 09:22:38 URL:https://www.whitehouse.gov/briefing-room/statements-and-releases [75224] -> "www.whitehouse.gov/briefing-room/statements-and-releases" [1]
+2017-02-08 09:22:39 URL:https://www.whitehouse.gov/briefing-room/presidential-actions [75646] -> "www.whitehouse.gov/briefing-room/presidential-actions" [1]
+2017-02-08 09:22:39 URL:https://www.whitehouse.gov/briefing-room/legislation [71282] -> "www.whitehouse.gov/briefing-room/legislation" [1]
+2017-02-08 09:22:39 URL:https://www.whitehouse.gov/briefing-room/nominations-and-appointments [70174] -> "www.whitehouse.gov/briefing-room/nominations-and-appointments" [1]
+2017-02-08 09:22:39 URL:https://www.whitehouse.gov/briefing-room/disclosures [70640] -> "www.whitehouse.gov/briefing-room/disclosures" [1]
+2017-02-08 09:22:39 URL:https://www.whitehouse.gov/america-first-energy [71317] -> "www.whitehouse.gov/america-first-energy" [1]
+2017-02-08 09:22:39 URL:https://www.whitehouse.gov/america-first-foreign-policy [72607] -> "www.whitehouse.gov/america-first-foreign-policy" [1]
+2017-02-08 09:22:39 URL:https://www.whitehouse.gov/bringing-back-jobs-and-growth [71692] -> "www.whitehouse.gov/bringing-back-jobs-and-growth" [1]
+2017-02-08 09:22:39 URL:https://www.whitehouse.gov/making-our-military-strong-again [71180] -> "www.whitehouse.gov/making-our-military-strong-again" [1]
+2017-02-08 09:22:39 URL:https://www.whitehouse.gov/law-enforcement-community [71315] -> "www.whitehouse.gov/law-enforcement-community" [1]
+2017-02-08 09:22:39 URL:https://www.whitehouse.gov/trade-deals-working-all-americans [71151] -> "www.whitehouse.gov/trade-deals-working-all-americans" [1]
+2017-02-08 09:22:39 URL:https://www.whitehouse.gov/administration/president-trump [73421] -> "www.whitehouse.gov/administration/president-trump" [1]
+2017-02-08 09:22:39 URL:https://www.whitehouse.gov/administration/vice-president-pence [75166] -> "www.whitehouse.gov/administration/vice-president-pence" [1]
+2017-02-08 09:22:39 URL:https://www.whitehouse.gov/administration/first-lady-melania-trump [73421] -> "www.whitehouse.gov/administration/first-lady-melania-trump" [1]
+2017-02-08 09:22:39 URL:https://www.whitehouse.gov/administration/karen-pence [74224] -> "www.whitehouse.gov/administration/karen-pence" [1]
+2017-02-08 09:22:39 URL:https://www.whitehouse.gov/administration/cabinet [71352] -> "www.whitehouse.gov/administration/cabinet" [1]
+2017-02-08 09:22:39 URL:https://www.whitehouse.gov/participate/tours-and-events [75947] -> "www.whitehouse.gov/participate/tours-and-events" [1]
+2017-02-08 09:22:39 URL:https://www.whitehouse.gov/participate/internships [72133] -> "www.whitehouse.gov/participate/internships" [1]
+2017-02-08 09:22:39 URL:https://www.whitehouse.gov/participate/fellows [74854] -> "www.whitehouse.gov/participate/fellows" [1]
+2017-02-08 09:22:39 URL:https://www.whitehouse.gov/support-nominee-gorsuch [70155] -> "www.whitehouse.gov/support-nominee-gorsuch" [1]
+2017-02-08 09:22:39 URL:https://www.whitehouse.gov/1600/Presidents [73859] -> "www.whitehouse.gov/1600/Presidents" [1]
+2017-02-08 09:22:39 URL:https://www.whitehouse.gov/1600/first-ladies [73874] -> "www.whitehouse.gov/1600/first-ladies" [1]
+2017-02-08 09:22:39 URL:https://www.whitehouse.gov/1600/vp-residence [75148] -> "www.whitehouse.gov/1600/vp-residence" [1]
+2017-02-08 09:22:39 URL:https://www.whitehouse.gov/1600/eeob [82651] -> "www.whitehouse.gov/1600/eeob" [1]
+2017-02-08 09:22:39 URL:https://www.whitehouse.gov/1600/camp-david [72218] -> "www.whitehouse.gov/1600/camp-david" [1]
+2017-02-08 09:22:39 URL:https://www.whitehouse.gov/1600/air-force-one [74253] -> "www.whitehouse.gov/1600/air-force-one" [1]
+2017-02-08 09:22:39 URL:https://www.whitehouse.gov/1600/executive-branch [96540] -> "www.whitehouse.gov/1600/executive-branch" [1]
+2017-02-08 09:22:39 URL:https://www.whitehouse.gov/1600/legislative-branch [81964] -> "www.whitehouse.gov/1600/legislative-branch" [1]
+2017-02-08 09:22:40 URL:https://www.whitehouse.gov/1600/judicial-branch [81983] -> "www.whitehouse.gov/1600/judicial-branch" [1]
+2017-02-08 09:22:40 URL:https://www.whitehouse.gov/1600/constitution [82392] -> "www.whitehouse.gov/1600/constitution" [1]
+2017-02-08 09:22:40 URL:https://www.whitehouse.gov/1600/federal-agencies-and-commissions [71472] -> "www.whitehouse.gov/1600/federal-agencies-and-commissions" [1]
+2017-02-08 09:22:40 URL:https://www.whitehouse.gov/1600/elections-and-voting [73347] -> "www.whitehouse.gov/1600/elections-and-voting" [1]
+2017-02-08 09:22:40 URL:https://www.whitehouse.gov/1600/state-and-local-government [76028] -> "www.whitehouse.gov/1600/state-and-local-government" [1]
+2017-02-08 09:22:40 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/hero-backgrounds/DJT-Bio-Header%20%282%29.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:22:40 URL:https://www.whitehouse.gov/live/inauguration-45th-president-united-states [69503] -> "www.whitehouse.gov/live/inauguration-45th-president-united-states" [1]
+2017-02-08 09:22:40 URL:https://www.whitehouse.gov/privacy [112495] -> "www.whitehouse.gov/privacy" [1]
+2017-02-08 09:22:40 URL:https://www.whitehouse.gov/copyright [69397] -> "www.whitehouse.gov/copyright" [1]
+2017-02-08 09:22:40 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/advagg_js/js__WwsKSVXD89vBQ8DbVFQ6pLpevn2BOGYl3tgEwTmtYMI__Uwzf6n7oZI77wQpjmwNaVLzTjNuLfghCeXkwiUA_zqo__yN1o6etD_FB5RFrt4f9rEo5hyCEX7z1qfNw5Yg899Cg.js 200 OK
+unlink: No such file or directory
+2017-02-08 09:22:40 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/advagg_js/js__eJVFexzZI1DoPgp0RbsHbJHN6V1WCbZqUiyarkEao-Y__R5CVuFCeIcSMVTlRgmFT5sAqdlw0_xQMEAjVygfi9PI__yN1o6etD_FB5RFrt4f9rEo5hyCEX7z1qfNw5Yg899Cg.js 200 OK
+unlink: No such file or directory
+2017-02-08 09:22:40 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/advagg_js/js__d6fIDVjGeSjn4cGfpXV0L2K2xmwd_rhrT8TX7HVfNSQ__KNDIL8lJ-Ccwi_UNmLFErhBWqLOJSJbKRoULyKVr1rI__yN1o6etD_FB5RFrt4f9rEo5hyCEX7z1qfNw5Yg899Cg.js 200 OK
+unlink: No such file or directory
+2017-02-08 09:22:40 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/45/POTUS_45header.jpeg 200 OK
+unlink: No such file or directory
+2017-02-08 09:22:40 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/advagg_js/js__Hc9Q6hOUHTcOyxGYHK0wJXVzMmp5SPwwO4mGDJbzNGc__zj_RKq2IjkyFQobZPkJjDOSOJOdr-5N05ip_4K0RX_c__yN1o6etD_FB5RFrt4f9rEo5hyCEX7z1qfNw5Yg899Cg.js 200 OK
+unlink: No such file or directory
+2017-02-08 09:22:40 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/advagg_js/js__d5PrDtiwoGR3gZFLwi7WgYwjz9CpzF9tm_hWLlMnUTY__xjb0h4Z4XOJrJi2QWn763DtoeNuLRyQ7EORXgzZmsnA__yN1o6etD_FB5RFrt4f9rEo5hyCEX7z1qfNw5Yg899Cg.js 200 OK
+unlink: No such file or directory
+2017-02-08 09:22:40 URL: https://www.whitehouse.gov/feed/blog/white-house 200 OK
+unlink: No such file or directory
+2017-02-08 09:22:40 URL:https://www.whitehouse.gov/the-press-office/2017/02/07/white-house-director-legislative-affairs-announces-legislative-affairs [73745] -> "www.whitehouse.gov/the-press-office/2017/02/07/white-house-director-legislative-affairs-announces-legislative-affairs" [1]
+2017-02-08 09:22:40 URL:https://www.whitehouse.gov/blog/2017/02/07/vice-president-pence-casts-historic-vote-confirm-betsy-devos [69344] -> "www.whitehouse.gov/blog/2017/02/07/vice-president-pence-casts-historic-vote-confirm-betsy-devos" [1]
+2017-02-08 09:22:40 URL:https://www.whitehouse.gov/the-press-office/2017/02/07/hjr-58-disapproving-rule-submitted-department-education-relating-teacher [75465] -> "www.whitehouse.gov/the-press-office/2017/02/07/hjr-58-disapproving-rule-submitted-department-education-relating-teacher" [1]
+2017-02-08 09:22:40 URL:https://www.whitehouse.gov/the-press-office/2017/02/07/hjr-57-disapproving-rule-submitted-department-education-relating [75677] -> "www.whitehouse.gov/the-press-office/2017/02/07/hjr-57-disapproving-rule-submitted-department-education-relating" [1]
+2017-02-08 09:22:40 URL:https://www.whitehouse.gov/the-press-office/2017/02/07/hjr-44-disapproving-rule-submitted-department-interior-relating-bureau [76026] -> "www.whitehouse.gov/the-press-office/2017/02/07/hjr-44-disapproving-rule-submitted-department-interior-relating-bureau" [1]
+2017-02-08 09:22:40 URL:https://www.whitehouse.gov/the-press-office/2017/02/07/second-lady-announces-kristan-king-nevins-chief-staff [74019] -> "www.whitehouse.gov/the-press-office/2017/02/07/second-lady-announces-kristan-king-nevins-chief-staff" [1]
+2017-02-08 09:22:40 URL:https://www.whitehouse.gov/the-press-office/2017/02/07/hjr-42-disapproving-rule-submitted-department-labor-relating-drug [75529] -> "www.whitehouse.gov/the-press-office/2017/02/07/hjr-42-disapproving-rule-submitted-department-labor-relating-drug" [1]
+2017-02-08 09:22:40 URL:https://www.whitehouse.gov/the-press-office/2017/02/07/budgetary-impact-analysis-executive-order-entitled-core-principles [71161] -> "www.whitehouse.gov/the-press-office/2017/02/07/budgetary-impact-analysis-executive-order-entitled-core-principles" [1]
+2017-02-08 09:22:40 URL:https://www.whitehouse.gov/the-press-office/2017/02/07/remarks-president-trump-roundtable-county-sheriffs [111693] -> "www.whitehouse.gov/the-press-office/2017/02/07/remarks-president-trump-roundtable-county-sheriffs" [1]
+2017-02-08 09:22:40 URL:https://www.whitehouse.gov/the-press-office/2017/02/07/press-briefing-press-secretary-sean-spicer-272017-9 [118229] -> "www.whitehouse.gov/the-press-office/2017/02/07/press-briefing-press-secretary-sean-spicer-272017-9" [1]
+2017-02-08 09:22:40 URL:https://www.whitehouse.gov/blog?page=1 [72795] -> "www.whitehouse.gov/blog?page=1" [1]
+2017-02-08 09:22:40 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/advagg_js/js__xjpsqvipm-AgpzOKT0TYaBuek3q3HGpKfq4K6uo27co__9i5AZgdbKmGb5xm-lj0gIaKv7drPkhuc5S0DFtr5p_Q__yN1o6etD_FB5RFrt4f9rEo5hyCEX7z1qfNw5Yg899Cg.js 200 OK
+unlink: No such file or directory
+2017-02-08 09:22:40 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/advagg_js/js__Iim1AbJnxH3rRatJnOUIol7sNLvE4qpx4Tw1i-5inNg__PKAyehXfKMD313dQeX4wrEOnHtAr3I0F2vnbRDqpyWE__yN1o6etD_FB5RFrt4f9rEo5hyCEX7z1qfNw5Yg899Cg.js 200 OK
+unlink: No such file or directory
+2017-02-08 09:22:40 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/featured-videos.gif 200 OK
+unlink: No such file or directory
+2017-02-08 09:22:40 URL:https://www.whitehouse.gov/featured-videos/video/2017/02/03/2317-white-house-press-briefing [69770] -> "www.whitehouse.gov/featured-videos/video/2017/02/03/2317-white-house-press-briefing" [1]
+2017-02-08 09:22:41 URL:https://www.whitehouse.gov/featured-videos/video/2017/02/03/weekly-address [69159] -> "www.whitehouse.gov/featured-videos/video/2017/02/03/weekly-address" [1]
+2017-02-08 09:22:41 URL:https://www.whitehouse.gov/featured-videos/video/2017/02/02/2217-white-house-press-briefing [69513] -> "www.whitehouse.gov/featured-videos/video/2017/02/02/2217-white-house-press-briefing" [1]
+2017-02-08 09:22:41 URL:https://www.whitehouse.gov/featured-videos/video/2017/02/01/2117-white-house-press-briefing [69518] -> "www.whitehouse.gov/featured-videos/video/2017/02/01/2117-white-house-press-briefing" [1]
+2017-02-08 09:22:41 URL:https://www.whitehouse.gov/featured-videos/video/2017/02/01/swearing-secretary-state-rex-tillerson [69546] -> "www.whitehouse.gov/featured-videos/video/2017/02/01/swearing-secretary-state-rex-tillerson" [1]
+2017-02-08 09:22:41 URL:https://www.whitehouse.gov/featured-videos/video/2017/01/31/13117-white-house-press-briefing [69523] -> "www.whitehouse.gov/featured-videos/video/2017/01/31/13117-white-house-press-briefing" [1]
+2017-02-08 09:22:41 URL:https://www.whitehouse.gov/featured-videos/video/2017/01/31/swearing-secretary-transportation [69522] -> "www.whitehouse.gov/featured-videos/video/2017/01/31/swearing-secretary-transportation" [1]
+2017-02-08 09:22:41 URL:https://www.whitehouse.gov/featured-videos/video/2017/01/31/president-trump-announces-supreme-court-united-states-nominee [69759] -> "www.whitehouse.gov/featured-videos/video/2017/01/31/president-trump-announces-supreme-court-united-states-nominee" [1]
+2017-02-08 09:22:41 URL:https://www.whitehouse.gov/featured-videos/video/2017/01/30/13017-white-house-press-briefing [69719] -> "www.whitehouse.gov/featured-videos/video/2017/01/30/13017-white-house-press-briefing" [1]
+2017-02-08 09:22:41 URL:https://www.whitehouse.gov/featured-videos/video/2017/01/28/weekly-address [69264] -> "www.whitehouse.gov/featured-videos/video/2017/01/28/weekly-address" [1]
+2017-02-08 09:22:41 URL:https://www.whitehouse.gov/featured-videos?topic=All&year[value]&page=1 [78619] -> "www.whitehouse.gov/featured-videos?topic=All&year[value]&page=1" [1]
+2017-02-08 09:22:42 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/advagg_js/js__5t5tPMNqAksEUTzhCbLxGCvgD99lZvPTrUNq6bRVxQ8__sGcHlSYFPnAPpUuoB8yVF-wo03ruPSiWD6SEgjsScQY__yN1o6etD_FB5RFrt4f9rEo5hyCEX7z1qfNw5Yg899Cg.js 200 OK
+unlink: No such file or directory
+2017-02-08 09:22:42 URL:https://www.whitehouse.gov/the-press-office/2017/02/06/remarks-president-trump-coalition-representatives-and-senior-us [81882] -> "www.whitehouse.gov/the-press-office/2017/02/06/remarks-president-trump-coalition-representatives-and-senior-us" [1]
+2017-02-08 09:22:42 URL:https://www.whitehouse.gov/the-press-office/2017/02/04/remarks-vice-president-mike-pence-federalist-society [89927] -> "www.whitehouse.gov/the-press-office/2017/02/04/remarks-vice-president-mike-pence-federalist-society" [1]
+2017-02-08 09:22:42 URL:https://www.whitehouse.gov/the-press-office/2017/02/03/president-trumps-weekly-address [74658] -> "www.whitehouse.gov/the-press-office/2017/02/03/president-trumps-weekly-address" [1]
+2017-02-08 09:22:42 URL:https://www.whitehouse.gov/the-press-office/2017/02/03/remarks-president-trump-signing-executive-order-fiduciary-rule [73473] -> "www.whitehouse.gov/the-press-office/2017/02/03/remarks-president-trump-signing-executive-order-fiduciary-rule" [1]
+2017-02-08 09:22:42 URL:https://www.whitehouse.gov/the-press-office/2017/02/03/remarks-president-trump-strategy-and-policy-forum [81321] -> "www.whitehouse.gov/the-press-office/2017/02/03/remarks-president-trump-strategy-and-policy-forum" [1]
+2017-02-08 09:22:42 URL:https://www.whitehouse.gov/the-press-office/2017/02/02/remarks-president-trump-meeting-harley-davidson-executives-and-union [77860] -> "www.whitehouse.gov/the-press-office/2017/02/02/remarks-president-trump-meeting-harley-davidson-executives-and-union" [1]
+2017-02-08 09:22:42 URL:https://www.whitehouse.gov/the-press-office/2017/02/02/remarks-president-trump-national-prayer-breakfast [86731] -> "www.whitehouse.gov/the-press-office/2017/02/02/remarks-president-trump-national-prayer-breakfast" [1]
+2017-02-08 09:22:42 URL:https://www.whitehouse.gov/the-press-office/2017/02/01/remarks-president-trump-and-vice-president-pence-swearing-ceremony [76734] -> "www.whitehouse.gov/the-press-office/2017/02/01/remarks-president-trump-and-vice-president-pence-swearing-ceremony" [1]
+2017-02-08 09:22:42 URL:https://www.whitehouse.gov/the-press-office/2017/02/01/remarks-president-trump-meeting-scotus-groups [78564] -> "www.whitehouse.gov/the-press-office/2017/02/01/remarks-president-trump-meeting-scotus-groups" [1]
+2017-02-08 09:22:43 URL:https://www.whitehouse.gov/briefing-room/speeches-and-remarks?term_node_tid_depth=31&page=1 [73633] -> "www.whitehouse.gov/briefing-room/speeches-and-remarks?term_node_tid_depth=31&page=1" [1]
+https://www.whitehouse.gov/get-email-updates:
+Remote file does not exist -- broken link!!!
+2017-02-08 09:22:43 URL:https://www.whitehouse.gov/the-press-office/2017/02/06/press-gaggle-press-secretary-sean-spicer-en-route-jba-262016 [84836] -> "www.whitehouse.gov/the-press-office/2017/02/06/press-gaggle-press-secretary-sean-spicer-en-route-jba-262016" [1]
+2017-02-08 09:22:43 URL:https://www.whitehouse.gov/the-press-office/2017/02/03/press-briefing-press-secretary-sean-spicer-232017-8 [109904] -> "www.whitehouse.gov/the-press-office/2017/02/03/press-briefing-press-secretary-sean-spicer-232017-8" [1]
+2017-02-08 09:22:43 URL:https://www.whitehouse.gov/the-press-office/2017/02/02/press-briefing-press-secretary-sean-spicer-222017-7 [101767] -> "www.whitehouse.gov/the-press-office/2017/02/02/press-briefing-press-secretary-sean-spicer-222017-7" [1]
+2017-02-08 09:22:43 URL:https://www.whitehouse.gov/the-press-office/2017/02/01/press-briefing-press-secretary-sean-spicer-212017-6 [129878] -> "www.whitehouse.gov/the-press-office/2017/02/01/press-briefing-press-secretary-sean-spicer-212017-6" [1]
+2017-02-08 09:22:43 URL:https://www.whitehouse.gov/the-press-office/2017/01/31/statement-press-secretary-sean-spicer [123762] -> "www.whitehouse.gov/the-press-office/2017/01/31/statement-press-secretary-sean-spicer" [1]
+2017-02-08 09:22:43 URL:https://www.whitehouse.gov/the-press-office/2017/01/21/statement-press-secretary-sean-spicer [77893] -> "www.whitehouse.gov/the-press-office/2017/01/21/statement-press-secretary-sean-spicer" [1]
+2017-02-08 09:22:43 URL:https://www.whitehouse.gov/the-press-office/2017/02/08/president-donald-j-trump-announces-his-cabinet [73652] -> "www.whitehouse.gov/the-press-office/2017/02/08/president-donald-j-trump-announces-his-cabinet" [1]
+2017-02-08 09:22:43 URL:https://www.whitehouse.gov/the-press-office/2017/02/07/case-you-missed-it-mcclatchy-historical-precedent-presidents-national [76398] -> "www.whitehouse.gov/the-press-office/2017/02/07/case-you-missed-it-mcclatchy-historical-precedent-presidents-national" [1]
+2017-02-08 09:22:43 URL:https://www.whitehouse.gov/the-press-office/2017/02/06/president-trump-announces-presidential-delegation-republic-haiti-attend [73186] -> "www.whitehouse.gov/the-press-office/2017/02/06/president-trump-announces-presidential-delegation-republic-haiti-attend" [1]
+2017-02-08 09:22:43 URL:https://www.whitehouse.gov/the-press-office/2017/02/05/radio-interview-president-trump-jim-gray-westwood-one-sports-radio [87979] -> "www.whitehouse.gov/the-press-office/2017/02/05/radio-interview-president-trump-jim-gray-westwood-one-sports-radio" [1]
+2017-02-08 09:22:44 URL:https://www.whitehouse.gov/the-press-office/2017/02/05/readout-presidents-call-prime-minister-bill-english-new-zealand [72573] -> "www.whitehouse.gov/the-press-office/2017/02/05/readout-presidents-call-prime-minister-bill-english-new-zealand" [1]
+2017-02-08 09:22:44 URL:https://www.whitehouse.gov/the-press-office/2017/02/05/readout-presidents-call-nato-secretary-general-jens-stoltenberg [72589] -> "www.whitehouse.gov/the-press-office/2017/02/05/readout-presidents-call-nato-secretary-general-jens-stoltenberg" [1]
+2017-02-08 09:22:45 URL:https://www.whitehouse.gov/the-press-office/2017/02/56/top-highlights-sundays-shows [78252] -> "www.whitehouse.gov/the-press-office/2017/02/56/top-highlights-sundays-shows" [1]
+2017-02-08 09:22:45 URL:https://www.whitehouse.gov/the-press-office/2017/02/04/readout-presidents-call-president-petro-poroshenko-ukraine [72376] -> "www.whitehouse.gov/the-press-office/2017/02/04/readout-presidents-call-president-petro-poroshenko-ukraine" [1]
+2017-02-08 09:22:46 URL:https://www.whitehouse.gov/briefing-room/statements-and-releases?term_node_tid_depth=41&page=1 [74952] -> "www.whitehouse.gov/briefing-room/statements-and-releases?term_node_tid_depth=41&page=1" [1]
+2017-02-08 09:22:46 URL:https://www.whitehouse.gov/briefing-room/presidential-actions/executive-orders [74853] -> "www.whitehouse.gov/briefing-room/presidential-actions/executive-orders" [1]
+2017-02-08 09:22:46 URL:https://www.whitehouse.gov/briefing-room/presidential-actions/presidential-memoranda [75968] -> "www.whitehouse.gov/briefing-room/presidential-actions/presidential-memoranda" [1]
+2017-02-08 09:22:46 URL:https://www.whitehouse.gov/briefing-room/presidential-actions/proclamations [72131] -> "www.whitehouse.gov/briefing-room/presidential-actions/proclamations" [1]
+2017-02-08 09:22:46 URL:https://www.whitehouse.gov/briefing-room/presidential-actions/related-omb-material [76592] -> "www.whitehouse.gov/briefing-room/presidential-actions/related-omb-material" [1]
+2017-02-08 09:22:46 URL:https://www.whitehouse.gov/the-press-office/2017/02/03/presidential-memorandum-fiduciary-duty-rule [75105] -> "www.whitehouse.gov/the-press-office/2017/02/03/presidential-memorandum-fiduciary-duty-rule" [1]
+2017-02-08 09:22:46 URL:https://www.whitehouse.gov/the-press-office/2017/02/03/presidential-executive-order-core-principles-regulating-united-states [75017] -> "www.whitehouse.gov/the-press-office/2017/02/03/presidential-executive-order-core-principles-regulating-united-states" [1]
+2017-02-08 09:22:46 URL:https://www.whitehouse.gov/the-press-office/2017/02/02/president-donald-j-trump-proclaims-february-american-heart-month [75001] -> "www.whitehouse.gov/the-press-office/2017/02/02/president-donald-j-trump-proclaims-february-american-heart-month" [1]
+2017-02-08 09:22:46 URL:https://www.whitehouse.gov/the-press-office/2017/01/30/presidential-executive-order-reducing-regulation-and-controlling [78444] -> "www.whitehouse.gov/the-press-office/2017/01/30/presidential-executive-order-reducing-regulation-and-controlling" [1]
+2017-02-08 09:22:46 URL:https://www.whitehouse.gov/the-press-office/2017/01/28/executive-order-ethics-commitments-executive-branch-appointees [91969] -> "www.whitehouse.gov/the-press-office/2017/01/28/executive-order-ethics-commitments-executive-branch-appointees" [1]
+2017-02-08 09:22:46 URL:https://www.whitehouse.gov/the-press-office/2017/01/28/presidential-memorandum-organization-national-security-council-and [91801] -> "www.whitehouse.gov/the-press-office/2017/01/28/presidential-memorandum-organization-national-security-council-and" [1]
+2017-02-08 09:22:46 URL:https://www.whitehouse.gov/the-press-office/2017/01/28/plan-defeat-islamic-state-iraq [78412] -> "www.whitehouse.gov/the-press-office/2017/01/28/plan-defeat-islamic-state-iraq" [1]
+2017-02-08 09:22:46 URL:https://www.whitehouse.gov/the-press-office/2017/01/27/presidential-memorandum-rebuilding-us-armed-forces [76360] -> "www.whitehouse.gov/the-press-office/2017/01/27/presidential-memorandum-rebuilding-us-armed-forces" [1]
+2017-02-08 09:22:46 URL:https://www.whitehouse.gov/the-press-office/2017/01/27/executive-order-protecting-nation-foreign-terrorist-entry-united-states [91963] -> "www.whitehouse.gov/the-press-office/2017/01/27/executive-order-protecting-nation-foreign-terrorist-entry-united-states" [1]
+2017-02-08 09:22:47 URL:https://www.whitehouse.gov/the-press-office/2017/01/26/president-trump-releases-national-school-choice-week-proclamation [73918] -> "www.whitehouse.gov/the-press-office/2017/01/26/president-trump-releases-national-school-choice-week-proclamation" [1]
+2017-02-08 09:22:47 URL:https://www.whitehouse.gov/briefing-room/presidential-actions?term_node_tid_depth=46&page=1 [75890] -> "www.whitehouse.gov/briefing-room/presidential-actions?term_node_tid_depth=46&page=1" [1]
+2017-02-08 09:22:47 URL:https://www.whitehouse.gov/briefing-room/pending-legislation [70617] -> "www.whitehouse.gov/briefing-room/pending-legislation" [1]
+2017-02-08 09:22:47 URL:https://www.whitehouse.gov/briefing-room/signed-legislation [70609] -> "www.whitehouse.gov/briefing-room/signed-legislation" [1]
+2017-02-08 09:22:47 URL:https://www.whitehouse.gov/briefing-room/vetoed-legislation [70609] -> "www.whitehouse.gov/briefing-room/vetoed-legislation" [1]
+2017-02-08 09:22:47 URL:https://www.whitehouse.gov/briefing-room/disclosures/visitor-records [70668] -> "www.whitehouse.gov/briefing-room/disclosures/visitor-records" [1]
+2017-02-08 09:22:47 URL:https://www.whitehouse.gov/briefing-room/disclosures/financial-disclosures [70825] -> "www.whitehouse.gov/briefing-room/disclosures/financial-disclosures" [1]
+2017-02-08 09:22:47 URL:https://www.whitehouse.gov/briefing-room/disclosures/ethics-pledge-waivers [70371] -> "www.whitehouse.gov/briefing-room/disclosures/ethics-pledge-waivers" [1]
+2017-02-08 09:22:47 URL:https://www.whitehouse.gov/forreviewstaff-salaries [70591] -> "www.whitehouse.gov/forreviewstaff-salaries" [1]
+2017-02-08 09:22:47 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/45/POTUS_Speech2.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:22:47 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/45/PE%20Color.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:22:47 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/advagg_js/js__xD9FlrzOzbSDs4f6abqkjDn8Kvkao9Yqe6df260u3S8__cmfoDmqX_DqvoOXMqtuUd1LybxLelHN_BW0sP7mMUIk__yN1o6etD_FB5RFrt4f9rEo5hyCEX7z1qfNw5Yg899Cg.js 200 OK
+unlink: No such file or directory
+2017-02-08 09:22:47 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/advagg_js/js__1_T1K8_-cuUqqzrtz5Q2kx38aBJ8S7rUjr6-0i8Wsrg__xZG30O1CwxnQl8m4ubRpfraylSJtG-YohWGblTjBf2E__yN1o6etD_FB5RFrt4f9rEo5hyCEX7z1qfNw5Yg899Cg.js 200 OK
+unlink: No such file or directory
+2017-02-08 09:22:47 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/45/VP_Pence1.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:22:47 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/45/VPE%20Color.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:22:47 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/45/FLOTUS_Melania1.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:22:47 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/45/FLOTUS_avi.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:22:47 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/45/Pence_Rally.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:22:47 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/45/Karen%20Pence%20Headshot.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:22:48 URL:https://www.whitehouse.gov/participate/internships/about [73002] -> "www.whitehouse.gov/participate/internships/about" [1]
+2017-02-08 09:22:48 URL:https://www.whitehouse.gov/participate/internships/selection [72837] -> "www.whitehouse.gov/participate/internships/selection" [1]
+2017-02-08 09:22:48 URL:https://www.whitehouse.gov/participate/internships/apply [73326] -> "www.whitehouse.gov/participate/internships/apply" [1]
+2017-02-08 09:22:48 URL:https://www.whitehouse.gov/participate/internships/contact [72269] -> "www.whitehouse.gov/participate/internships/contact" [1]
+2017-02-08 09:22:48 URL:https://www.whitehouse.gov/participate/fellows/about [77060] -> "www.whitehouse.gov/participate/fellows/about" [1]
+2017-02-08 09:22:48 URL:https://www.whitehouse.gov/participate/fellows/2016-2017 [97568] -> "www.whitehouse.gov/participate/fellows/2016-2017" [1]
+2017-02-08 09:22:48 URL:https://www.whitehouse.gov/participate/fellows/process [76353] -> "www.whitehouse.gov/participate/fellows/process" [1]
+2017-02-08 09:22:48 URL:https://www.whitehouse.gov/participate/fellows/faq [86718] -> "www.whitehouse.gov/participate/fellows/faq" [1]
+2017-02-08 09:22:49 URL:https://www.whitehouse.gov/participate/fellows/contact [71229] -> "www.whitehouse.gov/participate/fellows/contact" [1]
+2017-02-08 09:22:49 URL:https://www.whitehouse.gov/participate/fellows/application [74750] -> "www.whitehouse.gov/participate/fellows/application" [1]
+2017-02-08 09:22:49 URL:https://www.whitehouse.gov/1600/presidents/georgewashington [74974] -> "www.whitehouse.gov/1600/presidents/georgewashington" [1]
+2017-02-08 09:22:49 URL:https://www.whitehouse.gov/1600/presidents/johnadams [75130] -> "www.whitehouse.gov/1600/presidents/johnadams" [1]
+2017-02-08 09:22:49 URL:https://www.whitehouse.gov/1600/presidents/thomasjefferson [75016] -> "www.whitehouse.gov/1600/presidents/thomasjefferson" [1]
+2017-02-08 09:22:49 URL:https://www.whitehouse.gov/1600/presidents/jamesmadison [75455] -> "www.whitehouse.gov/1600/presidents/jamesmadison" [1]
+2017-02-08 09:22:49 URL:https://www.whitehouse.gov/1600/presidents/jamesmonroe [74994] -> "www.whitehouse.gov/1600/presidents/jamesmonroe" [1]
+2017-02-08 09:22:49 URL:https://www.whitehouse.gov/1600/presidents/johnquincyadams [75511] -> "www.whitehouse.gov/1600/presidents/johnquincyadams" [1]
+2017-02-08 09:22:49 URL:https://www.whitehouse.gov/1600/presidents/andrewjackson [75041] -> "www.whitehouse.gov/1600/presidents/andrewjackson" [1]
+2017-02-08 09:22:49 URL:https://www.whitehouse.gov/1600/presidents/martinvanburen [75684] -> "www.whitehouse.gov/1600/presidents/martinvanburen" [1]
+2017-02-08 09:22:49 URL:https://www.whitehouse.gov/1600/presidents/williamhenryharrison [75577] -> "www.whitehouse.gov/1600/presidents/williamhenryharrison" [1]
+2017-02-08 09:22:49 URL:https://www.whitehouse.gov/1600/presidents/johntyler [75496] -> "www.whitehouse.gov/1600/presidents/johntyler" [1]
+2017-02-08 09:22:50 URL:https://www.whitehouse.gov/1600/presidents/jamespolk [75151] -> "www.whitehouse.gov/1600/presidents/jamespolk" [1]
+2017-02-08 09:22:50 URL:https://www.whitehouse.gov/1600/presidents/zacharytaylor [75205] -> "www.whitehouse.gov/1600/presidents/zacharytaylor" [1]
+2017-02-08 09:22:50 URL:https://www.whitehouse.gov/1600/presidents/millardfillmore [75122] -> "www.whitehouse.gov/1600/presidents/millardfillmore" [1]
+2017-02-08 09:22:50 URL:https://www.whitehouse.gov/1600/presidents/franklinpierce [75102] -> "www.whitehouse.gov/1600/presidents/franklinpierce" [1]
+2017-02-08 09:22:50 URL:https://www.whitehouse.gov/1600/presidents/jamesbuchanan [75121] -> "www.whitehouse.gov/1600/presidents/jamesbuchanan" [1]
+2017-02-08 09:22:50 URL:https://www.whitehouse.gov/1600/presidents/abrahamlincoln [75071] -> "www.whitehouse.gov/1600/presidents/abrahamlincoln" [1]
+2017-02-08 09:22:50 URL:https://www.whitehouse.gov/1600/presidents/andrewjohnson [75131] -> "www.whitehouse.gov/1600/presidents/andrewjohnson" [1]
+2017-02-08 09:22:50 URL:https://www.whitehouse.gov/1600/presidents/ulyssessgrant [75451] -> "www.whitehouse.gov/1600/presidents/ulyssessgrant" [1]
+2017-02-08 09:22:50 URL:https://www.whitehouse.gov/1600/presidents/rutherfordbhayes [75223] -> "www.whitehouse.gov/1600/presidents/rutherfordbhayes" [1]
+2017-02-08 09:22:50 URL:https://www.whitehouse.gov/1600/presidents/jamesgarfield [75235] -> "www.whitehouse.gov/1600/presidents/jamesgarfield" [1]
+2017-02-08 09:22:50 URL:https://www.whitehouse.gov/1600/presidents/chesterarthur [75022] -> "www.whitehouse.gov/1600/presidents/chesterarthur" [1]
+2017-02-08 09:22:50 URL:https://www.whitehouse.gov/1600/presidents/grovercleveland22 [75140] -> "www.whitehouse.gov/1600/presidents/grovercleveland22" [1]
+2017-02-08 09:22:50 URL:https://www.whitehouse.gov/1600/presidents/benjaminharrison [75406] -> "www.whitehouse.gov/1600/presidents/benjaminharrison" [1]
+2017-02-08 09:22:50 URL:https://www.whitehouse.gov/1600/presidents/grovercleveland24 [75012] -> "www.whitehouse.gov/1600/presidents/grovercleveland24" [1]
+2017-02-08 09:22:51 URL:https://www.whitehouse.gov/1600/presidents/williammckinley [75376] -> "www.whitehouse.gov/1600/presidents/williammckinley" [1]
+2017-02-08 09:22:51 URL:https://www.whitehouse.gov/1600/presidents/theodoreroosevelt [75746] -> "www.whitehouse.gov/1600/presidents/theodoreroosevelt" [1]
+2017-02-08 09:22:51 URL:https://www.whitehouse.gov/1600/presidents/williamhowardtaft [75133] -> "www.whitehouse.gov/1600/presidents/williamhowardtaft" [1]
+2017-02-08 09:22:51 URL:https://www.whitehouse.gov/1600/presidents/woodrowwilson [75400] -> "www.whitehouse.gov/1600/presidents/woodrowwilson" [1]
+2017-02-08 09:22:51 URL:https://www.whitehouse.gov/1600/presidents/warrenharding [75368] -> "www.whitehouse.gov/1600/presidents/warrenharding" [1]
+2017-02-08 09:22:51 URL:https://www.whitehouse.gov/1600/presidents/calvincoolidge [75932] -> "www.whitehouse.gov/1600/presidents/calvincoolidge" [1]
+2017-02-08 09:22:51 URL:https://www.whitehouse.gov/1600/presidents/herberthoover [76410] -> "www.whitehouse.gov/1600/presidents/herberthoover" [1]
+2017-02-08 09:22:51 URL:https://www.whitehouse.gov/1600/presidents/franklindroosevelt [75721] -> "www.whitehouse.gov/1600/presidents/franklindroosevelt" [1]
+2017-02-08 09:22:51 URL:https://www.whitehouse.gov/1600/presidents/harrystruman [76525] -> "www.whitehouse.gov/1600/presidents/harrystruman" [1]
+2017-02-08 09:22:51 URL:https://www.whitehouse.gov/1600/presidents/dwightdeisenhower [75541] -> "www.whitehouse.gov/1600/presidents/dwightdeisenhower" [1]
+2017-02-08 09:22:51 URL:https://www.whitehouse.gov/1600/presidents/johnfkennedy [76225] -> "www.whitehouse.gov/1600/presidents/johnfkennedy" [1]
+2017-02-08 09:22:51 URL:https://www.whitehouse.gov/1600/presidents/lyndonbjohnson [76295] -> "www.whitehouse.gov/1600/presidents/lyndonbjohnson" [1]
+2017-02-08 09:22:51 URL:https://www.whitehouse.gov/1600/presidents/richardnixon [76417] -> "www.whitehouse.gov/1600/presidents/richardnixon" [1]
+2017-02-08 09:22:51 URL:https://www.whitehouse.gov/1600/presidents/geraldford [75522] -> "www.whitehouse.gov/1600/presidents/geraldford" [1]
+2017-02-08 09:22:51 URL:https://www.whitehouse.gov/1600/presidents/jimmycarter [76085] -> "www.whitehouse.gov/1600/presidents/jimmycarter" [1]
+2017-02-08 09:22:51 URL:https://www.whitehouse.gov/1600/presidents/ronaldreagan [76470] -> "www.whitehouse.gov/1600/presidents/ronaldreagan" [1]
+2017-02-08 09:22:51 URL:https://www.whitehouse.gov/1600/presidents/georgehwbush [76385] -> "www.whitehouse.gov/1600/presidents/georgehwbush" [1]
+2017-02-08 09:22:51 URL:https://www.whitehouse.gov/1600/presidents/williamjclinton [76585] -> "www.whitehouse.gov/1600/presidents/williamjclinton" [1]
+2017-02-08 09:22:51 URL:https://www.whitehouse.gov/1600/presidents/georgewbush [77129] -> "www.whitehouse.gov/1600/presidents/georgewbush" [1]
+2017-02-08 09:22:51 URL:https://www.whitehouse.gov/1600/presidents/barackobama [73378] -> "www.whitehouse.gov/1600/presidents/barackobama" [1]
+2017-02-08 09:22:51 URL:https://www.whitehouse.gov/1600/first-ladies/marthawashington [74472] -> "www.whitehouse.gov/1600/first-ladies/marthawashington" [1]
+2017-02-08 09:22:53 URL:https://www.whitehouse.gov/1600/first-ladies/abigailadams [75054] -> "www.whitehouse.gov/1600/first-ladies/abigailadams" [1]
+2017-02-08 09:22:53 URL:https://www.whitehouse.gov/1600/first-ladies/marthajefferson [74644] -> "www.whitehouse.gov/1600/first-ladies/marthajefferson" [1]
+2017-02-08 09:22:53 URL:https://www.whitehouse.gov/1600/first-ladies/dolleymadison [74860] -> "www.whitehouse.gov/1600/first-ladies/dolleymadison" [1]
+2017-02-08 09:22:54 URL:https://www.whitehouse.gov/1600/first-ladies/louisaadams [74481] -> "www.whitehouse.gov/1600/first-ladies/louisaadams" [1]
+2017-02-08 09:22:54 URL:https://www.whitehouse.gov/1600/first-ladies/racheljackson [73885] -> "www.whitehouse.gov/1600/first-ladies/racheljackson" [1]
+2017-02-08 09:22:54 URL:https://www.whitehouse.gov/1600/first-ladies/hannahvanburen [73996] -> "www.whitehouse.gov/1600/first-ladies/hannahvanburen" [1]
+2017-02-08 09:22:54 URL:https://www.whitehouse.gov/1600/first-ladies/annaharrison [74336] -> "www.whitehouse.gov/1600/first-ladies/annaharrison" [1]
+2017-02-08 09:22:54 URL:https://www.whitehouse.gov/1600/first-ladies/letitiatyler [74640] -> "www.whitehouse.gov/1600/first-ladies/letitiatyler" [1]
+2017-02-08 09:22:54 URL:https://www.whitehouse.gov/1600/first-ladies/juliatyler [74459] -> "www.whitehouse.gov/1600/first-ladies/juliatyler" [1]
+2017-02-08 09:22:54 URL:https://www.whitehouse.gov/1600/first-ladies/sarahpolk [74305] -> "www.whitehouse.gov/1600/first-ladies/sarahpolk" [1]
+2017-02-08 09:22:54 URL:https://www.whitehouse.gov/1600/first-ladies/margarettaylor [74410] -> "www.whitehouse.gov/1600/first-ladies/margarettaylor" [1]
+2017-02-08 09:22:54 URL:https://www.whitehouse.gov/1600/first-ladies/abigailfillmore [74933] -> "www.whitehouse.gov/1600/first-ladies/abigailfillmore" [1]
+2017-02-08 09:22:54 URL:https://www.whitehouse.gov/1600/first-ladies/janepierce [74358] -> "www.whitehouse.gov/1600/first-ladies/janepierce" [1]
+2017-02-08 09:22:54 URL:https://www.whitehouse.gov/1600/first-ladies/harrietlane [74356] -> "www.whitehouse.gov/1600/first-ladies/harrietlane" [1]
+2017-02-08 09:22:55 URL:https://www.whitehouse.gov/1600/first-ladies/marylincoln [74398] -> "www.whitehouse.gov/1600/first-ladies/marylincoln" [1]
+2017-02-08 09:22:55 URL:https://www.whitehouse.gov/1600/first-ladies/elizajohnson [73709] -> "www.whitehouse.gov/1600/first-ladies/elizajohnson" [1]
+2017-02-08 09:22:55 URL:https://www.whitehouse.gov/1600/first-ladies/juliagrant [74321] -> "www.whitehouse.gov/1600/first-ladies/juliagrant" [1]
+2017-02-08 09:22:55 URL:https://www.whitehouse.gov/1600/first-ladies/lucyhayes [75029] -> "www.whitehouse.gov/1600/first-ladies/lucyhayes" [1]
+2017-02-08 09:22:55 URL:https://www.whitehouse.gov/1600/first-ladies/lucretiagarfield [74255] -> "www.whitehouse.gov/1600/first-ladies/lucretiagarfield" [1]
+2017-02-08 09:22:55 URL:https://www.whitehouse.gov/1600/first-ladies/ellenarthur [73731] -> "www.whitehouse.gov/1600/first-ladies/ellenarthur" [1]
+https://www.whitehouse.gov/1600/first-ladies/francescleveland:
+Remote file does not exist -- broken link!!!
+2017-02-08 09:22:56 URL:https://www.whitehouse.gov/1600/first-ladies/carolineharrison [74725] -> "www.whitehouse.gov/1600/first-ladies/carolineharrison" [1]
+2017-02-08 09:22:56 URL:https://www.whitehouse.gov/1600/first-ladies/francescleveland-0 [73903] -> "www.whitehouse.gov/1600/first-ladies/francescleveland-0" [1]
+2017-02-08 09:22:56 URL:https://www.whitehouse.gov/1600/first-ladies/idamckinley [74262] -> "www.whitehouse.gov/1600/first-ladies/idamckinley" [1]
+2017-02-08 09:22:56 URL:https://www.whitehouse.gov/1600/first-ladies/edithroosevelt [74257] -> "www.whitehouse.gov/1600/first-ladies/edithroosevelt" [1]
+2017-02-08 09:22:56 URL:https://www.whitehouse.gov/1600/first-ladies/helentaft [74574] -> "www.whitehouse.gov/1600/first-ladies/helentaft" [1]
+2017-02-08 09:22:56 URL:https://www.whitehouse.gov/1600/first-ladies/ellenwilson [74299] -> "www.whitehouse.gov/1600/first-ladies/ellenwilson" [1]
+2017-02-08 09:22:56 URL:https://www.whitehouse.gov/1600/first-ladies/edithwilson [74872] -> "www.whitehouse.gov/1600/first-ladies/edithwilson" [1]
+2017-02-08 09:22:57 URL:https://www.whitehouse.gov/1600/first-ladies/florenceharding [74366] -> "www.whitehouse.gov/1600/first-ladies/florenceharding" [1]
+2017-02-08 09:22:57 URL:https://www.whitehouse.gov/1600/first-ladies/gracecoolidge [74620] -> "www.whitehouse.gov/1600/first-ladies/gracecoolidge" [1]
+2017-02-08 09:22:57 URL:https://www.whitehouse.gov/1600/first-ladies/louhoover [74501] -> "www.whitehouse.gov/1600/first-ladies/louhoover" [1]
+2017-02-08 09:22:57 URL:https://www.whitehouse.gov/1600/first-ladies/eleanorroosevelt [74907] -> "www.whitehouse.gov/1600/first-ladies/eleanorroosevelt" [1]
+2017-02-08 09:22:57 URL:https://www.whitehouse.gov/1600/first-ladies/besstruman [74672] -> "www.whitehouse.gov/1600/first-ladies/besstruman" [1]
+2017-02-08 09:22:57 URL:https://www.whitehouse.gov/1600/first-ladies/mamieeisenhower [74566] -> "www.whitehouse.gov/1600/first-ladies/mamieeisenhower" [1]
+2017-02-08 09:22:57 URL:https://www.whitehouse.gov/1600/first-ladies/jacquelinekennedy [75000] -> "www.whitehouse.gov/1600/first-ladies/jacquelinekennedy" [1]
+2017-02-08 09:22:57 URL:https://www.whitehouse.gov/1600/first-ladies/ladybirdjohnson [75070] -> "www.whitehouse.gov/1600/first-ladies/ladybirdjohnson" [1]
+2017-02-08 09:22:57 URL:https://www.whitehouse.gov/1600/first-ladies/patnixon [74642] -> "www.whitehouse.gov/1600/first-ladies/patnixon" [1]
+2017-02-08 09:22:57 URL:https://www.whitehouse.gov/1600/first-ladies/bettyford [74562] -> "www.whitehouse.gov/1600/first-ladies/bettyford" [1]
+2017-02-08 09:22:57 URL:https://www.whitehouse.gov/1600/first-ladies/rosalynncarter [75042] -> "www.whitehouse.gov/1600/first-ladies/rosalynncarter" [1]
+2017-02-08 09:22:57 URL:https://www.whitehouse.gov/1600/first-ladies/nancyreagan [74815] -> "www.whitehouse.gov/1600/first-ladies/nancyreagan" [1]
+2017-02-08 09:22:57 URL:https://www.whitehouse.gov/1600/first-ladies/barbarabush [74865] -> "www.whitehouse.gov/1600/first-ladies/barbarabush" [1]
+2017-02-08 09:22:58 URL:https://www.whitehouse.gov/1600/first-ladies/hillaryclinton [75474] -> "www.whitehouse.gov/1600/first-ladies/hillaryclinton" [1]
+2017-02-08 09:22:58 URL:https://www.whitehouse.gov/1600/first-ladies/laurabush [75865] -> "www.whitehouse.gov/1600/first-ladies/laurabush" [1]
+2017-02-08 09:22:58 URL:https://www.whitehouse.gov/1600/first-ladies/michelleobama [76325] -> "www.whitehouse.gov/1600/first-ladies/michelleobama" [1]
+2017-02-08 09:22:58 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/1600/page_masthead/1600_eeob.jpg 200 OK
+unlink: No such file or directory
+https://www.whitehouse.gov/about/inside-white-house/eeob-tour:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/about/presidents/theodoreroosevelt:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/about/presidents/franklindroosevelt:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/about/presidents/williamhowardtaft:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/about/presidents/dwightdeisenhower:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/about/presidents/lyndonbjohnson:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/about/presidents/geraldford:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/about/presidents/georgehwbush:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/about/presidents/herberthoover:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/about/presidents/richardnixon:
+Remote file does not exist -- broken link!!!
+2017-02-08 09:23:01 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/1600/page_masthead/1600_camp_david.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:01 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/1600/page_masthead/Air_Force_One_on_the_ground.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:01 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/1600/page_masthead/1600_executive_branch.jpg 200 OK
+unlink: No such file or directory
+https://www.whitehouse.gov/our-government/executive-branch:
+Remote file does not exist -- broken link!!!
+2017-02-08 09:23:01 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/1600/page_masthead/1600_legislative_branch.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:01 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/1600/page_masthead/1600_supreme_court.jpg 200 OK
+unlink: No such file or directory
+https://www.whitehouse.gov/our-government/judicial-branch:
+Remote file does not exist -- broken link!!!
+2017-02-08 09:23:01 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/1600/page_masthead/Constitution.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:02 URL:https://www.whitehouse.gov/1600/constitution [82392] -> "www.whitehouse.gov/1600/the-constitution" [1]
+2017-02-08 09:23:02 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/45/Trump_Elections.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:02 URL:https://www.whitehouse.gov/live [71284] -> "www.whitehouse.gov/live.1" [1]
+https://www.whitehouse.gov/privacy/feedback:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/privacidad:
+Remote file does not exist -- broken link!!!
+2017-02-08 09:23:03 URL:https://www.whitehouse.gov/contact [67614] -> "www.whitehouse.gov/contact/submit-questions-and-comments" [1]
+https://www.whitehouse.gov/privacy/cookies:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/mobile:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/privacy/current-third-party-pages:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/privacy/impact:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/2012-taxreceipt:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/privacy/archive:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/sites/default/files/omb/assets/memoranda_2010/m10-22.pdf:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/tech/feedback:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/briefing-room:
+Remote file does not exist -- broken link!!!
+2017-02-08 09:23:05 URL:https://www.whitehouse.gov/briefing-room/presidential-actions/related-omb-material/budgetary-impact-analysis [74598] -> "www.whitehouse.gov/briefing-room/presidential-actions/related-omb-material/budgetary-impact-analysis" [1]
+2017-02-08 09:23:05 URL:https://www.whitehouse.gov/briefing-room/presidential-actions/related-omb-material/memorandum [73138] -> "www.whitehouse.gov/briefing-room/presidential-actions/related-omb-material/memorandum" [1]
+2017-02-08 09:23:05 URL:https://www.whitehouse.gov/briefing-room/statements-administration-policy [74553] -> "www.whitehouse.gov/briefing-room/statements-administration-policy" [1]
+2017-02-08 09:23:05 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/20170207_ADM_nominees_web_devos.png 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:05 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/briefing-room/presidential-actions/related-omb-material/saphjr42h_20170207.pdf 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:05 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/briefing-room/presidential-actions/related-omb-material/saphjr44h_20170207.pdf 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:05 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/briefing-room/presidential-actions/related-omb-material/saphjr57h_20170207.pdf 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:05 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/briefing-room/presidential-actions/related-omb-material/saphjr58h_20170207.pdf 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:05 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/briefing-room/presidential-actions/related-omb-material/budgetary_impact_analysis_eo_core_principles_regulating_us_financial_sys.pdf 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:05 URL:https://www.whitehouse.gov/blog/2017/02/06/happy-birthday-president-ronald-reagan [67683] -> "www.whitehouse.gov/blog/2017/02/06/happy-birthday-president-ronald-reagan" [1]
+2017-02-08 09:23:05 URL:https://www.whitehouse.gov/blog?page=2 [72385] -> "www.whitehouse.gov/blog?page=2" [1]
+https://www.whitehouse.gov/video-archive:
+Remote file does not exist -- broken link!!!
+2017-02-08 09:23:06 URL: https://www.whitehouse.gov/videos/2017/February/20170203_Press_Briefing_HD.mp4 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:06 URL: https://www.whitehouse.gov/videos/2017/February/20170203_Press_Briefing.mp3 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:06 URL: https://www.whitehouse.gov/videos/2017/February/20170203_Weekly_Address_HD.mp4 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:06 URL: https://www.whitehouse.gov/videos/2017/February/20170203_Weekly_Address.mp3 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:06 URL: https://www.whitehouse.gov/videos/2017/February/20170202_Press_Brifing_HD.mp4 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:06 URL: https://www.whitehouse.gov/videos/2017/February/20170202_Press_Brifing.mp3 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:07 URL: https://www.whitehouse.gov/videos/2017/February/20170201_Press_Briefing_HD.mp4 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:07 URL: https://www.whitehouse.gov/videos/2017/February/20170201_Press_Briefing.mp3 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:07 URL: https://www.whitehouse.gov/videos/2017/February/20170201_POTUS_Swearing_In_Tillerson_HD.mp4 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:07 URL: https://www.whitehouse.gov/videos/2017/February/20170201_POTUS_Swearing_In_Tillerson.mp3 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:07 URL: https://www.whitehouse.gov/videos/2017/January/20170131_Press_Briefing_HD.mp4 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:07 URL: https://www.whitehouse.gov/videos/2017/January/20170131_Press_Briefing.mp3 200 OK
+unlink: No such file or directory
+https://www.whitehouse.gov/videos/2017/November/20171131_VPOTUS_Swear_In_Elaine_Chao_HD.mp4:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/videos/2017/November/20171131_VPOTUS_Swear_In_Elaine_Chao.mp3:
+Remote file does not exist -- broken link!!!
+2017-02-08 09:23:08 URL: https://www.whitehouse.gov/videos/2017/January/20170131_President_Trump_Supreme_Court_Nominee_HD.mp4 200 OK
+unlink: No such file or directory
+https://www.whitehouse.gov/videos/2017/January/20170131_President_Trump_Supreme_Court_Nominee.mp:
+Remote file does not exist -- broken link!!!
+2017-02-08 09:23:09 URL: https://www.whitehouse.gov/videos/2017/January/20170130_Press_Briefing_HD.mp4 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:09 URL: https://www.whitehouse.gov/videos/2017/January/20170130_Press_Briefing.mp3 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:09 URL: https://www.whitehouse.gov/videos/2017/January/20170128_Weekly_Address_HD.mp4 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:09 URL: https://www.whitehouse.gov/videos/2017/January/20170128_Weekly_Address.mp3 200 OK
+unlink: No such file or directory
+https://www.whitehouse.gov/sites/whitehouse.gov/files/videos-header1_2.jpg:
+Remote file does not exist -- broken link!!!
+2017-02-08 09:23:09 URL:https://www.whitehouse.gov/featured-videos/video/2017/01/27/president-trump-and-pm-may-joint-press-conference [69570] -> "www.whitehouse.gov/featured-videos/video/2017/01/27/president-trump-and-pm-may-joint-press-conference" [1]
+2017-02-08 09:23:09 URL:https://www.whitehouse.gov/featured-videos/video/2017/01/27/swearing-sec-defense-general-mattis [69690] -> "www.whitehouse.gov/featured-videos/video/2017/01/27/swearing-sec-defense-general-mattis" [1]
+2017-02-08 09:23:09 URL:https://www.whitehouse.gov/featured-videos/video/2017/01/20/inauguration-45th-president-united-states [69860] -> "www.whitehouse.gov/featured-videos/video/2017/01/20/inauguration-45th-president-united-states" [1]
+2017-02-08 09:23:09 URL:https://www.whitehouse.gov/featured-videos?topic=All&year[value]= [94432] -> "www.whitehouse.gov/featured-videos?topic=All&year[value]=" [1]
+2017-02-08 09:23:09 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/advagg_js/js__UTVyArRWF8EQN1GKM_uglnQswQq6kjJ7nPE9z73RZ5U__7JOCt5zNcG-L2hABtxzpgl141CcVUrBH39Nq5wZrBQ4__yN1o6etD_FB5RFrt4f9rEo5hyCEX7z1qfNw5Yg899Cg.js 200 OK
+unlink: No such file or directory
+https://www.whitehouse.gov/briefing-room/weekly-address:
+Remote file does not exist -- broken link!!!
+2017-02-08 09:23:10 URL:https://www.whitehouse.gov/the-press-office/2017/02/01/remarks-president-trump-african-american-history-month-listening-session [87064] -> "www.whitehouse.gov/the-press-office/2017/02/01/remarks-president-trump-african-american-history-month-listening-session" [1]
+2017-02-08 09:23:10 URL:https://www.whitehouse.gov/the-press-office/2017/01/31/remarks-vice-president-pence-delivered-swearing-ceremony-transportation [75219] -> "www.whitehouse.gov/the-press-office/2017/01/31/remarks-vice-president-pence-delivered-swearing-ceremony-transportation" [1]
+2017-02-08 09:23:10 URL:https://www.whitehouse.gov/the-press-office/2017/01/28/president-trumps-first-weekly-address [72935] -> "www.whitehouse.gov/the-press-office/2017/01/28/president-trumps-first-weekly-address" [1]
+2017-02-08 09:23:10 URL:https://www.whitehouse.gov/the-press-office/2017/01/27/president-trump-and-prime-minister-mays-opening-remarks [77709] -> "www.whitehouse.gov/the-press-office/2017/01/27/president-trump-and-prime-minister-mays-opening-remarks" [1]
+2017-02-08 09:23:10 URL:https://www.whitehouse.gov/the-press-office/2017/01/27/march-life-remarks-vice-president-pence-prepared-delivery [77404] -> "www.whitehouse.gov/the-press-office/2017/01/27/march-life-remarks-vice-president-pence-prepared-delivery" [1]
+2017-02-08 09:23:11 URL:https://www.whitehouse.gov/the-press-office/2017/01/21/remarks-president-trump-and-vice-president-pence-cia-headquarters [88912] -> "www.whitehouse.gov/the-press-office/2017/01/21/remarks-president-trump-and-vice-president-pence-cia-headquarters" [1]
+2017-02-08 09:23:11 URL:https://www.whitehouse.gov/inaugural-address [81395] -> "www.whitehouse.gov/inaugural-address" [1]
+2017-02-08 09:23:11 URL:https://www.whitehouse.gov/briefing-room/speeches-and-remarks?term_node_tid_depth=31 [75039] -> "www.whitehouse.gov/briefing-room/speeches-and-remarks?term_node_tid_depth=31" [1]
+2017-02-08 09:23:11 URL:https://www.whitehouse.gov/the-press-office/2017/02/04/readout-presidents-call-prime-minister-paolo-gentiloni-italy [72779] -> "www.whitehouse.gov/the-press-office/2017/02/04/readout-presidents-call-prime-minister-paolo-gentiloni-italy" [1]
+2017-02-08 09:23:11 URL:https://www.whitehouse.gov/the-press-office/2017/02/04/promise-make-america-safe-again [77937] -> "www.whitehouse.gov/the-press-office/2017/02/04/promise-make-america-safe-again" [1]
+2017-02-08 09:23:12 URL:https://www.whitehouse.gov/the-press-office/2017/02/04/president-trumps-second-week-action [80516] -> "www.whitehouse.gov/the-press-office/2017/02/04/president-trumps-second-week-action" [1]
+2017-02-08 09:23:12 URL:https://www.whitehouse.gov/the-press-office/2017/02/04/getting-americans-back-work [75822] -> "www.whitehouse.gov/the-press-office/2017/02/04/getting-americans-back-work" [1]
+2017-02-08 09:23:12 URL:https://www.whitehouse.gov/the-press-office/2017/02/03/statement-press-secretary [72452] -> "www.whitehouse.gov/the-press-office/2017/02/03/statement-press-secretary" [1]
+2017-02-08 09:23:12 URL:https://www.whitehouse.gov/the-press-office/2017/02/03/statement-national-security-advisor-michael-t-flynn-iran [73660] -> "www.whitehouse.gov/the-press-office/2017/02/03/statement-national-security-advisor-michael-t-flynn-iran" [1]
+2017-02-08 09:23:12 URL:https://www.whitehouse.gov/the-press-office/2017/02/03/president-donald-j-trump-recognizes-national-catholic-schools-week [73250] -> "www.whitehouse.gov/the-press-office/2017/02/03/president-donald-j-trump-recognizes-national-catholic-schools-week" [1]
+2017-02-08 09:23:12 URL:https://www.whitehouse.gov/the-press-office/2017/02/02/statement-press-secretary [72330] -> "www.whitehouse.gov/the-press-office/2017/02/02/statement-press-secretary" [1]
+2017-02-08 09:23:12 URL:https://www.whitehouse.gov/the-press-office/2017/02/02/readout-vice-presidents-meeting-german-vice-chancellor-and-minister [73406] -> "www.whitehouse.gov/the-press-office/2017/02/02/readout-vice-presidents-meeting-german-vice-chancellor-and-minister" [1]
+2017-02-08 09:23:12 URL:https://www.whitehouse.gov/the-press-office/2017/02/02/readout-presidents-meeting-king-abdullah-ii-jordan [72753] -> "www.whitehouse.gov/the-press-office/2017/02/02/readout-presidents-meeting-king-abdullah-ii-jordan" [1]
+2017-02-08 09:23:12 URL:https://www.whitehouse.gov/briefing-room/statements-and-releases?term_node_tid_depth=41 [75224] -> "www.whitehouse.gov/briefing-room/statements-and-releases?term_node_tid_depth=41" [1]
+2017-02-08 09:23:12 URL:https://www.whitehouse.gov/briefing-room/statements-and-releases?term_node_tid_depth=41&page=2 [75119] -> "www.whitehouse.gov/briefing-room/statements-and-releases?term_node_tid_depth=41&page=2" [1]
+2017-02-08 09:23:12 URL:https://www.whitehouse.gov/the-press-office/2017/01/25/executive-order-border-security-and-immigration-enforcement-improvements [88265] -> "www.whitehouse.gov/the-press-office/2017/01/25/executive-order-border-security-and-immigration-enforcement-improvements" [1]
+2017-02-08 09:23:12 URL:https://www.whitehouse.gov/the-press-office/2017/01/25/presidential-executive-order-enhancing-public-safety-interior-united [86087] -> "www.whitehouse.gov/the-press-office/2017/01/25/presidential-executive-order-enhancing-public-safety-interior-united" [1]
+2017-02-08 09:23:12 URL:https://www.whitehouse.gov/the-press-office/2017/01/24/executive-order-expediting-environmental-reviews-and-approvals-high [76269] -> "www.whitehouse.gov/the-press-office/2017/01/24/executive-order-expediting-environmental-reviews-and-approvals-high" [1]
+2017-02-08 09:23:13 URL:https://www.whitehouse.gov/the-press-office/2017/01/2/executive-order-minimizing-economic-burden-patient-protection-and [75467] -> "www.whitehouse.gov/the-press-office/2017/01/2/executive-order-minimizing-economic-burden-patient-protection-and" [1]
+2017-02-08 09:23:13 URL:https://www.whitehouse.gov/the-press-office/2017/01/24/presidential-memorandum-streamlining-permitting-and-reducing-regulatory [74998] -> "www.whitehouse.gov/the-press-office/2017/01/24/presidential-memorandum-streamlining-permitting-and-reducing-regulatory" [1]
+2017-02-08 09:23:13 URL:https://www.whitehouse.gov/the-press-office/2017/01/24/presidential-memorandum-regarding-construction-american-pipelines [73161] -> "www.whitehouse.gov/the-press-office/2017/01/24/presidential-memorandum-regarding-construction-american-pipelines" [1]
+2017-02-08 09:23:13 URL:https://www.whitehouse.gov/the-press-office/2017/01/24/presidential-memorandum-regarding-construction-keystone-xl-pipeline [78783] -> "www.whitehouse.gov/the-press-office/2017/01/24/presidential-memorandum-regarding-construction-keystone-xl-pipeline" [1]
+2017-02-08 09:23:13 URL:https://www.whitehouse.gov/the-press-office/2017/01/24/presidential-memorandum-regarding-construction-dakota-access-pipeline [76902] -> "www.whitehouse.gov/the-press-office/2017/01/24/presidential-memorandum-regarding-construction-dakota-access-pipeline" [1]
+2017-02-08 09:23:13 URL:https://www.whitehouse.gov/the-press-office/2017/01/23/presidential-memorandum-regarding-mexico-city-policy [73686] -> "www.whitehouse.gov/the-press-office/2017/01/23/presidential-memorandum-regarding-mexico-city-policy" [1]
+2017-02-08 09:23:13 URL:https://www.whitehouse.gov/the-press-office/2017/01/23/presidential-memorandum-regarding-withdrawal-united-states-trans-pacific [73891] -> "www.whitehouse.gov/the-press-office/2017/01/23/presidential-memorandum-regarding-withdrawal-united-states-trans-pacific" [1]
+2017-02-08 09:23:13 URL:https://www.whitehouse.gov/briefing-room/presidential-actions/presidential-memoranda?term_node_tid_depth=56&page=1 [72468] -> "www.whitehouse.gov/briefing-room/presidential-actions/presidential-memoranda?term_node_tid_depth=56&page=1" [1]
+2017-02-08 09:23:13 URL:https://www.whitehouse.gov/the-press-office/2017/02/02/interim-guidance-implementing-section-2-executive-order-january-30-2017 [88672] -> "www.whitehouse.gov/the-press-office/2017/02/02/interim-guidance-implementing-section-2-executive-order-january-30-2017" [1]
+2017-02-08 09:23:13 URL:https://www.whitehouse.gov/the-press-office/2017/02/01/statement-administration-policy [76120] -> "www.whitehouse.gov/the-press-office/2017/02/01/statement-administration-policy" [1]
+2017-02-08 09:23:13 URL:https://www.whitehouse.gov/the-press-office/2017/01/31/federal-civilian-hiring-freeze-guidance [80177] -> "www.whitehouse.gov/the-press-office/2017/01/31/federal-civilian-hiring-freeze-guidance" [1]
+2017-02-08 09:23:13 URL:https://www.whitehouse.gov/the-press-office/2017/01/30/budgetary-impact-analysis-executive-order-entitled-protecting-nation [71208] -> "www.whitehouse.gov/the-press-office/2017/01/30/budgetary-impact-analysis-executive-order-entitled-protecting-nation" [1]
+2017-02-08 09:23:13 URL:https://www.whitehouse.gov/the-press-office/2017/01/30/budgetary-impact-analysis-executive-order-entitled-ethics-commitments [70970] -> "www.whitehouse.gov/the-press-office/2017/01/30/budgetary-impact-analysis-executive-order-entitled-ethics-commitments" [1]
+2017-02-08 09:23:13 URL:https://www.whitehouse.gov/briefing-room/presidential-actions/related-omb-material?term_node_tid_depth=25611&page=1 [72493] -> "www.whitehouse.gov/briefing-room/presidential-actions/related-omb-material?term_node_tid_depth=25611&page=1" [1]
+2017-02-08 09:23:13 URL:https://www.whitehouse.gov/the-press-office/2017/01/23/presidential-memorandum-regarding-hiring-freeze [74313] -> "www.whitehouse.gov/the-press-office/2017/01/23/presidential-memorandum-regarding-hiring-freeze" [1]
+2017-02-08 09:23:14 URL:https://www.whitehouse.gov/briefing-room/presidential-actions?term_node_tid_depth=46 [75646] -> "www.whitehouse.gov/briefing-room/presidential-actions?term_node_tid_depth=46" [1]
+2017-02-08 09:23:14 URL:https://www.whitehouse.gov/briefing-room/presidential-actions?term_node_tid_depth=46&page=2 [72336] -> "www.whitehouse.gov/briefing-room/presidential-actions?term_node_tid_depth=46&page=2" [1]
+https://www.whitehouse.gov/participate/internships/faqs:
+Remote file does not exist -- broken link!!!
+2017-02-08 09:23:14 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/robert_accordino.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:14 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/Raven_Website.jpeg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:14 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/linden_dahlkemper.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:14 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/sharice_davids.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:14 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/lloyd_edwards.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:14 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/timothy_gatlin.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:14 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/erik_iverson.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:14 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/joseph_mcGeehin.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:14 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/michael_morales.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:14 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/warren_morgan.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:14 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/austin_ramirez.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:14 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/Lindsey_B_Ross.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:14 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/kyle_scherer.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:14 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/tina_r_shah.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:14 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/anjali_tripathi.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:14 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/bryant_cameron_webb.jpg 200 OK
+unlink: No such file or directory
+https://www.whitehouse.gov/about/fellows/2012-2013-applications:
+Remote file does not exist -- broken link!!!
+2017-02-08 09:23:15 URL:https://www.whitehouse.gov/participate/fellows/process [76353] -> "www.whitehouse.gov/about/fellows/process" [1]
+https://www.whitehouse.gov/about/fellows/faq/:
+Remote file does not exist -- broken link!!!
+2017-02-08 09:23:15 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/01_george_washington%5B1%5D.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:15 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/02_john_adams%5B1%5D.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:15 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/03_thomas_jefferson.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:15 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/04_james_madison.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:15 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/05_james_monroe.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:15 URL:https://www.whitehouse.gov/1600/first-ladies/elizabethmonroe [74351] -> "www.whitehouse.gov/1600/first-ladies/elizabethmonroe" [1]
+2017-02-08 09:23:15 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/06_john_quincy_adams.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:15 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/07_andrew_jackson%5B1%5D.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:15 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/08_martin_van_buren.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:15 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/09_william_henry_harrison.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:15 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/10_john_tyler.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:16 URL:https://www.whitehouse.gov/1600/first-ladies/letitiatyler/ [74640] -> "www.whitehouse.gov/1600/first-ladies/letitiatyler/index.html" [1]
+2017-02-08 09:23:16 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/11_james_polk.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:16 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/12_zachary_taylor.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:16 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/13_millard_fillmore.jpg 200 OK
+unlink: No such file or directory
+https://www.whitehouse.gov/about/first-ladies/abigailfillmore:
+Remote file does not exist -- broken link!!!
+2017-02-08 09:23:16 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/14_franklin_pierce.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:16 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/15_james_buchanan.jpg 200 OK
+unlink: No such file or directory
+https://www.whitehouse.gov/about/first-ladies/harrietlane:
+Remote file does not exist -- broken link!!!
+2017-02-08 09:23:16 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/16_abraham_lincoln%5B1%5D.jpg 200 OK
+unlink: No such file or directory
+https://www.whitehouse.gov/about/first-ladies/marylincoln:
+Remote file does not exist -- broken link!!!
+2017-02-08 09:23:17 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/17_andrew_johnson%5B1%5D.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:17 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/18_ulysses_s_grant.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:17 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/19_rutherford_b_hayes.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:17 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/20_james_a_garfield.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:17 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/21_chester_alan_arthur.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:17 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/22_grover_cleveland.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:17 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/23_benjamin_harrison%5B1%5D.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:17 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/24_grover_cleveland.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:17 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/25_william_mckinley.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:17 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/26_theodore_roosevelt.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:17 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/27_william_howard_h_taft.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:17 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/28_woodrow_wilson.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:17 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/29_warren_g_harding.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:17 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/30_calvin_coolidge.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:17 URL:https://obamawhitehouse.archives.gov/blog/2011/04/18/president-obama-invites-you-his-facebook-town-hall [118430/118430] -> "www.whitehouse.gov/blog/2011/04/18/president-obama-invites-you-his-facebook-town-hall" [1]
+2017-02-08 09:23:17 URL:https://obamawhitehouse.archives.gov/blog/2011/09/26/president-obamas-town-hall-linkedin-we-are-thing-together [127859/127859] -> "www.whitehouse.gov/blog/2011/09/26/president-obamas-town-hall-linkedin-we-are-thing-together" [1]
+2017-02-08 09:23:18 URL:https://obamawhitehouse.archives.gov/the-press-office/2011/09/20/president-obama-participate-linkedin-town-hall-mountain-view-california- [114283/114283] -> "www.whitehouse.gov/the-press-office/2011/09/20/president-obama-participate-linkedin-town-hall-mountain-view-california-" [1]
+2017-02-08 09:23:18 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/31_herbert_hoover.jpg 200 OK
+unlink: No such file or directory
+https://www.whitehouse.gov/issues/veterans:
+Remote file does not exist -- broken link!!!
+2017-02-08 09:23:18 URL:https://www.whitehouse.gov/administration/first-lady-melania-trump [73421] -> "www.whitehouse.gov/administration/first-lady-michelle-obama" [1]
+2017-02-08 09:23:18 URL:https://obamawhitehouse.archives.gov/joiningforces [41351/41351] -> "www.whitehouse.gov/joiningforces" [1]
+2017-02-08 09:23:18 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/32_franklin_d_roosevelt.jpg 200 OK
+unlink: No such file or directory
+https://www.whitehouse.gov/issues/seniors-and-social-security:
+Remote file does not exist -- broken link!!!
+2017-02-08 09:23:18 URL:https://obamawhitehouse.archives.gov/blog/2011/03/07/social-security-101-it-s-there-you [117357/117357] -> "www.whitehouse.gov/blog/2011/03/07/social-security-101-it-s-there-you" [1]
+2017-02-08 09:23:18 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/33_harry_s_truman.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:18 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/34_dwight_d_eisenhower%5B1%5D.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:18 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/35_john_f_kennedy.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:18 URL:https://obamawhitehouse.archives.gov/blog/2011/03/29/peace-corps-reflects-diversity-america-story-celebrating-service [119481/119481] -> "www.whitehouse.gov/blog/2011/03/29/peace-corps-reflects-diversity-america-story-celebrating-service" [1]
+2017-02-08 09:23:19 URL:https://obamawhitehouse.archives.gov/the-press-office/2011/02/28/presidential-proclamation-50th-anniversary-peace-corps [115404/115404] -> "www.whitehouse.gov/the-press-office/2011/02/28/presidential-proclamation-50th-anniversary-peace-corps" [1]
+2017-02-08 09:23:19 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/36_lyndon_b_johnson.jpg 200 OK
+unlink: No such file or directory
+https://www.whitehouse.gov/healthreform:
+Remote file does not exist -- broken link!!!
+2017-02-08 09:23:19 URL:https://obamawhitehouse.archives.gov/blog/2012/02/29/making-medicare-stronger [122260/122260] -> "www.whitehouse.gov/blog/2012/02/29/making-medicare-stronger" [1]
+2017-02-08 09:23:19 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/37_richard_m_nixon.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:19 URL:https://obamawhitehouse.archives.gov/blog/2011/11/16/ambassador-kirk-updates-presidents-export-council-2011-trade-updates-and-initiatives [118725/118725] -> "www.whitehouse.gov/blog/2011/11/16/ambassador-kirk-updates-presidents-export-council-2011-trade-updates-and-initiatives" [1]
+2017-02-08 09:23:19 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/38_gerald_ford.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:19 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/39_jimmy_carter.jpg 200 OK
+unlink: No such file or directory
+https://www.whitehouse.gov/energy/:
+Remote file does not exist -- broken link!!!
+2017-02-08 09:23:19 URL:https://obamawhitehouse.archives.gov/blog/2012/03/12/blueprint-secure-energy-future-one-year-progress-report [121995/121995] -> "www.whitehouse.gov/blog/2012/03/12/blueprint-secure-energy-future-one-year-progress-report" [1]
+2017-02-08 09:23:20 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/40_ronald_reagan.jpg 200 OK
+unlink: No such file or directory
+https://www.whitehouse.gov/about/first-ladies/nancyreagan:
+Remote file does not exist -- broken link!!!
+2017-02-08 09:23:20 URL:https://obamawhitehouse.archives.gov/blog/2012/01/13/archives-president-reagan-designates-martin-luther-king-jr-day-federal-holiday [118869/118869] -> "www.whitehouse.gov/blog/2012/01/13/archives-president-reagan-designates-martin-luther-king-jr-day-federal-holiday" [1]
+https://www.whitehouse.gov/the-press-office/presidential-proclamation-martin-luther-king-jr-day:
+Remote file does not exist -- broken link!!!
+2017-02-08 09:23:20 URL:https://obamawhitehouse.archives.gov/blog/2012/01/16/first-and-second-families-participate-national-day-service [119418/119418] -> "www.whitehouse.gov/blog/2012/01/16/first-and-second-families-participate-national-day-service" [1]
+https://www.whitehouse.gov/economy/buffett-rule:
+Remote file does not exist -- broken link!!!
+2017-02-08 09:23:21 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/41_george_h_w_bush.jpg 200 OK
+unlink: No such file or directory
+https://www.whitehouse.gov/champions:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/administration/eop/sicp/:
+Remote file does not exist -- broken link!!!
+2017-02-08 09:23:22 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/42_bill_clinton.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:22 URL:https://obamawhitehouse.archives.gov/the-press-office/2011/09/21/remarks-president-obama-and-president-clinton-clinton-global-initiative [128499/128499] -> "www.whitehouse.gov/the-press-office/2011/09/21/remarks-president-obama-and-president-clinton-clinton-global-initiative" [1]
+https://www.whitehouse.gov/photos-and-video/video/2011/12/02/president-obama-and-president-clinton-speak-better-building-initia:
+Remote file does not exist -- broken link!!!
+2017-02-08 09:23:22 URL:https://obamawhitehouse.archives.gov/blog/2011/12/02/president-obama-announces-4-billion-investment-make-buildings-more-energy-efficient [119593/119593] -> "www.whitehouse.gov/blog/2011/12/02/president-obama-announces-4-billion-investment-make-buildings-more-energy-efficient" [1]
+2017-02-08 09:23:22 URL:https://obamawhitehouse.archives.gov/blog/2010/01/16/clinton-bush-haiti-fund [132566/132566] -> "www.whitehouse.gov/blog/2010/01/16/clinton-bush-haiti-fund" [1]
+https://www.whitehouse.gov/about/presidents/williamjclinton:
+Remote file does not exist -- broken link!!!
+2017-02-08 09:23:23 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/43_george_w_bush.jpg 200 OK
+unlink: No such file or directory
+https://www.whitehouse.gov/state-of-the-union-2012:
+Remote file does not exist -- broken link!!!
+2017-02-08 09:23:23 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/44_barack_obama%5B1%5D.jpg 200 OK
+unlink: No such file or directory
+https://www.whitehouse.gov/about/presidents/georgewashington:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/about/presidents/johnadams:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/about/presidents/thomasjefferson:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/about/presidents/jamesmadison:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/about/presidents/johnquincyadams:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/about/presidents/andrewjackson:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/1600/presidents//1600/first-ladies/hannahvanburen:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/about/presidents/martinvanburen:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/about/presidents/williamhenryharrison:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/about/presidents/johntyler:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/about/presidents/jamespolk:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/about/presidents/zacharytaylor:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/about/presidents/millardfillmore:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/about/presidents/franklinpierce:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/about/presidents/jamesbuchanan:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/about/presidents/abrahamlincoln:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/about/presidents/andrewjohnson:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/about/presidents/ulyssessgrant:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/about/presidents/rutherfordbhayes:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/about/presidents/jamesgarfield:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/about/presidents/chesterarthur:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/about/presidents/benjaminharrison:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/about/presidents/grovercleveland24:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/about/presidents/williammckinley:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/about/presidents/woodrowwilson:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/about/presidents/warrenharding:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/about/presidents/calvincoolidge:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/about/presidents/harrystruman:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/about/presidents/johnfkennedy:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/cgi-bin/good-bye.cgi?url=http://www.cartercenter.org:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/about/presidents/jimmycarter:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/about/presidents/ronaldreagan:
+Remote file does not exist -- broken link!!!
+https://www.whitehouse.gov/about/presidents/georgewbush:
+Remote file does not exist -- broken link!!!
+2017-02-08 09:23:36 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/Administration/People/first_lady_portrait_hires.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:36 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/Administration/People/first_lady_portrait_2013_lores.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:36 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/Administration/People/MichelleObama_and_Bo.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:36 URL:https://www.whitehouse.gov/file/31 [26214/26214] -> "www.whitehouse.gov/file/31" [1]
+2017-02-08 09:23:36 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/wh_live_topper_x2_2.png 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:36 URL:https://www.whitehouse.gov/live/president-trump-speaks-mcca-winter-conference [69025] -> "www.whitehouse.gov/live/president-trump-speaks-mcca-winter-conference" [1]
+2017-02-08 09:23:36 URL:https://www.whitehouse.gov/live/press-briefing-press-secretary-sean-spicer-4 [68998] -> "www.whitehouse.gov/live/press-briefing-press-secretary-sean-spicer-4" [1]
+2017-02-08 09:23:37 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/advagg_js/js__WmBSfhrSZvzMb0H7dD5j_BDHJYgkbiRHc3URO-Wz7Ro__WJ3MLUQxoSSTJsgcGvUbPn4oYQio3za51GPS-ZaI5TE__yN1o6etD_FB5RFrt4f9rEo5hyCEX7z1qfNw5Yg899Cg.js 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:37 URL:https://www.whitehouse.gov/the-press-office/2017/01/26/statement-acting-omb-director-mark-sandy-budgetary-impact-analysis-high-priority [71309] -> "www.whitehouse.gov/the-press-office/2017/01/26/statement-acting-omb-director-mark-sandy-budgetary-impact-analysis-high-priority" [1]
+2017-02-08 09:23:37 URL:https://www.whitehouse.gov/the-press-office/2017/01/26/statement-acting-omb-director-mark-sandy-budgetary-impact-analysis-enforcement-improvements [71608] -> "www.whitehouse.gov/the-press-office/2017/01/26/statement-acting-omb-director-mark-sandy-budgetary-impact-analysis-enforcement-improvements" [1]
+2017-02-08 09:23:37 URL:https://www.whitehouse.gov/the-press-office/2017/01/26/statement-acting-omb-director-mark-sandy-budgetary-impact-analysis-public-saftey [71449] -> "www.whitehouse.gov/the-press-office/2017/01/26/statement-acting-omb-director-mark-sandy-budgetary-impact-analysis-public-saftey" [1]
+2017-02-08 09:23:37 URL:https://www.whitehouse.gov/the-press-office/2017/01/26/statement-acting-omb-director-sandy-budgetary-impact-analysis-executive-order [71642] -> "www.whitehouse.gov/the-press-office/2017/01/26/statement-acting-omb-director-sandy-budgetary-impact-analysis-executive-order" [1]
+2017-02-08 09:23:37 URL:https://www.whitehouse.gov/the-press-office/2017/01/25/omb-memorandum-immediate-actions-and-initial-guidance-federal-civilian [72740] -> "www.whitehouse.gov/the-press-office/2017/01/25/omb-memorandum-immediate-actions-and-initial-guidance-federal-civilian" [1]
+2017-02-08 09:23:37 URL:https://www.whitehouse.gov/the-press-office/2017/01/24/implementation-regulatory-freeze [81021] -> "www.whitehouse.gov/the-press-office/2017/01/24/implementation-regulatory-freeze" [1]
+2017-02-08 09:23:37 URL:https://www.whitehouse.gov/the-press-office/2017/01/24/h-r-7-%E2%80%93-no-taxpayer-funding-abortion-and-abortion-insurance-full [71184] -> "www.whitehouse.gov/the-press-office/2017/01/24/h-r-7-â%80%93-no-taxpayer-funding-abortion-and-abortion-insurance-full" [1]
+2017-02-08 09:23:37 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/Untitled-1.png 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:38 URL:https://www.whitehouse.gov/blog?page=3 [72773] -> "www.whitehouse.gov/blog?page=3" [1]
+2017-02-08 09:23:38 URL: https://www.whitehouse.gov/videos/2017/January/20170127_POTUS_and_PM_May_JPA_HD.mp4 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:38 URL: https://www.whitehouse.gov/videos/2017/January/20170127_POTUS_and_PM_May_JPA.mp3 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:38 URL: https://www.whitehouse.gov/videos/2017/January/20170127_Trump_attends_Swearing_in_of_Sec_Def_Mattis_and_executive_signing_HD.mp4 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:38 URL: https://www.whitehouse.gov/videos/2017/January/20170127_Trump_attends_Swearing_in_of_Sec_Def_Mattis_and_executive_signing.mp3 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:38 URL: https://www.whitehouse.gov/videos/2017/January/20170120_The_Inauguration_of_the_45th_President_of_the_United_States_HD.mp4 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:38 URL: https://www.whitehouse.gov/videos/2017/January/20170120_The_Inauguration_of_the_45th_President_of_the_United_States.mp3 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:39 URL:https://www.whitehouse.gov/featured-videos?topic=All&year[value]=&page=1 [81302] -> "www.whitehouse.gov/featured-videos?topic=All&year[value]=&page=1" [1]
+https://www.whitehouse.gov/sites/whitehouse.gov/files/images/ceremony-elainecho1.jpg:
+Remote file does not exist -- broken link!!!
+2017-02-08 09:23:39 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/ceremony-elainechao1.jpg 200 OK
+unlink: No such file or directory
+https://www.whitehouse.gov/sites/whitehouse.gov/files/images/ceremony-elainecho2.jpg:
+Remote file does not exist -- broken link!!!
+2017-02-08 09:23:39 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/ceremony-elainechao2.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:39 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/Vice_President_Pence_Meeting_with_Minister_Gabriel.jpg 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:39 URL:https://www.whitehouse.gov/the-press-office/2017/02/02/president-donald-j-trump-proclaims-february-national-african-american [75719] -> "www.whitehouse.gov/the-press-office/2017/02/02/president-donald-j-trump-proclaims-february-national-african-american" [1]
+2017-02-08 09:23:39 URL:https://www.whitehouse.gov/the-press-office/2017/02/02/white-house-national-security-advisor-announces-nsc-senior-staff-0 [77625] -> "www.whitehouse.gov/the-press-office/2017/02/02/white-house-national-security-advisor-announces-nsc-senior-staff-0" [1]
+2017-02-08 09:23:39 URL:https://www.whitehouse.gov/the-press-office/2017/02/01/first-lady-melania-trump-announces-chief-staff [73531] -> "www.whitehouse.gov/the-press-office/2017/02/01/first-lady-melania-trump-announces-chief-staff" [1]
+2017-02-08 09:23:39 URL:https://www.whitehouse.gov/the-press-office/2017/02/01/vice-president-mike-pence-announces-jarrod-agen-director-communications [74072] -> "www.whitehouse.gov/the-press-office/2017/02/01/vice-president-mike-pence-announces-jarrod-agen-director-communications" [1]
+2017-02-08 09:23:40 URL:https://www.whitehouse.gov/the-press-office/2017/02/01/president-trump-approves-south-dakota-disaster-declaration [73272] -> "www.whitehouse.gov/the-press-office/2017/02/01/president-trump-approves-south-dakota-disaster-declaration" [1]
+2017-02-08 09:23:40 URL:https://www.whitehouse.gov/the-press-office/2017/02/01/statement-national-security-advisor [73462] -> "www.whitehouse.gov/the-press-office/2017/02/01/statement-national-security-advisor" [1]
+2017-02-08 09:23:40 URL:https://www.whitehouse.gov/the-press-office/2017/02/01/editorial-boards-across-country-praise-judge-gorsuch [78562] -> "www.whitehouse.gov/the-press-office/2017/02/01/editorial-boards-across-country-praise-judge-gorsuch" [1]
+20 redirections exceeded.
+2017-02-08 09:23:41 URL:https://www.whitehouse.gov/the-press-office/2017/01/31/bipartisan-praise-impossible-oppose-judge-neil-gorsuch [80765] -> "www.whitehouse.gov/the-press-office/2017/01/31/bipartisan-praise-impossible-oppose-judge-neil-gorsuch" [1]
+2017-02-08 09:23:42 URL:https://www.whitehouse.gov/the-press-office/2017/01/31/president-donald-j-trump-nominates-judge-neil-gorsuch-united-states [74346] -> "www.whitehouse.gov/the-press-office/2017/01/31/president-donald-j-trump-nominates-judge-neil-gorsuch-united-states" [1]
+2017-02-08 09:23:42 URL:https://www.whitehouse.gov/briefing-room/statements-and-releases?term_node_tid_depth=41&page=3 [75379] -> "www.whitehouse.gov/briefing-room/statements-and-releases?term_node_tid_depth=41&page=3" [1]
+2017-02-08 09:23:42 URL:https://www.whitehouse.gov/the-press-office/2017/01/20/memorandum-heads-executive-departments-and-agencies [76698] -> "www.whitehouse.gov/the-press-office/2017/01/20/memorandum-heads-executive-departments-and-agencies" [1]
+2017-02-08 09:23:42 URL:https://www.whitehouse.gov/briefing-room/presidential-actions/presidential-memoranda?term_node_tid_depth=56 [75968] -> "www.whitehouse.gov/briefing-room/presidential-actions/presidential-memoranda?term_node_tid_depth=56" [1]
+2017-02-08 09:23:42 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/briefing-room/presidential-actions/related-omb-material/eo_iterim_guidance_reducing_regulations_controlling_regulatory_costs.pdf 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:42 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/briefing-room/presidential-actions/related-omb-material/saps-2-1-17.pdf 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:42 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/M-17-18-Federal-Civilian-Hiring-Freeze.pdf 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:42 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/docs/budgetary_impact_analysis_eo_protecting_nation_from_foreign_terrorist_entry_into_us.pdf 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:42 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/docs/budgetary_impact_analysis_eo_ethics_commitments_executive_branch_appointees.pdf 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:42 URL:https://www.whitehouse.gov/briefing-room/presidential-actions/related-omb-material?term_node_tid_depth=25611 [76436] -> "www.whitehouse.gov/briefing-room/presidential-actions/related-omb-material?term_node_tid_depth=25611" [1]
+https://www.whitehouse.gov/about/presidents/jamesmonroe:
+Remote file does not exist -- broken link!!!
+2017-02-08 09:23:43 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/advagg_css/css__7OFuHD9Wj4uPqfAZnoU5kUMMCbaVJa10cw0_ZYqDLdg__F5oCUsauurUENdO2lnmlkxBNRmHMcU9kY2qHjwdf6MM__yN1o6etD_FB5RFrt4f9rEo5hyCEX7z1qfNw5Yg899Cg.css 200 OK
+www.whitehouse.gov/sites/whitehouse.gov/files/advagg_css/css__7OFuHD9Wj4uPqfAZnoU5kUMMCbaVJa10cw0_ZYqDLdg__F5oCUsauurUENdO2lnmlkxBNRmHMcU9kY2qHjwdf6MM__yN1o6etD_FB5RFrt4f9rEo5hyCEX7z1qfNw5Yg899Cg.css: No such file or directory
+unlink: No such file or directory
+2017-02-08 09:23:43 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/advagg_css/css__lzZ2zjbzK4q0Pnw0-usHcHJ_xS0x7ZJqNR0Ke4LTsLw__764MmGUseC9rOb9D6QTWVI0VJcoAmPnWE5DRLKUQhdk__yN1o6etD_FB5RFrt4f9rEo5hyCEX7z1qfNw5Yg899Cg.css 200 OK
+www.whitehouse.gov/sites/whitehouse.gov/files/advagg_css/css__lzZ2zjbzK4q0Pnw0-usHcHJ_xS0x7ZJqNR0Ke4LTsLw__764MmGUseC9rOb9D6QTWVI0VJcoAmPnWE5DRLKUQhdk__yN1o6etD_FB5RFrt4f9rEo5hyCEX7z1qfNw5Yg899Cg.css: No such file or directory
+unlink: No such file or directory
+2017-02-08 09:23:43 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/advagg_js/js___SEdaYbP5dYppxz7mtODtKwnxE8XRszOddmOZR2vgcI__7_VyPJS7R-wVVIwXDhIMWDPKE0L8dY9qZT-MDxpxTfg__yN1o6etD_FB5RFrt4f9rEo5hyCEX7z1qfNw5Yg899Cg.js 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:43 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/advagg_js/js__brd6ghaeXA7OouzB9gxttssNfs_in4uyKLhYb1T92Q4__jnZ5AdEwwalZzheuDaBlQNVq5uYqq-pCfOPe4-AbpaE__yN1o6etD_FB5RFrt4f9rEo5hyCEX7z1qfNw5Yg899Cg.js 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:43 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/Budgetary_Impact_Analysis_for_Executive_Order_Entitled_Expediting.pdf 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:43 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/Budgetary_Impact_Analysis_for_EO_Entitled_Border_Security_and_Immigration_Enforcement_Improvements.pdf 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:43 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/Budgetary_Impact_Analysis_for_Executive_Order_Entitled_Enhancing_Public.pdf 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:43 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/docs/omb-statement-01262017.pdf 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:43 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/docs/m-17-17.pdf 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:43 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/docs/m-17-16.pdf 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:43 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/docs/sap-hr7-01242017.pdf 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:43 URL:https://www.whitehouse.gov/blog?page=4 [72879] -> "www.whitehouse.gov/blog?page=4" [1]
+2017-02-08 09:23:43 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/docs/Gorsuch-Background.pdf 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:43 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/docs/Gorsuch-Simple-Bio.pdf 200 OK
+unlink: No such file or directory
+2017-02-08 09:23:43 URL:https://www.whitehouse.gov/the-press-office/2017/01/31/doing-what-he-said-he-would-president-trumps-transparent-principled-and [74786] -> "www.whitehouse.gov/the-press-office/2017/01/31/doing-what-he-said-he-would-president-trumps-transparent-principled-and" [1]
+2017-02-08 09:23:44 URL:https://www.whitehouse.gov/the-press-office/2017/01/31/president-donald-j-trump-announces-intent-nominate-senior-justice [72312] -> "www.whitehouse.gov/the-press-office/2017/01/31/president-donald-j-trump-announces-intent-nominate-senior-justice" [1]
+2017-02-08 09:23:45 URL:https://www.whitehouse.gov/the-press-office/2017/01/31/president-trump-works-make-drugs-more-affordable-create-jobs [74239] -> "www.whitehouse.gov/the-press-office/2017/01/31/president-trump-works-make-drugs-more-affordable-create-jobs" [1]
+2017-02-08 09:23:45 URL:https://www.whitehouse.gov/nominee-gorsuch [77175] -> "www.whitehouse.gov/nominee-gorsuch" [1]
+2017-02-08 09:23:45 URL:https://www.whitehouse.gov/the-press-office/2017/01/31/president-donald-j-trump-will-continue-enforce-executive-order [73142] -> "www.whitehouse.gov/the-press-office/2017/01/31/president-donald-j-trump-will-continue-enforce-executive-order" [1]
+2017-02-08 09:23:46 URL:https://www.whitehouse.gov/the-press-office/2017/01/30/president-donald-j-trump-appoints-thomas-homan-acting-assistant [72438] -> "www.whitehouse.gov/the-press-office/2017/01/30/president-donald-j-trump-appoints-thomas-homan-acting-assistant" [1]
+2017-02-08 09:23:47 URL:https://www.whitehouse.gov/the-press-office/2017/01/30/statement-appointment-dana-boente-acting-attorney-general [73147] -> "www.whitehouse.gov/the-press-office/2017/01/30/statement-appointment-dana-boente-acting-attorney-general" [1]
+2017-02-08 09:23:47 URL:https://www.whitehouse.gov/the-press-office/2017/01/30/president-donald-j-trump-announces-intent-nominate-elaine-duke-deputy [72514] -> "www.whitehouse.gov/the-press-office/2017/01/30/president-donald-j-trump-announces-intent-nominate-elaine-duke-deputy" [1]
+2017-02-08 09:23:47 URL:https://www.whitehouse.gov/the-press-office/2017/01/30/readout-vice-presidents-meeting-king-abdullah-ii-jordan [73310] -> "www.whitehouse.gov/the-press-office/2017/01/30/readout-vice-presidents-meeting-king-abdullah-ii-jordan" [1]
+2017-02-08 09:23:47 URL:https://www.whitehouse.gov/the-press-office/2017/01/30/senate-democrats-obstruct-president-trumps-nominees [72753] -> "www.whitehouse.gov/the-press-office/2017/01/30/senate-democrats-obstruct-president-trumps-nominees" [1]
+2017-02-08 09:23:48 URL:https://www.whitehouse.gov/briefing-room/statements-and-releases?term_node_tid_depth=41&page=4 [75333] -> "www.whitehouse.gov/briefing-room/statements-and-releases?term_node_tid_depth=41&page=4" [1]
+Found 85 broken links.
+
+https://www.whitehouse.gov/energy/
+https://www.whitehouse.gov/about/presidents/johntyler
+https://www.whitehouse.gov/get-email-updates
+https://www.whitehouse.gov/about/inside-white-house/eeob-tour
+https://www.whitehouse.gov/about/presidents/warrenharding
+https://www.whitehouse.gov/videos/2017/January/20170131_President_Trump_Supreme_Court_Nominee.mp
+https://www.whitehouse.gov/about/presidents/thomasjefferson
+https://www.whitehouse.gov/privacy/current-third-party-pages
+https://www.whitehouse.gov/about/presidents/johnquincyadams
+https://www.whitehouse.gov/about/first-ladies/marylincoln
+https://www.whitehouse.gov/about/presidents/jamesmonroe
+https://www.whitehouse.gov/about/presidents/dwightdeisenhower
+https://www.whitehouse.gov/about/presidents/georgehwbush
+https://www.whitehouse.gov/about/presidents/andrewjohnson
+https://www.whitehouse.gov/privacy/feedback
+https://www.whitehouse.gov/tech/feedback
+https://www.whitehouse.gov/issues/seniors-and-social-security
+https://www.whitehouse.gov/our-government/executive-branch
+https://www.whitehouse.gov/cgi-bin/good-bye.cgi?url=http://www.cartercenter.org
+https://www.whitehouse.gov/about/presidents/lyndonbjohnson
+https://www.whitehouse.gov/issues/veterans
+https://www.whitehouse.gov/about/presidents/franklinpierce
+https://www.whitehouse.gov/photos-and-video/video/2011/12/02/president-obama-and-president-clinton-speak-better-building-initia
+https://www.whitehouse.gov/about/presidents/woodrowwilson
+https://www.whitehouse.gov/privacy/archive
+https://www.whitehouse.gov/videos/2017/November/20171131_VPOTUS_Swear_In_Elaine_Chao.mp3
+https://www.whitehouse.gov/about/presidents/jamesmadison
+https://www.whitehouse.gov/about/presidents/andrewjackson
+https://www.whitehouse.gov/about/presidents/herberthoover
+https://www.whitehouse.gov/about/first-ladies/harrietlane
+https://www.whitehouse.gov/about/fellows/faq/
+https://www.whitehouse.gov/about/presidents/richardnixon
+https://www.whitehouse.gov/1600/presidents//1600/first-ladies/hannahvanburen
+https://www.whitehouse.gov/about/presidents/jamespolk
+https://www.whitehouse.gov/sites/whitehouse.gov/files/videos-header1_2.jpg
+https://www.whitehouse.gov/about/presidents/williammckinley
+https://www.whitehouse.gov/about/presidents/theodoreroosevelt
+https://www.whitehouse.gov/1600/first-ladies/francescleveland
+https://www.whitehouse.gov/state-of-the-union-2012
+https://www.whitehouse.gov/about/presidents/georgewbush
+https://www.whitehouse.gov/about/presidents/benjaminharrison
+https://www.whitehouse.gov/sites/whitehouse.gov/files/images/ceremony-elainecho1.jpg
+https://www.whitehouse.gov/about/presidents/grovercleveland24
+https://www.whitehouse.gov/about/presidents/ronaldreagan
+https://www.whitehouse.gov/healthreform
+https://www.whitehouse.gov/about/presidents/millardfillmore
+https://www.whitehouse.gov/video-archive
+https://www.whitehouse.gov/videos/2017/November/20171131_VPOTUS_Swear_In_Elaine_Chao_HD.mp4
+https://www.whitehouse.gov/about/presidents/georgewashington
+https://www.whitehouse.gov/about/presidents/johnadams
+https://www.whitehouse.gov/the-press-office/presidential-proclamation-martin-luther-king-jr-day
+https://www.whitehouse.gov/privacy/cookies
+https://www.whitehouse.gov/about/first-ladies/abigailfillmore
+https://www.whitehouse.gov/about/presidents/martinvanburen
+https://www.whitehouse.gov/sites/default/files/omb/assets/memoranda_2010/m10-22.pdf
+https://www.whitehouse.gov/champions
+https://www.whitehouse.gov/about/presidents/rutherfordbhayes
+https://www.whitehouse.gov/sites/whitehouse.gov/files/images/ceremony-elainecho2.jpg
+https://www.whitehouse.gov/about/presidents/williamhenryharrison
+https://www.whitehouse.gov/privacidad
+https://www.whitehouse.gov/about/presidents/williamhowardtaft
+https://www.whitehouse.gov/about/presidents/jamesgarfield
+https://www.whitehouse.gov/2012-taxreceipt
+https://www.whitehouse.gov/administration/eop/sicp/
+https://www.whitehouse.gov/about/presidents/harrystruman
+https://www.whitehouse.gov/about/presidents/franklindroosevelt
+https://www.whitehouse.gov/briefing-room/weekly-address
+https://www.whitehouse.gov/participate/internships/faqs
+https://www.whitehouse.gov/mobile
+https://www.whitehouse.gov/about/presidents/jamesbuchanan
+https://www.whitehouse.gov/about/presidents/chesterarthur
+https://www.whitehouse.gov/about/presidents/calvincoolidge
+https://www.whitehouse.gov/about/presidents/johnfkennedy
+https://www.whitehouse.gov/about/presidents/geraldford
+https://www.whitehouse.gov/economy/buffett-rule
+https://www.whitehouse.gov/about/presidents/zacharytaylor
+https://www.whitehouse.gov/about/presidents/abrahamlincoln
+https://www.whitehouse.gov/about/presidents/jimmycarter
+https://www.whitehouse.gov/about/fellows/2012-2013-applications
+https://www.whitehouse.gov/about/presidents/williamjclinton
+https://www.whitehouse.gov/briefing-room
+https://www.whitehouse.gov/our-government/judicial-branch
+https://www.whitehouse.gov/about/first-ladies/nancyreagan
+https://www.whitehouse.gov/about/presidents/ulyssessgrant
+https://www.whitehouse.gov/privacy/impact
+
+FINISHED --2017-02-08 09:23:48--
+Total wall clock time: 1m 10s
+Downloaded: 319 files, 24M in 4.6s (5.08 MB/s)
