@@ -14,4 +14,4 @@
 
 The ```-t 20170122000000``` option tells the downloader only to consider versions created before midnight (```000000```) on January 20, 2017 (```20170120```).
 
-*Note: If a page on the site links to a page no longer available, this list will return the most recent timestamp for that page. It will **not** tell you that the page is not part of the website as of that time.*
+*Note: If a page on the site links to a page no longer available, this list will return the most recent timestamp for that page. It will* ***not*** *tell you that the page is not part of the website as of that time.*
