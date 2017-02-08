@@ -704,7 +704,7 @@ unlink: No such file or directory
 2017-02-08 09:23:37 URL:https://www.whitehouse.gov/the-press-office/2017/01/26/statement-acting-omb-director-sandy-budgetary-impact-analysis-executive-order [71642] -> "www.whitehouse.gov/the-press-office/2017/01/26/statement-acting-omb-director-sandy-budgetary-impact-analysis-executive-order" [1]
 2017-02-08 09:23:37 URL:https://www.whitehouse.gov/the-press-office/2017/01/25/omb-memorandum-immediate-actions-and-initial-guidance-federal-civilian [72740] -> "www.whitehouse.gov/the-press-office/2017/01/25/omb-memorandum-immediate-actions-and-initial-guidance-federal-civilian" [1]
 2017-02-08 09:23:37 URL:https://www.whitehouse.gov/the-press-office/2017/01/24/implementation-regulatory-freeze [81021] -> "www.whitehouse.gov/the-press-office/2017/01/24/implementation-regulatory-freeze" [1]
-2017-02-08 09:23:37 URL:https://www.whitehouse.gov/the-press-office/2017/01/24/h-r-7-%E2%80%93-no-taxpayer-funding-abortion-and-abortion-insurance-full [71184] -> "www.whitehouse.gov/the-press-office/2017/01/24/h-r-7-â%80%93-no-taxpayer-funding-abortion-and-abortion-insurance-full" [1]
+2017-02-08 09:23:37 URL:https://www.whitehouse.gov/the-press-office/2017/01/24/h-r-7-%E2%80%93-no-taxpayer-funding-abortion-and-abortion-insurance-full [71184] -> "www.whitehouse.gov/the-press-office/2017/01/24/h-r-7-ï¿½%80%93-no-taxpayer-funding-abortion-and-abortion-insurance-full" [1]
 2017-02-08 09:23:37 URL: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/Untitled-1.png 200 OK
 unlink: No such file or directory
 2017-02-08 09:23:38 URL:https://www.whitehouse.gov/blog?page=3 [72773] -> "www.whitehouse.gov/blog?page=3" [1]
