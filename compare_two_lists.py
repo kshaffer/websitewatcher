@@ -1,4 +1,5 @@
 import csv
+import json
 from subprocess import call
 import shlex
 from subprocess import Popen, PIPE
@@ -99,6 +100,28 @@ def most_recent_wayback_change(url, timestamp):
                     url_object = 'NA'
             return(url_object.replace('http://web.archive.org/web/', '').split('/')[0])
 
+def read_wayback_dump(filename):
+    ignore = []
+    ignore.append('[')
+    ignore.append(']')
+    ignore.append('')
+    f = open(filename, encoding='utf-8')
+    table_original = []
+    for line in f:
+        line = line.rstrip('\n')
+        if line not in ignore:
+            if 'Getting snapshot pages' not in line:
+                table_original.append(line.rstrip(','))
+    return table_original
+
+def extract_wayback_url_database(wayback_data_dump):
+    latest_timestamp = {}
+    for article in wayback_data_dump:
+        url = json.loads(article)['file_url']
+        timestamp = json.loads(article)['timestamp']
+        latest_timestamp[url] = timestamp
+    return(latest_timestamp)
+
 snapshot1 = snapshot_dictionary(read_csv(file1))
 snapshot2 = snapshot_dictionary(read_csv(file2))
 unique_urls = all_unique_urls(snapshot1, snapshot2)
@@ -111,9 +134,16 @@ write_to_text(urls_in_1_only, 'urls_in_1_only-wh-2-8.txt')
 write_to_text(urls_in_2_only, 'urls_in_2_only-wh-2-8.txt')
 
 wayback_timestamp = 20170208163000
+wayback_latest = extract_wayback_url_database(read_wayback_dump('wh-2017-02-08_wayback.txt'))
+print(wayback_latest)
 urls_changed = [['url', 'timestamp_of_change']]
 for url in urls_in_both:
-    most_recent_change = most_recent_wayback_change(url, str(wayback_timestamp))
+    if url in wayback_latest.keys():
+        most_recent_change = wayback_latest[url]
+    elif (url + '/') in wayback_latest.keys():
+        most_recent_change = wayback_latest[url + '/']
+    else:
+        most_recent_change = 'NA'
     print(url, most_recent_change)
     if most_recent_change == 'NA':
         urls_changed.append([url, 'unable to retrieve data from Wayback Machine'])
@@ -125,4 +155,4 @@ for url in urls_in_both:
         except:
             urls_changed.append([url, 'unable to retrieve data from Wayback Machine'])
 
-write_to_csv(urls_changed, 'urls_changed_wh_2_8.csv')
+write_to_csv(urls_changed, 'urls_changed_wh_2_8_wayback.csv')
