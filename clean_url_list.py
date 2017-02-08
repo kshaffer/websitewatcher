@@ -1,10 +1,18 @@
 import json
+import csv
 
 def read_text_file(filename):
+    ignore = []
+    ignore.append('[')
+    ignore.append(']')
+    ignore.append('')
     f = open(filename, encoding='utf-8')
     table_original = []
     for line in f:
-        table_original.append(line.rstrip('\n'))
+        line = line.rstrip('\n')
+        if line not in ignore:
+            if 'Getting snapshot pages' not in line:
+                table_original.append(line.rstrip(','))
     return table_original
 
 def write_to_text(data, filename):
@@ -13,15 +21,29 @@ def write_to_text(data, filename):
         f.write(line + '\n')
     f.close()
 
+def write_to_csv(data, filename):
+    with open(filename, 'w') as csvfile:
+        w = csv.writer(csvfile, delimiter = ',')
+        for row in data:
+            try:
+                w.writerow(row)
+            except:
+                print(row, 'not written to file.')
+    print(filename, 'created.')
+
+
 # import URLs from spider output
-u = read_text_file('2017-01-31-11-30-00.txt')
+u = read_text_file('whg.txt')
 
 # make into list
-url_list = ['url']
+url_list = [['url', 'timestamp', 'id']]
 for article in u:
-    url_list.append(json.loads(article)['file_url'])
+    url_object = []
+    url_object.append(json.loads(article)['file_url'])
+    url_object.append(json.loads(article)['timestamp'])
+    url_object.append(json.loads(article)['file_id'])
+    url_list.append(url_object)
 
 # write list to text file, one URL per line
-write_to_text(url_list, 'breitbart_urls.csv')
+write_to_csv(url_list, 'whg_url_data.csv')
 
-# now use clean_it_more.R to strip out erroneous and (some) duplicate URLs
