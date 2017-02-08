@@ -6,9 +6,11 @@ from subprocess import Popen, PIPE
 
 # provide two files (cleaned by clean_url_list_wget.py)
 # file1 should be the earlier scrape, file2 the later scrape
+# then provide the output of the wayback_machine_downloader query
 
 file1 = '2-8-test1.csv'
 file2 = '2-8-test2.csv'
+wayback_dump = 'wh-2017-02-08_wayback.txt'
 
 # provide filenames for outputs:
 # filename for a list of URLs in both scrapes
@@ -199,7 +201,7 @@ write_to_text(urls_in_2_only, urls_in_2_only_filename)
 # for all URLs with a most recent change between the two provided timestamps
 # write data to a CSV file
 
-wayback_latest = extract_wayback_url_database(read_wayback_dump('wh-2017-02-08_wayback.txt'))
+wayback_latest = extract_wayback_url_database(read_wayback_dump(wayback_dump))
 urls_changed = [['url', 'timestamp_of_change']]
 for url in urls_in_both:
     if url in wayback_latest.keys():

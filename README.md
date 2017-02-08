@@ -26,9 +26,13 @@ The ```-t 20170122000000``` option tells the downloader only to consider version
 
 Once you have a text file containing the results of a ```wget``` spider process (above), use ```clean_url_list_wget.py``` to convert the text output into a clean, machine-readable CSV file. Edit the filenames at the top of the script before running.
 
+## Get timestamps of page changes from the Wayback Machine
+
+Use the above spider command to download timestamps for page changes using ```wayback_machine_downloader```. The timestamp put in the script should be the timestamp of the second scrape. Format: ```YYYYMMDDHHMMSS``` (UTC time).
+
 ## Compare two URL lists
 
-When you have cleaned the URL list output of two different spider processes on a site, use ```compare_two_lists.py``` to check for which URLs are in both sites, added or deleted between sites, and then check the Wayback Machine to see if any of the URLs in both sites have changed. Will output text files for each of those checks. Edit the filenames and timestamps at the top of the script before running.
+When you have cleaned the URL list output of two different spider processes on a site and the Wayback Machine timestamps, use ```compare_two_lists.py``` to check for which URLs are in both sites, added or deleted between sites, and then check the Wayback Machine to see if any of the URLs in both sites have changed. Will output text files for each of those checks. Edit the filenames and timestamps at the top of the script before running.
 
 ## To do
 
