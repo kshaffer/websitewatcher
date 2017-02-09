@@ -1,5 +1,15 @@
 import csv
 
+# before running this script, update the following filenames appropriately
+
+wget_results = 'wh-2-8-wget.txt' # results of the wget scrape
+date_of_scrape = '2017-02-08' # date of the wget scrape
+output_file = '2-8-test1.csv' # output file for cleaned URL list
+
+# once the above filename variables are set, run the script
+# you shouldn't have to edit the following code
+# run the script once for each scrape before using compare_two_lists.py
+
 def write_to_csv(data, filename):
     with open(filename, 'w') as csvfile:
         w = csv.writer(csvfile, delimiter = ',')
@@ -34,5 +44,5 @@ def extract_url_database(filename, date_check):
         url_list.append(url_object)
     return(url_list)
 
-# write list to text file, one URL per line
-write_to_csv(extract_url_database('wh-2-8-2nd-wget.txt', '2017-02-08'), '2-8-test2.csv')
+# write list to text file, one URL per line, for each scrape
+write_to_csv(extract_url_database(wget_results, date_of_scrape), output_file)

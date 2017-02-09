@@ -4,8 +4,31 @@ from subprocess import call
 import shlex
 from subprocess import Popen, PIPE
 
+# provide two files (cleaned by clean_url_list_wget.py)
+# file1 should be the earlier scrape, file2 the later scrape
+
 file1 = '2-8-test1.csv'
 file2 = '2-8-test2.csv'
+
+# provide filenames for outputs:
+# filename for a list of URLs in both scrapes
+# filename for a list of URLs new in second scrape
+# filename for a list of URLs removed or unlinked between scrapes
+# filename for a list of URLs changed between scrapes (CSV)
+
+urls_in_both_filename = 'urls_in_both-wh-2-8.txt'
+urls_in_1_only_filename = 'urls_in_1_only-wh-2-8.txt'
+urls_in_2_only_filename = 'urls_in_1_only-wh-2-8.txt'
+urls_changed_filename = 'urls_changed_wh_2_8_wayback.csv' # this one should be CSV!
+
+# provide Wayback-Machine-formatted timestamp of the two scrapes
+# 20170208163000 is Feb 8, 2017 (2017 02 08) at 4:30:00pm UTC (16 30 00)
+# 20170208000000 is midnight on Feb 8, 2017, UTC
+wayback_timestamp_earlier = 20170207163000
+wayback_timestamp_later = 20170208163000
+
+
+# To run script, you should not need to edit any of the code below
 
 def read_csv(file):
     with open(file) as csvfile:
@@ -36,12 +59,18 @@ def write_to_text(data, filename):
     f.close()
 
 def snapshot_dictionary(snapshot):
+    """
+    creates a dictionary with URLs as keys and date-time of scrape as value
+    """
     url = {}
     for record in snapshot:
         url[record[2]] = record[0] + ' ' + record[1]
     return(url)
 
 def all_unique_urls(snapshot1, snapshot2):
+    """
+    returns a list of keys (URLs) that appear in one or both dictionaries, duplicates removed
+    """
     urls = []
     for url in snapshot1.keys():
         urls.append(url)
@@ -50,6 +79,9 @@ def all_unique_urls(snapshot1, snapshot2):
     return(set(urls))
 
 def urls_in_both(snapshot1, snapshot2):
+    """
+    returns a list of keys (URLs) that appear in both dictionaries
+    """
     unique = all_unique_urls(snapshot1, snapshot2)
     in_both = []
     for url in unique:
@@ -58,6 +90,9 @@ def urls_in_both(snapshot1, snapshot2):
     return(in_both)
 
 def urls_in_set_1_only(snapshot1, snapshot2):
+    """
+    returns a list of keys (URLs) that appear in one dictionary only (the one listed first)
+    """
     unique = all_unique_urls(snapshot1, snapshot2)
     in_1_only = []
     for url in unique:
@@ -66,6 +101,9 @@ def urls_in_set_1_only(snapshot1, snapshot2):
     return(in_1_only)
 
 def urls_in_set_2_only(snapshot1, snapshot2):
+    """
+    returns a list of keys (URLs) that appear in one dictionary only (the one listed second)
+    """
     unique = all_unique_urls(snapshot1, snapshot2)
     in_2_only = []
     for url in unique:
@@ -74,6 +112,10 @@ def urls_in_set_2_only(snapshot1, snapshot2):
     return(in_2_only)
 
 def get_stdout(cmd):
+     """
+     return the standard output of a shell command
+     used in most_recent_wayback_change()
+     """
      args = shlex.split(cmd)
      proc = Popen(args, stdout=PIPE, stderr=PIPE)
      out, err = proc.communicate()
@@ -81,6 +123,12 @@ def get_stdout(cmd):
      return exitcode, out, err
 
 def most_recent_wayback_change(url, timestamp):
+    """
+    queries the Wayback Machine to find the most recent change of a page
+    *before* a given timestamp
+    Not reliable at small time scales, as it reports a new capture on the WM,
+    not necessarily a new page
+    """
     ignore = []
     ignore.append('Remote file does not exist -- broken link!!!')
     ignore.append('unlink: No such file or directory')
@@ -101,6 +149,10 @@ def most_recent_wayback_change(url, timestamp):
             return(url_object.replace('http://web.archive.org/web/', '').split('/')[0])
 
 def read_wayback_dump(filename):
+    """
+    reads and parses a text file of STDOUT from wayback_machine_downloader
+    returns a list of lines with valid JSON output
+    """
     ignore = []
     ignore.append('[')
     ignore.append(']')
@@ -115,6 +167,11 @@ def read_wayback_dump(filename):
     return table_original
 
 def extract_wayback_url_database(wayback_data_dump):
+    """
+    extracts information from the results of read_wayback_dump
+    for each record in data, creates a dictionary record with the URL as key
+    and the timestamp of page as the value
+    """
     latest_timestamp = {}
     for article in wayback_data_dump:
         url = json.loads(article)['file_url']
@@ -122,20 +179,27 @@ def extract_wayback_url_database(wayback_data_dump):
         latest_timestamp[url] = timestamp
     return(latest_timestamp)
 
+# read and parse data files produced by clean_url_list_wget.py
 snapshot1 = snapshot_dictionary(read_csv(file1))
 snapshot2 = snapshot_dictionary(read_csv(file2))
+
+# find all URLs in both, one, or the other snapshot
 unique_urls = all_unique_urls(snapshot1, snapshot2)
 urls_in_both = urls_in_both(snapshot1, snapshot2)
 urls_in_1_only = urls_in_set_1_only(snapshot1, snapshot2)
 urls_in_2_only = urls_in_set_2_only(snapshot1, snapshot2)
 
-write_to_text(urls_in_both, 'urls_in_both-wh-2-8.txt')
-write_to_text(urls_in_1_only, 'urls_in_1_only-wh-2-8.txt')
-write_to_text(urls_in_2_only, 'urls_in_2_only-wh-2-8.txt')
+# save results to text files
+write_to_text(urls_in_both, urls_in_both_filename)
+write_to_text(urls_in_1_only, urls_in_1_only_filename)
+write_to_text(urls_in_2_only, urls_in_2_only_filename)
 
-wayback_timestamp = 20170208163000
+# for URLs in both snapshots, check the Wayback Machine to see when they most recently changed
+# assemble a list of lists (urls_changed) containing the URL and most recent change
+# for all URLs with a most recent change between the two provided timestamps
+# write data to a CSV file
+
 wayback_latest = extract_wayback_url_database(read_wayback_dump('wh-2017-02-08_wayback.txt'))
-print(wayback_latest)
 urls_changed = [['url', 'timestamp_of_change']]
 for url in urls_in_both:
     if url in wayback_latest.keys():
@@ -150,9 +214,9 @@ for url in urls_in_both:
     else:
         try:
             most_recent_change = int(most_recent_change)
-            if most_recent_change < wayback_timestamp and most_recent_change > (wayback_timestamp - 1000000):
+            if most_recent_change <= wayback_timestamp_later and most_recent_change > (wayback_timestamp_earlier):
                 urls_changed.append([url, most_recent_change])
         except:
             urls_changed.append([url, 'unable to retrieve data from Wayback Machine'])
 
-write_to_csv(urls_changed, 'urls_changed_wh_2_8_wayback.csv')
+write_to_csv(urls_changed, urls_changed_filename)
