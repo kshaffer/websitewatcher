@@ -25,7 +25,7 @@ def extract_wayback_url_database(wayback_data_dump):
     for each record in data, creates a dictionary record with the URL as key
     and the timestamp of page as the value
     """
-    db = []
+    db = [['url', 'date_time', 'extension']]
     for article in wayback_data_dump:
         record_data = []
         url = json.loads(article)['file_url']
@@ -33,11 +33,20 @@ def extract_wayback_url_database(wayback_data_dump):
         try:
             url_split = url.split('.')
             if len(url_split) > 3:
-                extension = url_split[len(url_split) - 1].split('?')[0]
+                extension = url_split[len(url_split) - 1].split('?')[0].split('#')[0].split('%')[0].split('&')[0].split('(')[0].split(':')[0]#.split('/')[0]
+                try:
+                    int(extension)
+                    extension = 'html'
+                except:
+                    x = 'all good'
+                if extension in ['htmlf', 'jhtml', 'htm', 'scrollable', 'edu', "html'", 'gallery', '+of+education', 'w52', 'dummy', 'htmlPress', '3f!=', '1R', 'src', 'net']:
+                    extension = 'html'
+
             else:
                 extension = 'html'
         except:
             extension = 'html'
+        extension = extension.lower()
         record_data.append(url)
         record_data.append(timestamp)
         record_data.append(extension)
