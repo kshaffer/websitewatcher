@@ -12,13 +12,13 @@ ed <- as_tibble(ed_gov[-1,]) %>%
   mutate(date = ymd(substr(timestamp, 1, 8)))
 
 ed %>%
-  filter(date >= '2015-01-01',
+  filter(date >= '2017-01-01',
          mimetype %in% c('text/html', 'text/plain', 'application/msword', 'application/pdf')) %>%
-  mutate(time_floor = floor_date(date, unit = "1 month")) %>%
+  mutate(time_floor = floor_date(date, unit = "1 day")) %>%
   group_by(time_floor, mimetype) %>%
   summarize(count = n()) %>%
-  ggplot(aes(time_floor, count, color = mimetype)) +
-  geom_line()
+  ggplot(aes(time_floor, count, fill = mimetype)) +
+  geom_col()
 
 max(ed$date)
 

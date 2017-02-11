@@ -1,7 +1,7 @@
 library(tidyverse)
 library(lubridate)
 
-ed <- read_csv('test_data/ed_gov_wayback_parsed.csv') %>%
+ed <- read_csv('ed.gov/ed_gov_wayback_2017-02-09_parsed.csv') %>%
   mutate(date = ymd(paste(substr(as.character(date_time), 1, 4),
                           '-',
                           substr(as.character(date_time), 5, 6),
@@ -19,13 +19,16 @@ tyoe_count <- ed %>%
   mutate(extension = reorder(extension, count))
 
 ed %>%
-  filter(date > '2011-01-01',
+  filter(date > '2015-01-01',
          extension %in% c('html', 'doc', 'pdf', 'xls')) %>%
   mutate(time_floor = floor_date(date, unit = "1 month")) %>%
   group_by(time_floor, extension) %>%
   summarize(count = n()) %>%
-  ggplot(aes(time_floor, count, color = extension)) +
-  geom_line()
+  ggplot(aes(time_floor, count, fill = extension)) +
+  geom_col() +
+  xlab('date') +
+  ylab('pages added or changed') +
+  ggtitle('Page additions and changes found by the Wayback Machine on ed.gov')
 
 ed %>%
   filter(date > '2011-01-01',
