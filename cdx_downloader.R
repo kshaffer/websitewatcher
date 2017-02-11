@@ -50,7 +50,7 @@ epa_types <- epa %>%
   summarize(count = n()) 
 
 epa %>%
-  filter(date >= '2009-01-01',
+  filter(date >= '2016-01-01',
          mimetype %in% c('text/html',
                          'application/octet-stream',
                          'warc/revisit',
