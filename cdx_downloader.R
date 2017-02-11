@@ -5,61 +5,113 @@ library(lubridate)
 # See URL instructions here: 
 # https://github.com/internetarchive/wayback/tree/master/wayback-cdx-server
 
-# ed.gov
+# download datasets
 ed_gov <- fromJSON('http://web.archive.org/cdx/search/cdx?url=ed.gov&matchType=domain&output=json&collapse=digest')
-colnames(ed_gov) <- ed_gov[1,]
-ed <- as_tibble(ed_gov[-1,]) %>%
-  mutate(date = ymd(substr(timestamp, 1, 8)))
-
-ed %>%
-  filter(date >= '2017-01-01',
-         mimetype %in% c('text/html', 'text/plain', 'application/msword', 'application/pdf')) %>%
-  mutate(time_floor = floor_date(date, unit = "1 day")) %>%
-  group_by(time_floor, mimetype) %>%
-  summarize(count = n()) %>%
-  ggplot(aes(time_floor, count, fill = mimetype)) +
-  geom_col()
-
-max(ed$date)
-
-# whitehouse.gov
 wh_gov <- fromJSON('http://web.archive.org/cdx/search/cdx?url=whitehouse.gov&matchType=domain&output=json&collapse=digest')
-colnames(wh_gov) <- wh_gov[1,]
-wh <- as_tibble(wh_gov[-1,]) %>%
-  mutate(date = ymd(substr(timestamp, 1, 8)))
-
-wh %>%
-  filter(date >= '2016-01-01',
-         mimetype %in% c('text/html', 'text/plain', 'application/msword', 'application/pdf')) %>%
-  mutate(time_floor = floor_date(date, unit = "1 month")) %>%
-  group_by(time_floor, mimetype) %>%
-  summarize(count = n()) %>%
-  ggplot(aes(time_floor, count, fill = mimetype)) +
-  geom_bar(stat = 'identity')
-
-max(wh$date)
-
-# epa.gov
 epa_gov <- fromJSON('http://web.archive.org/cdx/search/cdx?url=epa.gov&matchType=domain&output=json&collapse=digest')
-colnames(epa_gov) <- epa_gov[1,]
-epa <- as_tibble(epa_gov[-1,]) %>%
+
+# assign site
+site <- epa_gov
+site_name <- 'epa.gov'
+
+# make first row of JSON output into header
+# convert timestamp to date
+colnames(site) <- site[1,]
+site <- as_tibble(site[-1,]) %>%
   mutate(date = ymd(substr(timestamp, 1, 8)))
 
-epa_types <- epa %>%
+# what are the earliest and latest dates in the dataset
+min(site$date)
+max(site$date)
+
+# what are the most common file types in the dataset
+site_types <- site %>%
   group_by(mimetype) %>%
   summarize(count = n()) 
 
-epa %>%
+# plot all additions/changes over time, by month
+# change '1 month' to '1 day' to plot by day instead
+site %>%
+  mutate(time_floor = floor_date(date, unit = "1 month")) %>%
+  group_by(time_floor) %>%
+  summarize(count = n()) %>%
+  ggplot(aes(time_floor, count, fill = count)) +
+  geom_col() +
+  xlab('date') +
+  ylab('pages added or changed') +
+  ggtitle(paste('Page additions and changes found by the Wayback Machine on ', site_name, ', by month', sep = ''))
+
+
+# plot all additions/changes since given date, by month
+# change '1 month' to '1 day' to plot by day instead
+site %>%
+  filter(date >= '2016-01-01') %>%
+  mutate(time_floor = floor_date(date, unit = "1 month")) %>%
+  group_by(time_floor) %>%
+  summarize(count = n()) %>%
+  ggplot(aes(time_floor, count, fill = count)) +
+  geom_col() +
+  xlab('date') +
+  ylab('pages added or changed') +
+  ggtitle(paste('Page additions and changes found by the Wayback Machine on ', site_name, ', by month', sep = ''))
+
+
+# plot all additions/changes since given date by month
+# separate by file type
+# limit by start date and file type
+# change '1 month' to '1 day' to plot by day instead
+site %>%
   filter(date >= '2016-01-01',
-         mimetype %in% c('text/html',
-                         'application/octet-stream',
-                         'warc/revisit',
-                         'application/pdf',
-                         'image/gif')) %>%
+         mimetype %in% c('text/html', 'text/plain', 'application/msword', 'application/pdf')) %>%
   mutate(time_floor = floor_date(date, unit = "1 month")) %>%
   group_by(time_floor, mimetype) %>%
   summarize(count = n()) %>%
   ggplot(aes(time_floor, count, fill = mimetype)) +
-  geom_bar(stat = 'identity')
+  geom_bar(stat = 'identity') +
+  xlab('date') +
+  ylab('pages added or changed') +
+  ggtitle(paste('Page additions and changes found by the Wayback Machine on ', site_name, ', by month', sep = ''))
 
-max(epa$date)
+# plot comparison of file types
+# limit by list of file types
+# change '1 month' to '1 day' to plot by day instead
+site %>%
+  filter(mimetype %in% c('text/html', 'text/plain', 'application/msword', 'application/pdf')) %>%
+  mutate(time_floor = floor_date(date, unit = "1 month")) %>%
+  group_by(time_floor, mimetype) %>%
+  summarize(count = n()) %>%
+  ggplot(aes(time_floor, count, color = mimetype)) +
+  geom_line(stat = 'identity') +
+  xlab('date') +
+  ylab('pages added or changed') +
+  ggtitle(paste('Page additions and changes found by the Wayback Machine on ', site_name, ', by month', sep = ''))
+
+# which urls changed the most in the site's history
+site %>%
+  count(urlkey, sort=TRUE) %>%
+  filter(n > 250) %>%
+  mutate(urlkey = reorder(urlkey, n)) %>%
+  ggplot(aes(urlkey, n, fill = urlkey)) +
+  geom_bar(stat = 'identity') +
+  xlab('page') +
+  ylab('number of times changed') +
+  ggtitle(paste('Most frequently changed pages in Wayback Machine archive of ', site_name, sep = '')) +
+  theme(legend.position="none") +
+  coord_flip()
+
+   
+# which urls changed the most since a start date
+start_date <- '2017-01-20'
+site %>%
+  filter(date >= start_date) %>%
+  count(urlkey, sort=TRUE) %>%
+  filter(n > 50) %>%
+  mutate(urlkey = reorder(urlkey, n)) %>%
+  ggplot(aes(urlkey, n, fill = urlkey)) +
+  geom_bar(stat = 'identity') +
+  xlab('page') +
+  ylab('number of times changed') +
+  ggtitle(paste('Most frequently changed pages in Wayback Machine archive of ', site_name, ' since ', start_date, '.', sep = '')) +
+  theme(legend.position="none") +
+  coord_flip()
+
