@@ -9,15 +9,25 @@ library(lubridate)
 ed_gov <- fromJSON('http://web.archive.org/cdx/search/cdx?url=ed.gov&matchType=domain&output=json&collapse=digest')
 wh_gov <- fromJSON('http://web.archive.org/cdx/search/cdx?url=whitehouse.gov&matchType=domain&output=json&collapse=digest')
 epa_gov <- fromJSON('http://web.archive.org/cdx/search/cdx?url=epa.gov&matchType=domain&output=json&collapse=digest')
+fcc_gov <- fromJSON('http://web.archive.org/cdx/search/cdx?url=fcc.gov&matchType=domain&output=json&collapse=digest')
+nps_gov <- fromJSON('http://web.archive.org/cdx/search/cdx?url=nps.gov&matchType=domain&output=json&collapse=digest')
+usda_gov <- fromJSON('http://web.archive.org/cdx/search/cdx?url=usda.gov&matchType=domain&output=json&collapse=digest')
+wapo <- fromJSON('http://web.archive.org/cdx/search/cdx?url=washingtonpost.com&matchType=domain&output=json&collapse=digest')
+target <- fromJSON('http://web.archive.org/cdx/search/cdx?url=target.com&matchType=domain&output=json&collapse=digest')
+smt <- fromJSON('http://web.archive.org/cdx/search/cdx?url=societymusictheory.org&matchType=domain&output=json&collapse=digest')
+nyt <- fromJSON('http://web.archive.org/cdx/search/cdx?url=nytimes.com&matchType=domain&output=json&collapse=digest')
+aspca <- fromJSON('http://web.archive.org/cdx/search/cdx?url=aspca.org&matchType=domain&output=json&collapse=digest')
+pt <- fromJSON('http://web.archive.org/cdx/search/cdx?url=psychologytoday.com&matchType=domain&output=json&collapse=digest')
 
 # assign site
-site <- epa_gov
-site_name <- 'epa.gov'
+site <- pt
+site_name <- 'psychologytoday.com'
 
 # make first row of JSON output into header
 # convert timestamp to date
 colnames(site) <- site[1,]
 site <- as_tibble(site[-1,]) %>%
+  filter(statuscode == '200') %>%
   mutate(date = ymd(substr(timestamp, 1, 8)))
 
 # what are the earliest and latest dates in the dataset
@@ -33,10 +43,11 @@ site_types <- site %>%
 # change '1 month' to '1 day' to plot by day instead
 site %>%
   mutate(time_floor = floor_date(date, unit = "1 month")) %>%
-  group_by(time_floor) %>%
+  group_by(time_floor, statuscode) %>%
   summarize(count = n()) %>%
-  ggplot(aes(time_floor, count, fill = count)) +
+  ggplot(aes(time_floor, count, fill = statuscode)) +
   geom_col() +
+  theme(legend.position="none") +
   xlab('date') +
   ylab('pages added or changed') +
   ggtitle(paste('Page additions and changes found by the Wayback Machine on ', site_name, ', by month', sep = ''))
@@ -47,10 +58,11 @@ site %>%
 site %>%
   filter(date >= '2016-01-01') %>%
   mutate(time_floor = floor_date(date, unit = "1 month")) %>%
-  group_by(time_floor) %>%
+  group_by(time_floor, statuscode) %>%
   summarize(count = n()) %>%
-  ggplot(aes(time_floor, count, fill = count)) +
+  ggplot(aes(time_floor, count, fill = statuscode)) +
   geom_col() +
+  theme(legend.position="none") +
   xlab('date') +
   ylab('pages added or changed') +
   ggtitle(paste('Page additions and changes found by the Wayback Machine on ', site_name, ', by month', sep = ''))
@@ -61,7 +73,7 @@ site %>%
 # limit by start date and file type
 # change '1 month' to '1 day' to plot by day instead
 site %>%
-  filter(date >= '2016-01-01',
+  filter(date >= '2014-01-01',
          mimetype %in% c('text/html', 'text/plain', 'application/msword', 'application/pdf')) %>%
   mutate(time_floor = floor_date(date, unit = "1 month")) %>%
   group_by(time_floor, mimetype) %>%
@@ -89,7 +101,7 @@ site %>%
 # which urls changed the most in the site's history
 site %>%
   count(urlkey, sort=TRUE) %>%
-  filter(n > 250) %>%
+  filter(n > 500) %>%
   mutate(urlkey = reorder(urlkey, n)) %>%
   ggplot(aes(urlkey, n, fill = urlkey)) +
   geom_bar(stat = 'identity') +
