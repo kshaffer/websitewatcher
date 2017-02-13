@@ -8,9 +8,9 @@ from subprocess import Popen, PIPE
 # file1 should be the earlier scrape, file2 the later scrape
 # then provide the output of the wayback_machine_downloader query
 
-file1 = '2-8-test1.csv'
-file2 = '2-8-test2.csv'
-wayback_dump = 'wh-2017-02-08_wayback.txt'
+file1 = 'wh-2017-02-08.csv'
+file2 = 'wh-2017-02-14.csv'
+#wayback_dump = 'wh-2017-02-08_wayback.txt' 
 
 # provide filenames for outputs:
 # filename for a list of URLs in both scrapes
@@ -18,16 +18,17 @@ wayback_dump = 'wh-2017-02-08_wayback.txt'
 # filename for a list of URLs removed or unlinked between scrapes
 # filename for a list of URLs changed between scrapes (CSV)
 
-urls_in_both_filename = 'urls_in_both-wh-2-8.txt'
-urls_in_1_only_filename = 'urls_in_1_only-wh-2-8.txt'
-urls_in_2_only_filename = 'urls_in_1_only-wh-2-8.txt'
-urls_changed_filename = 'urls_changed_wh_2_8_wayback.csv' # this one should be CSV!
+urls_in_both_filename = 'urls_in_both-wh-2017-02-14.txt'
+urls_in_1_only_filename = 'urls_in_1_only-wh-2017-02-14.txt'
+urls_in_2_only_filename = 'urls_in_1_only-wh-2017-02-14.txt'
+urls_unlinked_filename = 'urls_unlinked_wh-2017-02-14.txt'
+#urls_changed_filename = 'urls_changed_wh_2_8_wayback.csv' # this one should be CSV!
 
 # provide Wayback-Machine-formatted timestamp of the two scrapes
 # 20170208163000 is Feb 8, 2017 (2017 02 08) at 4:30:00pm UTC (16 30 00)
 # 20170208000000 is midnight on Feb 8, 2017, UTC
-wayback_timestamp_earlier = 20170207163000
-wayback_timestamp_later = 20170208163000
+#wayback_timestamp_earlier = 20170207163000
+#wayback_timestamp_later = 20170208163000
 
 
 # To run script, you should not need to edit any of the code below
