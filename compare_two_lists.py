@@ -3,37 +3,35 @@ import json
 from subprocess import call
 import shlex
 from subprocess import Popen, PIPE
+import requests
 
-# provide two files (cleaned by clean_url_list_wget.py)
-# file1 should be the earlier scrape, file2 the later scrape
-# then provide the output of the wayback_machine_downloader query
+# provide a website name, data source location,
+# data output location, and two dates to compare
 
-file1 = 'wh-2017-02-08.csv'
-file2 = 'wh-2017-02-14.csv'
-#wayback_dump = 'wh-2017-02-08_wayback.txt' 
+source_site = 'edgov'
+date_earlier = '2017-02-10'
+date_later = '2017-02-14'
+source_folder = 'clean_data/'
+output_folder = 'output_data/'
 
-# provide filenames for outputs:
-# filename for a list of URLs in both scrapes
-# filename for a list of URLs new in second scrape
-# filename for a list of URLs removed or unlinked between scrapes
-# filename for a list of URLs changed between scrapes (CSV)
 
-urls_in_both_filename = 'urls_in_both-wh-2017-02-14.txt'
-urls_in_1_only_filename = 'urls_in_1_only-wh-2017-02-14.txt'
-urls_in_2_only_filename = 'urls_in_1_only-wh-2017-02-14.txt'
-urls_unlinked_filename = 'urls_unlinked_wh-2017-02-14.txt'
-#urls_changed_filename = 'urls_changed_wh_2_8_wayback.csv' # this one should be CSV!
+# construct filenames for cleaned URL lists
+file1 = source_folder + source_site + '-' + date_earlier + '.csv'
+file2 = source_folder + source_site + '-' + date_later + '.csv'
 
-# provide Wayback-Machine-formatted timestamp of the two scrapes
-# 20170208163000 is Feb 8, 2017 (2017 02 08) at 4:30:00pm UTC (16 30 00)
-# 20170208000000 is midnight on Feb 8, 2017, UTC
-#wayback_timestamp_earlier = 20170207163000
-#wayback_timestamp_later = 20170208163000
+# construct filenames for outputs
+urls_in_both_filename = output_folder + source_site + '-' + date_later + '-' + 'urls_in_both' + '.csv'
+urls_in_1_only_filename = output_folder + source_site + '-' + date_later + '-' + 'urls_in_1_only' + '.csv'
+urls_in_2_only_filename = output_folder + source_site + '-' + date_later + '-' + 'urls_in_2_only' + '.csv'
+urls_unlinked_filename = output_folder + source_site + '-' + date_later + '-' + 'urls_unlinked' + '.csv'
 
 
 # To run script, you should not need to edit any of the code below
 
 def read_csv(file):
+    """
+    reads a CSV file into a list of lists
+    """
     with open(file) as csvfile:
         reader = csv.reader(csvfile, delimiter = ',')
         rows = []
@@ -46,6 +44,9 @@ def read_csv(file):
     return(rows)
 
 def write_to_csv(data, filename):
+    """
+    writes a list of lists into a CSV file
+    """
     with open(filename, 'w') as csvfile:
         w = csv.writer(csvfile, delimiter = ',')
         for row in data:
@@ -56,6 +57,9 @@ def write_to_csv(data, filename):
     print(filename, 'created.')
 
 def write_to_text(data, filename):
+    """
+    writes a list of strings into a text file
+    """
     f = open(filename, 'w', encoding = 'utf-8')
     for line in data:
         f.write(line + '\n')
@@ -63,6 +67,7 @@ def write_to_text(data, filename):
 
 def snapshot_dictionary(snapshot):
     """
+    takes a cleaned URL list from wget and
     creates a dictionary with URLs as keys and date-time of scrape as value
     """
     url = {}
@@ -125,63 +130,6 @@ def get_stdout(cmd):
      exitcode = proc.returncode
      return exitcode, out, err
 
-def most_recent_wayback_change(url, timestamp):
-    """
-    queries the Wayback Machine to find the most recent change of a page
-    *before* a given timestamp
-    Not reliable at small time scales, as it reports a new capture on the WM,
-    not necessarily a new page
-    """
-    ignore = []
-    ignore.append('Remote file does not exist -- broken link!!!')
-    ignore.append('unlink: No such file or directory')
-    ignore.append('')
-    check = get_stdout('wget --spider --no-verbose -e robots=off http://web.archive.org/web/' + timestamp + '/' + url)[2].decode('utf-8')
-    url_object = 'NA'
-    if check not in ignore:
-        if 'Getting snapshot pages' not in check:
-            try:
-                if check.split(' ')[2] and check.split(' ')[2] == 'URL:' and check.split(' ')[4] and check.split(' ')[4] == '200':
-                    url_object = check.split(' ')[3]
-            except:
-                try:
-                    url_object = check.split(' ')[2].replace('URL:', '')
-                except:
-                    print(check, 'not parsed.')
-                    url_object = 'NA'
-            return(url_object.replace('http://web.archive.org/web/', '').split('/')[0])
-
-def read_wayback_dump(filename):
-    """
-    reads and parses a text file of STDOUT from wayback_machine_downloader
-    returns a list of lines with valid JSON output
-    """
-    ignore = []
-    ignore.append('[')
-    ignore.append(']')
-    ignore.append('')
-    f = open(filename, encoding='utf-8')
-    table_original = []
-    for line in f:
-        line = line.rstrip('\n')
-        if line not in ignore:
-            if 'Getting snapshot pages' not in line:
-                table_original.append(line.rstrip(','))
-    return table_original
-
-def extract_wayback_url_database(wayback_data_dump):
-    """
-    extracts information from the results of read_wayback_dump
-    for each record in data, creates a dictionary record with the URL as key
-    and the timestamp of page as the value
-    """
-    latest_timestamp = {}
-    for article in wayback_data_dump:
-        url = json.loads(article)['file_url']
-        timestamp = json.loads(article)['timestamp']
-        latest_timestamp[url] = timestamp
-    return(latest_timestamp)
-
 # read and parse data files produced by clean_url_list_wget.py
 snapshot1 = snapshot_dictionary(read_csv(file1))
 snapshot2 = snapshot_dictionary(read_csv(file2))
@@ -192,34 +140,23 @@ urls_in_both = urls_in_both(snapshot1, snapshot2)
 urls_in_1_only = urls_in_set_1_only(snapshot1, snapshot2)
 urls_in_2_only = urls_in_set_2_only(snapshot1, snapshot2)
 
+# for URLs only in the scrape of the earlier snapshot, use
+# requests to check whether each indivudual URL still exists on site
+# create list of URLs still present, but *possibly* unlinked from site
+# (i.e., URL still exists, but wget couldn't find it)
+
+urls_in_1_only_cleaned = []
+urls_unlinked = []
+
+for url in urls_in_1_only:
+    if '.js' not in url:
+        if requests.get(url).status_code == 200:
+            urls_unlinked.append(url)
+        else:
+            urls_in_1_only_cleaned.append(url)
+
 # save results to text files
 write_to_text(urls_in_both, urls_in_both_filename)
-write_to_text(urls_in_1_only, urls_in_1_only_filename)
+write_to_text(urls_in_1_only_cleaned, urls_in_1_only_filename)
 write_to_text(urls_in_2_only, urls_in_2_only_filename)
-
-# for URLs in both snapshots, check the Wayback Machine to see when they most recently changed
-# assemble a list of lists (urls_changed) containing the URL and most recent change
-# for all URLs with a most recent change between the two provided timestamps
-# write data to a CSV file
-
-wayback_latest = extract_wayback_url_database(read_wayback_dump(wayback_dump))
-urls_changed = [['url', 'timestamp_of_change']]
-for url in urls_in_both:
-    if url in wayback_latest.keys():
-        most_recent_change = wayback_latest[url]
-    elif (url + '/') in wayback_latest.keys():
-        most_recent_change = wayback_latest[url + '/']
-    else:
-        most_recent_change = 'NA'
-    print(url, most_recent_change)
-    if most_recent_change == 'NA':
-        urls_changed.append([url, 'unable to retrieve data from Wayback Machine'])
-    else:
-        try:
-            most_recent_change = int(most_recent_change)
-            if most_recent_change <= wayback_timestamp_later and most_recent_change > (wayback_timestamp_earlier):
-                urls_changed.append([url, most_recent_change])
-        except:
-            urls_changed.append([url, 'unable to retrieve data from Wayback Machine'])
-
-write_to_csv(urls_changed, urls_changed_filename)
+write_to_text(urls_unlinked, urls_unlinked_filename)

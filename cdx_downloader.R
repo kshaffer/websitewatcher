@@ -20,8 +20,8 @@ aspca <- fromJSON('http://web.archive.org/cdx/search/cdx?url=aspca.org&matchType
 pt <- fromJSON('http://web.archive.org/cdx/search/cdx?url=psychologytoday.com&matchType=domain&output=json&collapse=digest')
 
 # assign site
-site <- pt
-site_name <- 'psychologytoday.com'
+site <- usda_gov
+site_name <- 'wh.gov'
 
 # make first row of JSON output into header
 # convert timestamp to date
@@ -117,7 +117,7 @@ start_date <- '2017-01-20'
 site %>%
   filter(date >= start_date) %>%
   count(urlkey, sort=TRUE) %>%
-  filter(n > 50) %>%
+  filter(n > 10) %>%
   mutate(urlkey = reorder(urlkey, n)) %>%
   ggplot(aes(urlkey, n, fill = urlkey)) +
   geom_bar(stat = 'identity') +

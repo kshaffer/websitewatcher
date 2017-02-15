@@ -2,9 +2,9 @@ import csv
 
 # before running this script, update the following filenames appropriately
 
-wget_results = 'source_data/whitehouse.gov/wh-2017-02-14.txt' # results of the wget scrape
-date_of_scrape = '2017-02-14' # date of the wget scrape
-output_file = 'clean_data/wh-2017-02-14.csv' # output file for cleaned URL list
+wget_results = 'source_data/ed.gov/edgov-2017-02-10.txt' # results of the wget scrape
+date_of_scrape = '2017-02-10' # date of the wget scrape
+output_file = 'clean_data/edgov-2017-02-10.csv' # output file for cleaned URL list
 
 # once the above filename variables are set, run the script
 # you shouldn't have to edit the following code
@@ -24,7 +24,6 @@ def extract_url_database(filename, date_check):
     f = open(filename, encoding='utf-8')
     table_original = []
     for line in f:
-        print(line)
         line = line.rstrip('\n')
         if line.split(' ')[0] == date_check:
             table_original.append(line)
