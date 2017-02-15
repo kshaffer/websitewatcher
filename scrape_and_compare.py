@@ -68,7 +68,7 @@ scrape_output_filename = 'source_data/' + site_to_scrape + '/' + site_to_scrape 
 
 # scrape a URL list from the site uwing wget
 scrape_data = get_stdout('wget -r -l 20 --spider --no-verbose -e robots=off https://www.' + site_to_scrape)[2].decode('utf-8')
-write_to_text(scrape_data, scrape_output_filename)
+write_to_text([scrape_data], scrape_output_filename)
 
 # write list to text file, one URL per line, for each scrape
 #write_to_csv(extract_url_database(wget_results, date_of_scrape), output_file)
