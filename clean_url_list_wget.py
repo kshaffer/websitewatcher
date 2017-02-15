@@ -1,10 +1,22 @@
+# run program with the following command-line options
+#
+# python clean_url_list_wget.py whitehouse.gov 2017-02-14
+#
+# This cleans the whitehouse.gov (with prefix 'wh') URL list
+# from Feb 14, 2017
+
 import csv
+import sys
 
-# before running this script, update the following filenames appropriately
-
-wget_results = 'source_data/ed.gov/edgov-2017-02-10.txt' # results of the wget scrape
-date_of_scrape = '2017-02-10' # date of the wget scrape
-output_file = 'clean_data/edgov-2017-02-10.csv' # output file for cleaned URL list
+if len(sys.argv) > 2:
+    wget_results = 'source_data/' + sys.argv[1] + '/' + sys.argv[1] + '-' + sys.argv[2] + '.txt'
+    date_of_scrape = sys.argv[2]
+    output_file = 'clean_data/' + sys.argv[1] + '-' + sys.argv[2] + '.csv'
+else:
+    # before running this script, update the following filenames appropriately
+    wget_results = 'source_data/ed.gov/edgov-2017-02-10.txt' # results of the wget scrape
+    date_of_scrape = '2017-02-10' # date of the wget scrape
+    output_file = 'clean_data/edgov-2017-02-10.csv' # output file for cleaned URL list
 
 # once the above filename variables are set, run the script
 # you shouldn't have to edit the following code

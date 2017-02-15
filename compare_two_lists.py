@@ -1,32 +1,46 @@
+# run program with the following command-line options
+#
+# python compare_two_lists.py whitehouse 2017-02-08 2017-02-14
+#
+# This compares the whitehouse.gov (with prefix 'wh') from
+# Feb 8, 2017, and Feb 14, 2017
+
 import csv
 import json
 from subprocess import call
 import shlex
 from subprocess import Popen, PIPE
 import requests
+import sys
 
-# provide a website name, data source location,
-# data output location, and two dates to compare
+if len(sys.argv) > 3:
+    source_site = sys.argv[1]
+    date_earlier = sys.argv[2]
+    date_later = sys.argv[3]
+else:
+    # if not using command-line arguments:
+    # provide a website name, data source location,
+    # data output location, and two dates to compare
+    source_site = 'wh'
+    date_earlier = '2017-02-08'
+    date_later = '2017-02-14'
 
-source_site = 'edgov'
-date_earlier = '2017-02-10'
-date_later = '2017-02-14'
 source_folder = 'clean_data/'
 output_folder = 'output_data/'
 
+
+# To run script, you should not need to edit any of the code below
 
 # construct filenames for cleaned URL lists
 file1 = source_folder + source_site + '-' + date_earlier + '.csv'
 file2 = source_folder + source_site + '-' + date_later + '.csv'
 
 # construct filenames for outputs
-urls_in_both_filename = output_folder + source_site + '-' + date_later + '-' + 'urls_in_both' + '.csv'
-urls_in_1_only_filename = output_folder + source_site + '-' + date_later + '-' + 'urls_in_1_only' + '.csv'
-urls_in_2_only_filename = output_folder + source_site + '-' + date_later + '-' + 'urls_in_2_only' + '.csv'
-urls_unlinked_filename = output_folder + source_site + '-' + date_later + '-' + 'urls_unlinked' + '.csv'
+urls_in_both_filename = output_folder + source_site + '-' + date_later + '-' + 'urls_in_both' + '.txt'
+urls_in_1_only_filename = output_folder + source_site + '-' + date_later + '-' + 'urls_in_1_only' + '.txt'
+urls_in_2_only_filename = output_folder + source_site + '-' + date_later + '-' + 'urls_in_2_only' + '.txt'
+urls_unlinked_filename = output_folder + source_site + '-' + date_later + '-' + 'urls_unlinked' + '.txt'
 
-
-# To run script, you should not need to edit any of the code below
 
 def read_csv(file):
     """
@@ -39,7 +53,8 @@ def read_csv(file):
             row_data = []
             for element in line:
                 row_data.append(element)
-            rows.append(row_data)
+            if row_data != []:
+                rows.append(row_data)
     rows.pop(0)
     return(rows)
 
