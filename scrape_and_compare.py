@@ -65,14 +65,11 @@ site_to_scrape = sys.argv[1]
 current_date = datetime.datetime.now().strftime('%Y-%m-%d')
 previous_date = (datetime.datetime.now() - datetime.timedelta(days=1)).strftime('%Y-%m-%d')
 scrape_output_filename = 'source_data/' + site_to_scrape + '/' + site_to_scrape + '-' + current_date + '.txt'
+clean_output_filename = 'clean_data/' + site_to_scrape + '/' + site_to_scrape + '-' + current_date + '.csv'
 
 # scrape a URL list from the site uwing wget
 scrape_data = get_stdout('wget -r -l 20 --spider --no-verbose -e robots=off https://www.' + site_to_scrape)[2].decode('utf-8')
 write_to_text([scrape_data], scrape_output_filename)
 
 # write list to text file, one URL per line, for each scrape
-#write_to_csv(extract_url_database(wget_results, date_of_scrape), output_file)
-
-#wget_results = 'source_data/' + sys.argv[1] + '/' + sys.argv[1] + '-' + sys.argv[2] + '.txt'
-#date_of_scrape = sys.argv[2]
-#output_file = 'clean_data/' + sys.argv[1] + '-' + sys.argv[2] + '.csv'
+write_to_csv(extract_url_database([scrape_data], current_date), clean_output_filename)
