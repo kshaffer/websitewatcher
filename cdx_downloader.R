@@ -1,8 +1,7 @@
 library(jsonlite)
 library(tidyverse)
 library(lubridate)
-library(magrittr
-        )
+library(magrittr)
 
 # See URL instructions here: 
 # https://github.com/internetarchive/wayback/tree/master/wayback-cdx-server
@@ -14,10 +13,14 @@ epa_gov <- fromJSON('http://web.archive.org/cdx/search/cdx?url=epa.gov&matchType
 fcc_gov <- fromJSON('http://web.archive.org/cdx/search/cdx?url=fcc.gov&matchType=domain&output=json&collapse=digest')
 nps_gov <- fromJSON('http://web.archive.org/cdx/search/cdx?url=nps.gov&matchType=domain&output=json&collapse=digest')
 usda_gov <- fromJSON('http://web.archive.org/cdx/search/cdx?url=usda.gov&matchType=domain&output=json&collapse=digest')
-wapo <- fromJSON('http://web.archive.org/cdx/search/cdx?url=washingtonpost.com&matchType=domain&output=json&collapse=digest')
+# wapo <- fromJSON('http://web.archive.org/cdx/search/cdx?url=washingtonpost.com&matchType=domain&output=json&collapse=digest')
+wapo <- fromJSON('../wapo_2017-02-22.txt') # just in case the fromJSON query doesn't work, you can download from the browser and load the text file
+nyt <- fromJSON('../nyt_2017-02-22.txt')
+npr <- fromJSON('http://web.archive.org/cdx/search/cdx?url=npr.org&matchType=domain&output=json&collapse=digest')
+guard <- fromJSON('http://web.archive.org/cdx/search/cdx?url=theguardian.com&matchType=domain&output=json&collapse=digest')
 target <- fromJSON('http://web.archive.org/cdx/search/cdx?url=target.com&matchType=domain&output=json&collapse=digest')
 smt <- fromJSON('http://web.archive.org/cdx/search/cdx?url=societymusictheory.org&matchType=domain&output=json&collapse=digest')
-nyt <- fromJSON('http://web.archive.org/cdx/search/cdx?url=nytimes.com&matchType=domain&output=json&collapse=digest')
+# nyt <- fromJSON('http://web.archive.org/cdx/search/cdx?url=nytimes.com&matchType=domain&output=json&collapse=digest')
 aspca <- fromJSON('http://web.archive.org/cdx/search/cdx?url=aspca.org&matchType=domain&output=json&collapse=digest')
 pt <- fromJSON('http://web.archive.org/cdx/search/cdx?url=psychologytoday.com&matchType=domain&output=json&collapse=digest')
 
@@ -54,31 +57,36 @@ govsites <- ed_gov[-1,] %>%
               mutate(site = 'usda.gov')) %>%
   mutate(date = ymd(substr(timestamp, 1, 8)))
 
-comparesites <- wapo[-1,] %>%
-  as_tibble() %>%
-  select(urlkey = 1, timestamp = 2, original = 3, mimetype = 4, statuscode = 5, digest = 6, length = 7) %>%
-  filter(statuscode == '200') %>%
-  mutate(site = 'Washington Post') %>%
-  full_join(target[-1,] %>%
+comparesites <- smt[-1,] %>%
               as_tibble() %>%
               select(urlkey = 1, timestamp = 2, original = 3, mimetype = 4, statuscode = 5, digest = 6, length = 7) %>%
               filter(statuscode == '200') %>%
-              mutate(site = 'Target')) %>%
-  full_join(smt[-1,] %>%
-              as_tibble() %>%
-              select(urlkey = 1, timestamp = 2, original = 3, mimetype = 4, statuscode = 5, digest = 6, length = 7) %>%
-              filter(statuscode == '200') %>%
-              mutate(site = 'Society for Music Theory')) %>%
+              mutate(site = 'Society for Music Theory') %>%
   full_join(aspca[-1,] %>%
               as_tibble() %>%
               select(urlkey = 1, timestamp = 2, original = 3, mimetype = 4, statuscode = 5, digest = 6, length = 7) %>%
               filter(statuscode == '200') %>%
               mutate(site = 'ASPCA')) %>%
-  full_join(nyt[-1,] %>%
+  full_join(guard[-1,] %>%
               as_tibble() %>%
               select(urlkey = 1, timestamp = 2, original = 3, mimetype = 4, statuscode = 5, digest = 6, length = 7) %>%
               filter(statuscode == '200') %>%
-              mutate(site = 'NY Times')) %>%
+              mutate(site = 'The Guardian')) %>%
+  full_join(wapo[-1,] %>%
+              as_tibble() %>%
+              select(urlkey = 1, timestamp = 2, original = 3, mimetype = 4, statuscode = 5, digest = 6, length = 7) %>%
+              filter(statuscode == '200') %>%
+              mutate(site = 'Washington Post')) %>%
+  full_join(npr[-1,] %>%
+              as_tibble() %>%
+              select(urlkey = 1, timestamp = 2, original = 3, mimetype = 4, statuscode = 5, digest = 6, length = 7) %>%
+              filter(statuscode == '200') %>%
+              mutate(site = 'NPR.org')) %>%
+  full_join(target[-1,] %>%
+              as_tibble() %>%
+              select(urlkey = 1, timestamp = 2, original = 3, mimetype = 4, statuscode = 5, digest = 6, length = 7) %>%
+              filter(statuscode == '200') %>%
+              mutate(site = 'Target.com')) %>%
   full_join(pt[-1,] %>%
               as_tibble() %>%
               select(urlkey = 1, timestamp = 2, original = 3, mimetype = 4, statuscode = 5, digest = 6, length = 7) %>%
@@ -89,6 +97,7 @@ comparesites <- wapo[-1,] %>%
 # plot all additions/changes over time, by month
 # split by site
 govsites %>%
+  filter(date < '2017-02-01') %>%
   mutate(time_floor = floor_date(date, unit = "1 month")) %>%
   group_by(time_floor, site) %>%
   summarize(count = n()) %>%
@@ -101,7 +110,8 @@ govsites %>%
 # plot all additions/changes over time, by day
 # split by site
 govsites %>%
-  filter(date >= '2017-01-01') %>%
+  filter(date >= '2017-01-01',
+         date <= '2017-02-15') %>%
   mutate(time_floor = floor_date(date, unit = "1 day")) %>%
   group_by(time_floor, site) %>%
   summarize(count = n()) %>%
@@ -113,6 +123,7 @@ govsites %>%
 
 # comparison sites
 comparesites %>%
+  filter(date < '2017-02-01') %>%
   mutate(time_floor = floor_date(date, unit = "1 month")) %>%
   group_by(time_floor, site) %>%
   summarize(count = n()) %>%
@@ -123,7 +134,8 @@ comparesites %>%
   ggtitle(paste('Page additions and changes found by the Wayback Machine on comparison sites, by month', sep = ''))
 
 comparesites %>%
-  filter(date >= '2017-01-01') %>%
+  filter(date >= '2017-01-01',
+         date <= '2017-02-15') %>%
   mutate(time_floor = floor_date(date, unit = "1 day")) %>%
   group_by(time_floor, site) %>%
   summarize(count = n()) %>%
@@ -132,6 +144,24 @@ comparesites %>%
   xlab('Date (2017)') +
   ylab('Pages added or changed') +
   ggtitle(paste('Page additions and changes found by the Wayback Machine on comparison sites, by day', sep = ''))
+
+# what are the most common file types in the dataset
+govsite_types <- govsites %>%
+  group_by(mimetype) %>%
+  summarize(count = n()) %>%
+  arrange(desc(count))
+
+# plot comparison of most common file types
+govsites %>%
+  filter(mimetype %in% c('text/html', 'text/plain', 'application/msword', 'application/pdf', 'image/jpeg')) %>%
+  mutate(time_floor = floor_date(date, unit = "1 month")) %>%
+  group_by(time_floor, mimetype) %>%
+  summarize(count = n()) %>%
+  ggplot(aes(time_floor, count, color = mimetype)) +
+  geom_line(stat = 'identity') +
+  xlab('date') +
+  ylab('pages added or changed') +
+  ggtitle(paste('Page additions and changes found by the Wayback Machine on .gov sites, by month', sep = ''))
 
     
 # single site analysis
