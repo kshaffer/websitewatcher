@@ -1,6 +1,8 @@
 library(jsonlite)
 library(tidyverse)
 library(lubridate)
+library(magrittr
+        )
 
 # See URL instructions here: 
 # https://github.com/internetarchive/wayback/tree/master/wayback-cdx-server
@@ -19,13 +21,129 @@ nyt <- fromJSON('http://web.archive.org/cdx/search/cdx?url=nytimes.com&matchType
 aspca <- fromJSON('http://web.archive.org/cdx/search/cdx?url=aspca.org&matchType=domain&output=json&collapse=digest')
 pt <- fromJSON('http://web.archive.org/cdx/search/cdx?url=psychologytoday.com&matchType=domain&output=json&collapse=digest')
 
+# make all the sites
+govsites <- ed_gov[-1,] %>%
+  as_tibble() %>%
+  select(urlkey = 1, timestamp = 2, original = 3, mimetype = 4, statuscode = 5, digest = 6, length = 7) %>%
+  filter(statuscode == '200') %>%
+  mutate(site = 'ed.gov') %>%
+  full_join(wh_gov[-1,] %>%
+              as_tibble() %>%
+              select(urlkey = 1, timestamp = 2, original = 3, mimetype = 4, statuscode = 5, digest = 6, length = 7) %>%
+              filter(statuscode == '200') %>%
+              mutate(site = 'whitehouse.gov')) %>%
+  full_join(epa_gov[-1,] %>%
+              as_tibble() %>%
+              select(urlkey = 1, timestamp = 2, original = 3, mimetype = 4, statuscode = 5, digest = 6, length = 7) %>%
+              filter(statuscode == '200') %>%
+              mutate(site = 'epa.gov')) %>%
+  full_join(fcc_gov[-1,] %>%
+              as_tibble() %>%
+              select(urlkey = 1, timestamp = 2, original = 3, mimetype = 4, statuscode = 5, digest = 6, length = 7) %>%
+              filter(statuscode == '200') %>%
+              mutate(site = 'fcc.gov')) %>%
+  full_join(nps_gov[-1,] %>%
+              as_tibble() %>%
+              select(urlkey = 1, timestamp = 2, original = 3, mimetype = 4, statuscode = 5, digest = 6, length = 7) %>%
+              filter(statuscode == '200') %>%
+              mutate(site = 'nps.gov')) %>%
+  full_join(usda_gov[-1,] %>%
+              as_tibble() %>%
+              select(urlkey = 1, timestamp = 2, original = 3, mimetype = 4, statuscode = 5, digest = 6, length = 7) %>%
+              filter(statuscode == '200') %>%
+              mutate(site = 'usda.gov')) %>%
+  mutate(date = ymd(substr(timestamp, 1, 8)))
+
+comparesites <- wapo[-1,] %>%
+  as_tibble() %>%
+  select(urlkey = 1, timestamp = 2, original = 3, mimetype = 4, statuscode = 5, digest = 6, length = 7) %>%
+  filter(statuscode == '200') %>%
+  mutate(site = 'Washington Post') %>%
+  full_join(target[-1,] %>%
+              as_tibble() %>%
+              select(urlkey = 1, timestamp = 2, original = 3, mimetype = 4, statuscode = 5, digest = 6, length = 7) %>%
+              filter(statuscode == '200') %>%
+              mutate(site = 'Target')) %>%
+  full_join(smt[-1,] %>%
+              as_tibble() %>%
+              select(urlkey = 1, timestamp = 2, original = 3, mimetype = 4, statuscode = 5, digest = 6, length = 7) %>%
+              filter(statuscode == '200') %>%
+              mutate(site = 'Society for Music Theory')) %>%
+  full_join(aspca[-1,] %>%
+              as_tibble() %>%
+              select(urlkey = 1, timestamp = 2, original = 3, mimetype = 4, statuscode = 5, digest = 6, length = 7) %>%
+              filter(statuscode == '200') %>%
+              mutate(site = 'ASPCA')) %>%
+  full_join(nyt[-1,] %>%
+              as_tibble() %>%
+              select(urlkey = 1, timestamp = 2, original = 3, mimetype = 4, statuscode = 5, digest = 6, length = 7) %>%
+              filter(statuscode == '200') %>%
+              mutate(site = 'NY Times')) %>%
+  full_join(pt[-1,] %>%
+              as_tibble() %>%
+              select(urlkey = 1, timestamp = 2, original = 3, mimetype = 4, statuscode = 5, digest = 6, length = 7) %>%
+              filter(statuscode == '200') %>%
+              mutate(site = 'Psychology Today')) %>%
+  mutate(date = ymd(substr(timestamp, 1, 8)))
+
+# plot all additions/changes over time, by month
+# split by site
+govsites %>%
+  mutate(time_floor = floor_date(date, unit = "1 month")) %>%
+  group_by(time_floor, site) %>%
+  summarize(count = n()) %>%
+  ggplot(aes(time_floor, count, color = site)) +
+  geom_line() +
+  xlab('Date') +
+  ylab('Pages added or changed') +
+  ggtitle(paste('Page additions and changes found by the Wayback Machine on .gov sites, by month', sep = ''))
+
+# plot all additions/changes over time, by day
+# split by site
+govsites %>%
+  filter(date >= '2017-01-01') %>%
+  mutate(time_floor = floor_date(date, unit = "1 day")) %>%
+  group_by(time_floor, site) %>%
+  summarize(count = n()) %>%
+  ggplot(aes(time_floor, count, color = site)) +
+  geom_line() +
+  xlab('Date (2017)') +
+  ylab('Pages added or changed') +
+  ggtitle(paste('Page additions and changes found by the Wayback Machine on .gov sites, by day', sep = ''))
+
+# comparison sites
+comparesites %>%
+  mutate(time_floor = floor_date(date, unit = "1 month")) %>%
+  group_by(time_floor, site) %>%
+  summarize(count = n()) %>%
+  ggplot(aes(time_floor, count, color = site)) +
+  geom_line() +
+  xlab('Date') +
+  ylab('Pages added or changed') +
+  ggtitle(paste('Page additions and changes found by the Wayback Machine on comparison sites, by month', sep = ''))
+
+comparesites %>%
+  filter(date >= '2017-01-01') %>%
+  mutate(time_floor = floor_date(date, unit = "1 day")) %>%
+  group_by(time_floor, site) %>%
+  summarize(count = n()) %>%
+  ggplot(aes(time_floor, count, color = site)) +
+  geom_line() +
+  xlab('Date (2017)') +
+  ylab('Pages added or changed') +
+  ggtitle(paste('Page additions and changes found by the Wayback Machine on comparison sites, by day', sep = ''))
+
+    
+# single site analysis
 # assign site
 site <- usda_gov
-site_name <- 'wh.gov'
+site_name <- 'usda.gov'
 
 # make first row of JSON output into header
 # convert timestamp to date
-colnames(site) <- site[1,]
+testsite <- as_tibble(site[-1,]) %>%
+  select(urlkey = 1, timestamp = 2, original = 3, mimetype = 4, statuscode = 5, digest = 6, length = 7)
+
 site <- as_tibble(site[-1,]) %>%
   filter(statuscode == '200') %>%
   mutate(date = ymd(substr(timestamp, 1, 8)))
