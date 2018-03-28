@@ -24,6 +24,17 @@ smt <- fromJSON('http://web.archive.org/cdx/search/cdx?url=societymusictheory.or
 aspca <- fromJSON('http://web.archive.org/cdx/search/cdx?url=aspca.org&matchType=domain&output=json&collapse=digest')
 pt <- fromJSON('http://web.archive.org/cdx/search/cdx?url=psychologytoday.com&matchType=domain&output=json&collapse=digest')
 
+# western rifle shooters
+mil <- fromJSON('http://web.archive.org/cdx/search/cdx?url=westernrifleshooters.wordpress.com&matchType=prefix&output=json&collapse=digest')
+
+wrs <- mil[-1,] %>%
+  as_tibble() %>%
+  select(urlkey = 1, timestamp = 2, original = 3, mimetype = 4, statuscode = 5, digest = 6, length = 7) %>%
+  filter(statuscode == '200') %>%
+  select(original) %>%
+  unique()
+write_csv(wrs, 'wrs_from_wayback_machine.csv')
+
 # make all the sites
 govsites <- ed_gov[-1,] %>%
   as_tibble() %>%
